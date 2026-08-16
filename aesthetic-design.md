@@ -1,59 +1,58 @@
 # Model Philosophy Ethics Olympiad (MPEO) — Aesthetic & Visual Design Specification
 
-> **Document Version:** 1.1 *(Updated to reflect the official `ethic olympiad poster mpeo.png` master design)*  
+> **Document Version:** 1.2 *(Enhanced with Cinematic Splash, Kinetic Typography Fall & Multi-Layer Parallax Hero)*  
 > **Target Event:** LifeCon Student Recruitment  
 > **Project Scope:** Official Informational & Recruitment Web Platform  
-> **Design Thesis:** *Classical Socratic Academia meets Modern Editorial Elegance*
+> **Design Thesis:** *Classical Socratic Academia meets Modern High-End Editorial Motion*
 
 ---
 
 ## 1. Executive Aesthetic Overview
 
-The visual identity of the **Model Philosophy Ethics Olympiad (MPEO)** website bridges classical philosophical tradition with contemporary academic excellence, derived directly from the official **`ethic olympiad poster mpeo.png`**. 
-
-The design aesthetic combines rich dark obsidian/slate header blocks with warm textured parchment, classical Greco-Roman motifs (the crowned Socrates engraving, Lady Justice with scales, olive/laurel leaf watermarks), sharp editorial double-line framing, and four-point celestial stars (`✦`). The digital platform translates this authoritative print editorial into an interactive, high-converting digital experience for LifeCon.
+The visual identity of the **Model Philosophy Ethics Olympiad (MPEO)** website marries the stoic, timeless beauty of classical Greco-Roman academia with cutting-edge digital motion design. Built upon a sophisticated slate-grey and obsidian foundation (`#0E1013` / `#171A1F`), the platform leverages rich textural paper surfaces, classical engravings (the crowned Socrates bust and Lady Justice), and jaw-dropping cinematic animations engineered to immediately captivate prospective students at LifeCon.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                    ETHICS OLYMPIAD  •  * MPEO *                         │
-│   ═══════════════════════════════════════════════════════════════════   │
-│             M O D E L   P H I L O S O P H Y   E T H I C S               │
-│                     O L Y M P I A D   ✦                                 │
-│   ═══════════════════════════════════════════════════════════════════   │
-│   [✦ WEDNESDAY 3-4:30 | MATH BLOCK 204]    [ 2026 COMPETITIONS ]        │
-│   [   Framed Team Photograph          ]    [ SOCIETY HIGHLIGHTS ]       │
-│   [   Lady Justice & Scales Feature   ]    [ Crowned Philosopher Bust ] │
+│ [LAYER 0: CINEMATIC SPLASH]                                             │
+│                  M O D E L   P H I L O S O P H Y                        │
+│                  E T H I C S   O L Y M P I A D                          │
+│        (Full-Screen Monumental Typography • Staggered Kinetic Fall)     │
+├─────────────────────────────────────────────────────────────────────────┤
+│ [LAYER 1: PARALLAX HERO ON SCROLL]                                      │
+│  • Deep Bg (0.2x): Greek Architectural Watermarks & Laurel Silhouettes  │
+│  • Mid (0.5x): Glowing Gold Stars & Shimmer Particles                   │
+│  • Foreground (1.0x): Framed Squad Photo, Award Badges & Highlights     │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
 ### Core Design Principles
-1. **Classical Academic Authority**: High-contrast Didot/Cinzel serif typography, tracked uppercase headlines, and crisp dual-hairline framing evoke the prestige of classical philosophical salons and academic journals.
-2. **Prestige & Accomplishment**: Dark charcoal trophy cards with metallic gold, silver, and bronze accents highlighting our **2nd Place TKE Invitational**, **3rd Place Senior Ethics Olympiad (Bronze Medalist)**, and **International Grand Finals Invitation**.
-3. **Approachable & Non-Intimidating**: Clean card layouts and warm parchment tones ensure complex moral philosophies feel exciting, modern, and welcoming ("No prior experience needed").
-4. **Cohesive Visual Motifs**: Stippled engravings, scales of justice, crown emblems, laurel foliage watermarks, and rosette asterisks (`* MPEO *`) directly carried over from the official poster.
+1. **Cinematic First Impression**: An unmissable, full-screen opening splash screen with monumental typography that shatters / kinetic-falls away into the sticky header upon user interaction.
+2. **Multi-Layer Parallax Depth**: Smooth, inertial scroll-driven parallax that creates an immersive, three-dimensional physical sensation as students navigate through the site.
+3. **Refined Slate-Monochrome with Metallic Sheen**: A predominantly rich graphite/slate-grey palette punctuated by dynamic metallic light sweeps (Olympic Gold, Silver, Bronze) on tournament honors.
+4. **Editorial Gravitas**: Dual-hairline architectural borders, classical serif typography, and authentic stippled philosopher engravings derived from the official poster (`ethic olympiad poster mpeo.png`).
 
 ---
 
 ## 2. Color System & Design Tokens
 
-The palette is derived directly from the poster's high-contrast charcoal black, cream/parchment paper, bronze/gold awards, and laurel greenery.
+The site embraces a sleek dark-slate aesthetic with warm cream/parchment accents and metallic awards.
 
 ### 2.1 Color Palette Matrix
 
 | Token Name | Hex Code | HSL | Semantic Role |
 | :--- | :--- | :--- | :--- |
-| `--color-bg-primary` | `#0E1013` | `216°, 15%, 7%` | Obsidian dark canvas for hero headers & high-contrast cards |
-| `--color-bg-secondary` | `#171A1F` | `218°, 13%, 10%` | Elevated dark container / badge background |
-| `--color-bg-parchment` | `#F6F4ED` | `45°, 30%, 95%` | Warm antique paper background for editorial light sections |
-| `--color-bg-card-light` | `#FFFFFF` | `0°, 0%, 100%` | Crisp parchment card surfaces with soft shadows |
-| `--color-border-dark` | `#2D3139` | `220°, 12%, 20%` | Framing lines on dark surfaces |
+| `--color-bg-primary` | `#0E1013` | `216°, 15%, 7%` | Obsidian dark canvas for splash screen & high-contrast dark sections |
+| `--color-bg-secondary` | `#16191E` | `218°, 14%, 10%` | Elevated card and container background |
+| `--color-bg-slate-card` | `#21252C` | `218°, 14%, 15%` | Interactive card surfaces with soft ambient lighting |
+| `--color-bg-parchment` | `#F6F4ED` | `45°, 30%, 95%` | Warm antique paper background for editorial light modules |
+| `--color-bg-card-light` | `#FFFFFF` | `0°, 0%, 100%` | Crisp parchment card surfaces with soft drop shadows |
+| `--color-border-subtle` | `rgba(255, 255, 255, 0.08)` | — | Hairline card borders and dividers |
 | `--color-border-parchment` | `#D8D2C4` | `41°, 20%, 81%` | Editorial dual-hairline borders on light sections |
 | `--color-gold-primary` | `#D4AF37` | `46°, 65%, 52%` | Classical Olympic Gold / Grand Finals highlight / Crown accent |
 | `--color-gold-hover` | `#F3CE5E` | `45°, 86%, 66%` | Button hover state and luminous highlights |
 | `--color-silver` | `#C0C7D0` | `213°, 14%, 78%` | 2nd Place TKE Invitational badge & secondary metallic |
 | `--color-bronze` | `#CD7F32` | `29°, 61%, 50%` | 3rd Place Senior Ethics Olympiad Bronze Medalist badge |
 | `--color-olive-laurel` | `#4F6052` | `131°, 10%, 34%` | Watermark laurel foliage, tag pills, leaf motifs |
-| `--color-charcoal-box` | `#22252A` | `218°, 9%, 15%` | Poster-accurate dark callout box background |
 | `--color-text-primary` | `#F5F6F8` | `220°, 14%, 97%` | Primary text on dark backgrounds |
 | `--color-text-secondary` | `#A8B0BC` | `216°, 10%, 70%` | Secondary labels and metadata |
 | `--color-text-dark` | `#1A1D20` | `210°, 10%, 11%` | Primary body text on parchment surfaces |
@@ -61,105 +60,117 @@ The palette is derived directly from the poster's high-contrast charcoal black, 
 
 ---
 
-## 3. Typography System & Font Pairings
+## 3. Typography Hierarchy
 
 ```
-Display & Master Titles: "Cinzel" / "Playfair Display" / "Bodoni Moda" (All-Caps, Tracked, High-Contrast)
+Display & Splash Titles: "Cinzel" / "Playfair Display" / "Bodoni Moda" (All-Caps, Tracked, Monumental)
 Editorial Subheadings:   "Cormorant Garamond" (Classic Italic, Serif Elegance)
 Body & Data Text:        "Spectral" / "Inter" (Crisp, High Legibility across all screens)
 Badges & Logistics:      "Outfit" / Tracked Small-Caps Serif
 ```
 
-### 3.1 Typographic Hierarchy & Specifications
+### 3.1 Typographic Scale & Styles
 
-| Element | Font | Size (Desktop / Mobile) | Weight | Letter Spacing | Styling |
+| Level | Font Family | Size (Desktop / Mobile) | Weight | Letter Spacing | Styling |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Top Banner Tag** | `Cinzel` | `14px / 12px` | `600` | `+0.25em` | Uppercase (`ETHICS OLYMPIAD • * MPEO *`) |
-| **Master Headline** | `Cinzel` / `Bodoni` | `54px / 34px` | `700` | `+0.08em` | Uppercase (`MODEL PHILOSOPHY ETHICS OLYMPIAD`) |
-| **Section Title** | `Cinzel` | `36px / 26px` | `600` | `+0.05em` | Uppercase with side hairline rules (`— SECTION —`) |
+| **Cinematic Splash** | `Cinzel` / `Bodoni` | `72px / 40px` | `800` | `+0.12em` | Monumental Uppercase (`MODEL PHILOSOPHY ETHICS OLYMPIAD`) |
+| **Hero Master Title** | `Cinzel` | `54px / 32px` | `700` | `+0.08em` | Uppercase with dual-line borders |
+| **Section Header** | `Cinzel` | `36px / 26px` | `600` | `+0.05em` | Uppercase with flanking gold stars (`✦`) |
 | **Dark Box Header** | `Cinzel` | `20px / 18px` | `600 Italic` | `+0.10em` | Uppercase (`2026 COMPETITIONS`, `SOCIETY HIGHLIGHTS`) |
-| **Parchment Subheads**| `Playfair Display` | `22px / 19px` | `600 Italic` | `0` | Title Case (`No prior experience needed`) |
-| **Body (Editorial)** | `Spectral` / `Inter` | `16px / 15px` | `400` | `+0.01em` | Line height `1.65` for optimal readability |
+| **Parchment Subhead** | `Playfair Display` | `22px / 19px` | `600 Italic` | `0` | Title Case (`No prior experience needed`) |
+| **Body Text** | `Spectral` / `Inter` | `16px / 15px` | `400` | `+0.01em` | Line height `1.65` for effortless reading |
 | **Logistics Header** | `Cinzel` | `18px / 16px` | `600 Italic` | `+0.06em` | Uppercase (`WEDNESDAY 3-4:30 • MATH BLOCK ROOM 204`) |
-| **Contact Details** | `Spectral` | `14px / 13px` | `500 Italic` | `0` | Name in Small-Caps + Email link |
+| **Contact Labels** | `Spectral` | `14px / 13px` | `500 Italic` | `0` | Name in Small-Caps + Email link |
 
 ---
 
-## 4. Visual Motifs, Iconography & Graphic Assets
+## 4. Signature Animation & Motion Architecture
 
-Derived directly from `ethic olympiad poster mpeo.png` and associated project media:
+### 4.1 The Cinematic Entrance & Kinetic Text Fall
+- **Initial State (0% Scroll / Page Load)**:
+  - The viewport is dominated by a deep obsidian background with an ambient golden radial vignette.
+  - The monumental title **`MODEL PHILOSOPHY ETHICS OLYMPIAD`** glows in high-contrast ivory and polished gold serif characters with subtle breathing luminescence.
+  - A discreet pulsating prompt at the bottom: `[ SCROLL TO DELIBERATE  ↓ ]`.
 
-1. **The Crowned Socratic Bust**:
-   - High-detail stippled/woodcut engraving of the classical philosopher crowned with a hand-drawn crown doodle, symbolizing intellectual mastery and competitive victory.
-   - Positioned as an editorial hallmark illustration in the highlights / curriculum area.
-2. **Lady Justice & The Scales (`⚖`)**:
-   - Dramatic bronze sculpture of Lady Justice blindfolded holding the balanced scales.
-   - Vector scales emblem inside a dark hexagon badge used for moral deliberation callouts.
-3. **Double-Line Framing Dividers**:
-   - Thick-and-thin parallel rules framing the master title and section breaks, matching the classic poster header.
-4. **Four-Point Classical Stars (`✦`) & Rosette Asterisks (`*`)**:
-   - Star ornaments flanking dates, room numbers, and category titles.
-5. **Team Globe Photograph**:
-   - High-resolution team photo in front of the campus stainless-steel globe sculpture, framed with thin dark borders and a gold laurel ribbon.
-6. **Laurel Leaf Watermarks**:
-   - Translucent olive leaf branch illustrations (`opacity: 0.12`) framing the outer margins of parchment sections.
+- **Kinetic Physics-Driven Fall Transition (On Scroll / Interaction)**:
+  - As the user initiates downward scroll, the massive headline splits into individual character tokens (`M`, `O`, `D`, `E`, `L`, ...).
+  - Each letter is assigned an individual physics mass and slight pseudo-random 3D rotational tilt (`rotateX`, `rotateZ`, `translateY`).
+  - **The Kinetic Drop**: The characters tumble downward with natural gravity acceleration (`ease-in` transitioning into a damped rebound), dissolving into subtle stardust particles as they cascade off-screen.
+  - **Seamless Morph**: Simultaneously, the streamlined compact title logo smoothly docks into the sticky glassmorphism navbar at the top of the screen (`opacity: 0 -> 1; translateY: -20px -> 0px`).
+
+### 4.2 Multi-Layer Parallax Hero Scroll
+As the landing splash completes its kinetic exit, the page glides into the Parallax Hero stage composed of 3 distinct spatial layers:
+
+```
+[Layer 0: Deep Background (Speed: 0.15x)]
+- Greek Doric column line art & translucent laurel watermarks drift slowly upward.
+
+[Layer 1: Mid-Ground Elements (Speed: 0.45x)]
+- Floating classical stars (✦) and soft gold bokeh particles drifting with inertial lag.
+- The dual-hairline gold border rules drawing themselves outward horizontally.
+
+[Layer 2: Foreground Focal Plane (Speed: 1.0x)]
+- Left: High-resolution squad photo in front of the campus globe sculpture, emerging with a gentle 3D perspective tilt.
+- Right: Dark charcoal spotlight boxes (`2026 COMPETITIONS`, `SOCIETY HIGHLIGHTS`) elevating into position with crisp easing (`cubic-bezier(0.16, 1, 0.3, 1)`).
+```
+
+### 4.3 Micro-Animations & Interactive Sheens
+1. **Metallic Foil Light Sweep**:
+   - On the **Accomplishments** cards (Silver for TKE Invitational, Bronze for Senior Olympiad, Gold for Grand Finals), a diagonal linear-gradient sheen (`rgba(255,255,255,0.3)`) sweeps smoothly across the cards when they enter the viewport or on mouse hover.
+2. **Crowned Socrates Bust Parallax Float**:
+   - The classical crowned philosopher illustration gently tilts in 3D space tracking cursor movement (`perspective: 1000px; rotateY(calc(var(--mouse-x) * 8deg))`).
+3. **Lady Justice Scales Equilibrium Motion**:
+   - The vector scales icon (`⚖`) performs a subtle harmonic oscillation (swaying ±2 degrees) on scroll, settling into perfect equilibrium.
+4. **Dual-Hairline Frame Reveal**:
+   - Section headers expand their dual-line framing rules horizontally from center (`transform: scaleX(0) -> scaleX(1)`) via intersection observer triggers.
 
 ---
 
 ## 5. UI Component Architecture & Layout Specifications
 
 ### 5.1 Top Bar & Header (`<TopBanner>` & `<Navbar>`)
-- **Top Announcement Bar**:
-  - Dark obsidian strip: `ETHICS OLYMPIAD` • `* MPEO *` • `LIFECON 2026 RECRUITMENT`.
-- **Glassmorphism Nav Bar**:
-  - Left: Omega Laurel logo + `MPEO`.
-  - Center: Nav links (`About`, `Accomplishments`, `Curriculum`, `Logistics`, `Team`, `FAQ`).
-  - Right: `Join MPEO at LifeCon` gold accent pill CTA.
+- **Top Banner**: Obsidian strip: `ETHICS OLYMPIAD` • `* MPEO *` • `LIFECON 2026 RECRUITMENT`.
+- **Glassmorphism Navbar**:
+  - Left: Omega Crest (`Ω`) + `MODEL PHILOSOPHY ETHICS OLYMPIAD`.
+  - Center: Clean navigation links (`About`, `Accomplishments`, `Topics`, `Logistics`, `Leadership`, `FAQ`).
+  - Right: `Join MPEO at LifeCon` gold pill CTA with radiant hover glow.
 
 ### 5.2 Hero & Master Title Block (`<Hero>`)
-- **Poster-Accurate Master Header**:
+- **Poster-Accurate Layout with Parallax Depth**:
   - Dual horizontal rules enclosing `MODEL PHILOSOPHY ETHICS OLYMPIAD ✦`.
-- **Two-Column Interactive Hero Grid**:
-  - **Left**: Meeting time badge (`✦ WEDNESDAY 3–4:30 | MATH BLOCK ROOM 204 ✦`), framed squad photo in front of the globe sculpture, and direct registration CTAs.
-  - **Right**: Dark charcoal spotlight cards:
-    - **2026 Competitions Summary**: Highlighting the Bronze Medal Finalist award at Senior Ethics Olympiad, Silver at TKE Invitational, and Grand Finals Invitation.
-    - **Society Highlights**: Direct quote on competitive preparation & inclusive community.
+  - Meeting time pill: `✦ WEDNESDAY 3-4:30 | MATH BLOCK ROOM 204 ✦`.
+  - **Left**: Framed squad photograph with metallic laurel badge and instant registration buttons.
+  - **Right**:
+    - **`2026 COMPETITIONS` Box**: Senior Ethics Olympiad Bronze Medalist & TKE Invitational highlights.
+    - **`SOCIETY HIGHLIGHTS` Box**: Verbatim poster text regarding competition preparation and welcoming all experience levels.
 
 ### 5.3 Accomplishments & International Grand Finals Spotlight (`<Accomplishments>`)
 - **Visual Design**: Multi-tier pedestal cards:
-  1. 🥈 **2nd Place** — *TKE Ethics Fall Invitational* (Silver leaf emblem).
+  1. 🥈 **2nd Place** — *TKE Ethics Fall Invitational* (Silver leaf badge with light-sweep effect).
   2. 🥉 **3rd Place** — *Senior School Ethics Olympiad* (Bronze Medalist / Finalist ribbon).
   3. 🌐 **International Grand Finals Invitation** — Global champion stage feature with gold foil shimmer border.
 
 ### 5.4 Ethical Frameworks & Curriculum Grid (`<Curriculum>`)
-- **Layout**: 6 interactive theory cards matching the poster's exact syllabus:
-  - **Utilitarianism** (Bentham & Mill — Consequentialism, utility, higher/lower pleasures)
-  - **Kantian Deontology** (Kant — Categorical Imperative, universalizability, duty)
-  - **Aristotelian Virtue Ethics** (Aristotle — Telos, eudaimonia, Golden Mean)
-  - **Care Ethics** (Nel Noddings — Relational empathy, compassion)
-  - **Rawlsian Justice** (John Rawls — Veil of Ignorance, fairness)
-  - **Ethics of War & Applied Ethics** (Just War theory, AI Ethics, Bioethics, Animal Rights, Personhood)
-- **Visual Style**: Charcoal cards with philosopher portrait thumbnails and interactive flip/expand drawer for thought experiments.
+- **Layout**: 10 interactive theory cards matching the poster's exact syllabus:
+  - *Ethics of AI*, *Biomedical Ethics*, *Animal Rights*, *Personhood*, *Ethic of War*, *Rawlsian Justice*, *Aristotelian Virtue Ethics*, *Kantian Deontology*, *Utilitarianism*, *Care Ethics*.
+- **Visual Style**: Dark slate cards with engraved philosopher thumbnails and hover elevation.
 
-### 5.5 Interactive "Socratic Crucible" Dilemma Sampler (`<InteractiveCrucible>`)
-- A fast 30-second moral dilemma widget designed for students visiting the LifeCon booth on mobile or desktop to cast a vote and see real-time philosophical breakdowns.
-
-### 5.6 Logistics & Society Highlights (`<Logistics>`)
+### 5.5 Logistics & Society Highlights (`<Logistics>`)
 - **Parchment Bulletin Module**:
   - Time: **Wednesdays 3:00 PM – 4:30 PM**
   - Room: **Math Block, Room 204**
   - "No prior experience needed" assurance banner.
-  - Preparation pipeline for the **2027 Senior Ethics Olympiad**.
+  - Direct `.ics` calendar download button.
 
-### 5.7 Leadership Team Grid (`<Leadership>`)
-- **Cards for all 5 Student Leaders** (with name styling, email links, and role badges):
+### 5.6 Leadership Team Grid (`<Leadership>`)
+- **Profile cards for all 5 Student Leaders**:
   - [student] (`[email removed]`)
   - [student] (`[email removed]`)
   - [student] (`[email removed]`)
   - [student] (`[email removed]`)
   - [student] (`[email removed]`)
 
-### 5.8 LifeCon Recruitment Form & Floating CTA Bar
+### 5.7 LifeCon Recruitment Form & Floating CTA Bar
 - Sticky recruitment bottom bar + full registration form with grade selector and topic interests.
 
 ---

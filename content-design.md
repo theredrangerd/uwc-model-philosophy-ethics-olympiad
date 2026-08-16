@@ -1,16 +1,16 @@
 # Model Philosophy Ethics Olympiad (MPEO) — Content & Information Architecture Plan
 
-> **Document Version:** 1.1 *(Updated to align with official `ethic olympiad poster mpeo.png` master design)*  
+> **Document Version:** 1.2 *(Streamlined for Pure Informational Excellence & Visual Impact)*  
 > **Event Target:** LifeCon Student Society & Club Fair  
 > **Target Audience:** High school students (Grades 9–12), prospective debaters, philosophy enthusiasts, and students with no prior experience seeking an intellectual, collaborative, and competitive community.  
-> **Primary Goal:** Drive awareness, celebrate tournament prestige, demystify ethical debate, and maximize student registrations during LifeCon.
+> **Primary Goal:** Drive awareness, celebrate tournament prestige, demystify ethical debate, and maximize student registrations during LifeCon through captivating visual storytelling.
 
 ---
 
 ## 1. Strategic Goals & Key Messaging
 
 ### 1.1 Core Objectives
-1. **Drive High-Conversion Recruitment for LifeCon**: Capture prospective students' interest immediately with clear, compelling copy and instant registration options.
+1. **Drive High-Conversion Recruitment for LifeCon**: Capture prospective students' interest immediately with bold, cinematic presentation and instant registration pathways.
 2. **Celebrate Elite Accomplishments**:
    - 🥈 **2nd Place** — *TKE Ethics Fall Invitational*
    - 🥉 **3rd Place (Bronze Medalist / Finalist Award)** — *Senior School Ethics Olympiad*
@@ -28,9 +28,10 @@
 │                           1. HEADER & NAVIGATION                             │
 │   [Logo: Ω MPEO]   About   Accomplishments   Topics   Logistics   Team   FAQ│ [Join at LifeCon]
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                           2. HERO & MASTER BANNER                           │
+│                    2. INTRO SPLASH & PARALLAX HERO                          │
+│   • Cinematic Typography Intro ("MODEL PHILOSOPHY ETHICS OLYMPIAD")         │
+│   • Kinetic Text Transition / Parallax Cascade into Main Page               │
 │   • Top Banner: ETHICS OLYMPIAD • * MPEO *                                  │
-│   • Headline: MODEL PHILOSOPHY ETHICS OLYMPIAD ✦                            │
 │   • Pill Tag: WEDNESDAY 3-4:30 | MATH BLOCK ROOM 204                        │
 │   • Spotlight Left: High-Res Squad Photograph + Registration CTAs           │
 │   • Spotlight Right: 2026 Competitions Box & Society Highlights             │
@@ -52,36 +53,32 @@
 │   • Aristotelian Virtue Ethics            • Kantian Deontology              │
 │   • Utilitarianism                        • Care Ethics                     │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│              6. INTERACTIVE ETHICAL CRUCIBLE (TRY A DILEMMA)                 │
-│   • Interactive Mini-Case for LifeCon Booth visitors                        │
-│   • Live Moral Perspective Breakdown (Utilitarian vs Kantian vs Care)       │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                   7. SOCIETY HIGHLIGHTS & WHY JOIN?                         │
+│                   6. SOCIETY HIGHLIGHTS & WHY JOIN?                         │
 │   • No Prior Experience Needed             • 2027 Competition Preparation   │
 │   • Leadership & University Profile        • Welcoming Community            │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                   8. LOGISTICS & MEETING DETAILS                            │
+│                   7. LOGISTICS & MEETING DETAILS                            │
 │   • Day/Time: Every Wednesday, 3:00 PM – 4:30 PM                            │
 │   • Location: Math Block, Room 204                                          │
 │   • Add to Calendar / First Session Orientation Details                     │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                   9. LEADERSHIP TEAM CONTACT DETAILS                        │
+│                   8. LEADERSHIP TEAM CONTACT DETAILS                        │
 │   • [student], [student], [student], [student], [student]                 │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                   10. FREQUENTLY ASKED QUESTIONS (FAQ)                      │
+│                   9. FREQUENTLY ASKED QUESTIONS (FAQ)                       │
 │   • Key Questions on Novices, Tournaments, Format, and Time Commitments     │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                   11. LIFECON RECRUITMENT REGISTRATION FORM                 │
+│                   10. LIFECON RECRUITMENT REGISTRATION FORM                 │
 │   • Instant Sign-Up: Name, Grade, Email, Topic Interests                    │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                           12. FOOTER                                        │
+│                           11. FOOTER                                        │
 │   • Organization Title, School Affiliation, Disclaimers, Copyright          │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 3. Section-by-Section Content & Verbatim Copy Plan
+## 3. Section-by-Section Content & Copywriting Plan
 
 ### Section 1: Header & Sticky Navigation
 - **Left Branding**: `Ω MODEL PHILOSOPHY ETHICS OLYMPIAD`
@@ -97,7 +94,8 @@
 
 ---
 
-### Section 2: Hero Section (The Master Banner)
+### Section 2: Intro Splash & Parallax Hero
+- **Cinematic Text Reveal**: Monumental title typography across deep slate obsidian canvas that gracefully animates and cascades into the masthead on scroll.
 - **Top Bar Tag**:  
   `ETHICS OLYMPIAD  •  * MPEO *`
 - **Master Headline (H1)**:  
@@ -167,16 +165,7 @@
 
 ---
 
-### Section 6: Interactive Feature — "The Socratic Crucible" (LifeCon Engagement Tool)
-- **Purpose**: A quick interactive dilemma widget for students browsing at LifeCon on their smartphones or laptops.
-- **Sample Dilemma**: *"The Autonomous Medical Drone Triage"*
-  - *Scenario*: An automated rescue drone carries only one remaining dose of antivenom with two patients in critical condition: an elderly research scientist with a 40% survival probability vs. a young child with a 90% survival probability.
-  - *User Interaction*: Select your action.
-  - *Interactive Breakdown*: Displays how Bentham (Utility/Probability), Kant (Intrinsic Worth/No ranking of life), and Noddings (Family relational context) approach the dilemma.
-
----
-
-### Section 7: Society Highlights & Why Join MPEO?
+### Section 6: Society Highlights & Why Join MPEO?
 - **Highlight Cards**:
   1. **No Prior Experience Needed**: Open to everyone. We build your confidence and debate skills from ground zero.
   2. **Competition Preparation for 2027**: Structured coaching and scrimmage pathways to prepare you for the upcoming 2027 Senior Ethics Olympiad.
@@ -185,7 +174,7 @@
 
 ---
 
-### Section 8: Key Logistics & Meeting Information
+### Section 7: Key Logistics & Meeting Information
 - **Meeting Day & Time**:  
   📅 **Every Wednesday | 3:00 PM – 4:30 PM**
 - **Location**:  
@@ -197,7 +186,7 @@
 
 ---
 
-### Section 9: Leadership Team Contact Details
+### Section 8: Leadership Team Contact Details
 - **Section Title**: `Leadership Team Contact Details`
 - **Lead Text**: *Have questions or want to learn more? Reach out to any of our student leaders directly via email:*
 - **Leadership Contacts (Exact Roster from Poster)**:
@@ -209,7 +198,7 @@
 
 ---
 
-### Section 10: Frequently Asked Questions (FAQ)
+### Section 9: Frequently Asked Questions (FAQ)
 
 1. **Q: Do I need any previous experience with philosophy or debate?**  
    *A: Absolutely not! Our society welcomes students of all experience levels. We guide you step-by-step through every ethical framework and competition strategy.*
@@ -225,7 +214,7 @@
 
 ---
 
-### Section 11: LifeCon Recruitment Sign-Up Form
+### Section 10: LifeCon Recruitment Sign-Up Form
 - **Form Heading**: `Register for MPEO at LifeCon`
 - **Fields**:
   - Full Name `[Text]`
@@ -237,7 +226,7 @@
 
 ---
 
-### Section 12: Footer
+### Section 11: Footer
 - **Title**: Model Philosophy Ethics Olympiad Society (MPEO)
 - **School & Affiliation**: High School Student Society • Affiliated with the International Ethics Olympiad.
 - **Copyright**: `© 2026 Model Philosophy Ethics Olympiad Society. All rights reserved.`
