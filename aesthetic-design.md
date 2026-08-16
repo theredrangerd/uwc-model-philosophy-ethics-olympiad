@@ -1,6 +1,6 @@
 # Model Philosophy Ethics Olympiad (MPEO) — Aesthetic & Visual Design Specification
 
-> **Document Version:** 1.3 *(Comprehensive Edition: Cinematic Splash, Kinetic Fall, Parallax Hero, Visual Timeline & Match Motion Architecture)*  
+> **Document Version:** 1.4 *(Streamlined Edition: Cinematic Splash, Kinetic Fall, Parallax Hero, Visual Timeline & Match Architecture)*  
 > **Target Event:** LifeCon Student Recruitment  
 > **Project Scope:** Official Informational & Recruitment Web Platform  
 > **Design Thesis:** *Classical Socratic Academia meets Modern High-End Editorial Motion*
@@ -27,9 +27,9 @@ The visual identity of the **Model Philosophy Ethics Olympiad (MPEO)** website m
 │  • Illuminated Gold Spine with Pulsing Milestone Nodes                  │
 │  • 2nd Place TKE ➔ 3rd Place Senior Olympiad ➔ Grand Finals Invitation  │
 ├─────────────────────────────────────────────────────────────────────────┤
-│ [LAYER 3: 4-STEP MATCH ANATOMY & CASE ARCHIVE]                          │
+│ [LAYER 3: 4-STEP MATCH ANATOMY STEPPER]                                 │
 │  • Sequential Step Cards with Socratic Dialogue Time Indicators         │
-│  • Textured Parchment Case Brief Accordions & Dual-Hairline Borders     │
+│  • Dual-Hairline Framed Cards with Soft Ambient Slate Lighting          │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -132,11 +132,11 @@ As the landing splash completes its kinetic exit, the page glides into the Paral
   - Each phase card (Phase 1 Foundations -> Phase 2 TKE 🥈 -> Phase 3 Senior Olympiad 🥉 -> Phase 4 Grand Finals 🌐 -> Phase 5 2027 Roster) lights up sequentially when the scroll line reaches its node.
   - Nodes feature metallic medal icons with a radiant ambient pulse glow (`box-shadow: 0 0 25px var(--color-gold-glow)`).
 
-### 4.4 Match Format Stepper & Interactive Round Walkthrough
+### 4.4 Match Format Stepper & Round Walkthrough
 - **4-Step Sequential Connected Flow**:
   - Cards arranged in a clean horizontal/vertical progression with step numbers (`01`, `02`, `03`, `04`) in tracked small-caps gold serif.
   - **Time Badge Pill**: Glowing amber badge indicating the exact time limit for each phase (`5 MIN`, `3 MIN`, `3 MIN`, `10 MIN`).
-  - **Hover / Active State**: Hovering over a step illuminates the card with a soft slate glow and reveals practical tactical tips for that round phase.
+  - **Hover / Active State**: Hovering over a step illuminates the card with a soft slate glow and reveals key tactical goals for that phase.
 
 ### 4.5 Micro-Animations & Interactive Sheens
 1. **Metallic Foil Light Sweep**:
@@ -185,23 +185,22 @@ As the landing splash completes its kinetic exit, the page glides into the Paral
   - *Ethics of AI*, *Biomedical Ethics*, *Animal Rights*, *Personhood*, *Ethic of War*, *Rawlsian Justice*, *Aristotelian Virtue Ethics*, *Kantian Deontology*, *Utilitarianism*, *Care Ethics*.
 - **Visual Style**: Dark slate cards with engraved philosopher thumbnails and hover elevation.
 
-### 5.7 The Dilemma Archive (`<CaseBriefs>`)
-- **Visual Design**: Dual-hairline framed parchment cards presenting real competition dilemmas (Autonomous Medical Triage & CRISPR Gene Drives) with expandable ethical tension breakdowns.
-
-### 5.8 Logistics, Calendar Sync & Booth QR Modal (`<Logistics>` & `<BoothModal>`)
+### 5.7 Logistics & Meeting Details (`<Logistics>`)
 - **Parchment Bulletin Module**:
   - Time: **Wednesdays 3:00 PM – 4:30 PM**
   - Room: **Math Block, Room 204**
-  - 1-Tap Google Calendar & Apple Calendar (`.ics`) sync buttons.
-  - Interactive "Show Booth QR Code" modal for instant sharing among students.
+  - "No prior experience needed" assurance banner.
 
-### 5.9 Leadership Team Grid (`<Leadership>`)
+### 5.8 Leadership Team Grid (`<Leadership>`)
 - **Profile cards for all 5 Student Leaders**:
   - [student] (`[email removed]`)
   - [student] (`[email removed]`)
   - [student] (`[email removed]`)
   - [student] (`[email removed]`)
   - [student] (`[email removed]`)
+
+### 5.9 LifeCon Recruitment Form & Floating CTA Bar
+- Sticky recruitment bottom bar + full registration form with grade selector and topic interests.
 
 ---
 

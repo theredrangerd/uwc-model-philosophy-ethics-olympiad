@@ -1,16 +1,16 @@
 # Model Philosophy Ethics Olympiad (MPEO) — Content & Information Architecture Plan
 
-> **Document Version:** 1.3 *(Comprehensive Edition: Visual Journey Timeline, Match Architecture, Case Briefs & LifeCon Conversion Toolkit)*  
-> **Target Event:** LifeCon Student Society & Club Recruitment Fair  
+> **Document Version:** 1.4 *(Streamlined Edition: Visual Journey Timeline & Match Architecture)*  
+> **Event Target:** LifeCon Student Society & Club Recruitment Fair  
 > **Target Audience:** High school students (Grades 9–12), prospective debaters, philosophy enthusiasts, and students with no prior experience seeking an intellectual, collaborative, and competitive community.  
-> **Primary Goal:** Drive awareness, celebrate tournament prestige, demystify ethical debate, and maximize student sign-ups at LifeCon through captivating visual storytelling and clear logistics.
+> **Primary Goal:** Drive awareness, celebrate tournament prestige, demystify ethical debate, and maximize student registrations during LifeCon through captivating visual storytelling.
 
 ---
 
 ## 1. Strategic Goals & Key Messaging
 
 ### 1.1 Core Objectives
-1. **Drive High-Conversion Recruitment for LifeCon**: Capture prospective students' interest immediately with bold visual storytelling, interactive case previews, and friction-free sign-up.
+1. **Drive High-Conversion Recruitment for LifeCon**: Capture prospective students' interest immediately with bold visual presentation, clear value propositions, and instant registration pathways.
 2. **Celebrate Elite Accomplishments**:
    - 🥈 **2nd Place** — *TKE Ethics Fall Invitational*
    - 🥉 **3rd Place (Bronze Medalist / Finalist Award)** — *Senior School Ethics Olympiad*
@@ -18,7 +18,7 @@
 3. **Demystify the Competition Format ("Anatomy of a Match")**: Show that Ethics Olympiad is not adversarial fighting, but a structured, 4-step collaborative dialogue that anyone can learn.
 4. **Eliminate the "Intimidation Barrier"**: Prominently feature the poster's key assurance: **"No prior experience needed — No matter what your experience of philosophy or ethics is, you'll still be able to participate and learn alongside others."**
 5. **Illustrate the Pathway to Victory ("The Road to Grand Finals" Timeline)**: Map out how weekly Wednesday workshops lead directly to national podiums and international qualification, with clear onboarding for the **2027 Senior Ethics Olympiad**.
-6. **Frictionless On-Site Actions**: Provide instant 1-tap calendar sync (`.ics` / Google Calendar), QR sharing, and direct leadership email contacts.
+6. **Clear Logistics & Direct Contact**: Provide prominent access to meeting time (**Wednesdays 3:00–4:30 PM**), room (**Math Block Room 204**), and student leadership contact emails.
 
 ---
 
@@ -67,29 +67,25 @@
 │   • Aristotelian Virtue Ethics            • Kantian Deontology              │
 │   • Utilitarianism                        • Care Ethics                     │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│            8. THE DILEMMA ARCHIVE (SAMPLE CASE BRIEF SHOWCASE)              │
-│   • Case 1: Autonomous Medical Triage • Case 2: CRISPR Human Enhancement    │
-│   • Breakdown: The Moral Conflict, Competing Duties & Deliberation Angles   │
+│                   8. SOCIETY HIGHLIGHTS & WHY JOIN?                         │
+│   • No Prior Experience Needed             • 2027 Competition Preparation   │
+│   • Leadership & University Profile        • Welcoming Community            │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                   9. SOCIETY HIGHLIGHTS & MEMBER VOICES                     │
-│   • "No prior experience needed" assurance • Student leader pull-quotes     │
-│   • College profile & critical reasoning skill enhancement                  │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                   10. LOGISTICS & MEETING DETAILS                           │
+│                   9. LOGISTICS & MEETING DETAILS                            │
 │   • Day/Time: Every Wednesday, 3:00 PM – 4:30 PM                            │
 │   • Location: Math Block, Room 204                                          │
-│   • 1-Tap Calendar Sync (.ics & Google Calendar)                            │
+│   • What to Expect / First Session Orientation Details                      │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                   11. LEADERSHIP TEAM CONTACT DETAILS                       │
+│                   10. LEADERSHIP TEAM CONTACT DETAILS                       │
 │   • [student], [student], [student], [student], [student]                 │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                   12. FREQUENTLY ASKED QUESTIONS (FAQ)                      │
-│   • 5 Clear Answers on Commitment, Tournaments, and Inclusivity             │
+│                   11. FREQUENTLY ASKED QUESTIONS (FAQ)                      │
+│   • Key Questions on Novices, Tournaments, Format, and Time Commitments     │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                   13. LIFECON RECRUITMENT REGISTRATION FORM                 │
-│   • Direct Sign-Up Form + Booth QR Code Share Modal                         │
+│                   12. LIFECON RECRUITMENT REGISTRATION FORM                 │
+│   • Instant Sign-Up: Name, Grade, Email, Topic Interests                    │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                           14. FOOTER                                        │
+│                           13. FOOTER                                        │
 │   • Affiliation Notice, Ethics Olympiad Links, Copyright                    │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -147,7 +143,7 @@
   > *The activity encourages students to deliberate on moral issues together, mirroring the complex moral and political interactions of our society. Students participating in this activity will be taught in a way that prepares them for attending the competition. They will be able to understand more about philosophical theories and how ethics plays a role in the real world, while also applying them to debates to challenge each other's thinking."*
 - **Key Distinctions from Standard Debate**:
   - **Constructive, Not Combative**: You are rewarded for discovering common ground, recognizing moral blind spots, and strengthening arguments rather than shouting over opponents.
-  - **Real-World Case Packets**: Tackle genuine bioethical, technological, and geopolitical crises crafted by international scholars.
+  - **Real-World Case Deliberation**: Tackle genuine bioethical, technological, and geopolitical crises crafted by international scholars.
   - **Judged by Experts**: Scored by philosophy professors, ethicists, and legal scholars who evaluate reasoning consistency rather than theatrical rhetoric.
 
 ---
@@ -206,7 +202,7 @@
 ---
 
 ### Section 7: Topics Covered (The Philosophical Curriculum)
-- **Section Tag**: `KNOWLEDGE & CASE STUDIES`
+- **Section Tag**: `KNOWLEDGE & TOPICS`
 - **Section Title**: `Topics & Ethical Theories Covered`
 - **Lead Copy**:  
   *At MPEO, you will master classical ethical frameworks and apply them to 21st-century dilemmas:*
@@ -225,49 +221,26 @@
 
 ---
 
-### Section 8: The Dilemma Archive (Sample Case Brief Showcase)
-- **Section Tag**: `REAL-WORLD ETHICS`
-- **Section Title**: `Case Studies from Tournament Play`
-- **Lead Copy**:  
-  *Get a glimpse into the fascinating cases analyzed by our team in competition:*
-
-- **Case Briefs**:
-  - **Case 01: The Autonomous Medical Drone Dilemma**  
-    - *Scenario*: An automated triage drone carries only one remaining dose of antivenom with two critical patients: an elderly pioneer scientist (40% survival chance) and an 8-year-old child (90% survival chance).
-    - *The Core Tension*: Utilitarian net-utility maximization vs. Kantian non-discrimination of life value.
-    - *MPEO Takeaway*: How our team formulated a multi-tiered principle balancing expected utility with equal moral consideration.
-  - **Case 02: CRISPR Gene Drives & Ecological Modification**  
-    - *Scenario*: Eradicating malaria by releasing gene-edited mosquitoes vs. the risk of irreversible ecological collapse and rights of future generations.
-    - *The Core Tension*: Immediate alleviation of human suffering vs. environmental stewardship and intergenerational justice.
-
----
-
-### Section 9: Society Highlights & Member Voices
+### Section 8: Society Highlights & Why Join MPEO?
 - **Highlight Cards**:
   1. **No Prior Experience Needed**: Open to everyone. We build your confidence and debate skills from ground zero.
   2. **Competition Preparation for 2027**: Structured coaching and scrimmage pathways to prepare you for the upcoming 2027 Senior Ethics Olympiad.
   3. **Premier Academic Profile**: Build high-level critical thinking, oral persuasion, and philosophical literacy recognized by top global universities.
   4. **Dynamic & Supportive Community**: Join a vibrant group of passionate thinkers where intellectual debate is fun, collaborative, and friendly.
 
-- **Member Quotes**:
-  > *"I walked into Room 204 as a complete beginner. Within a few months, I was analyzing complex ethical dilemmas with confidence and stood on the podium at the Senior Ethics Olympiad."*  
-  > — *MPEO Team Member*
-
 ---
 
-### Section 10: Key Logistics & Meeting Information
+### Section 9: Key Logistics & Meeting Information
 - **Meeting Day & Time**:  
   📅 **Every Wednesday | 3:00 PM – 4:30 PM**
 - **Location**:  
   📍 **Math Block, Room 204**
-- **1-Tap Calendar Actions**:
-  - `[+ Add to Google Calendar]`
-  - `[+ Download Apple / Outlook .ics]`
-  - `[Share Location / Directions]`
+- **First Session Orientation**:  
+  *Welcome meeting covering introductory concepts, meet-the-team snacks, and team formation overview.*
 
 ---
 
-### Section 11: Leadership Team Contact Details
+### Section 10: Leadership Team Contact Details
 - **Section Title**: `Leadership Team Contact Details`
 - **Lead Text**: *Have questions or want to learn more? Reach out to any of our student leaders directly via email:*
 - **Leadership Contacts (Exact Roster from Poster)**:
@@ -279,7 +252,7 @@
 
 ---
 
-### Section 12: Frequently Asked Questions (FAQ)
+### Section 11: Frequently Asked Questions (FAQ)
 
 1. **Q: Do I need any previous experience with philosophy or debate?**  
    *A: Absolutely not! Our society welcomes students of all experience levels. We guide you step-by-step through every ethical framework and competition strategy.*
@@ -298,9 +271,8 @@
 
 ---
 
-### Section 13: LifeCon Recruitment Sign-Up Form
+### Section 12: LifeCon Recruitment Sign-Up Form
 - **Form Heading**: `Register for MPEO at LifeCon`
-- **Form Subtitle**: *Fill out this quick form or scan our booth QR code to receive the official MPEO Starter Pack and meeting reminders.*
 - **Fields**:
   - Full Name `[Text]`
   - Student Email (`@gapps.uwcsea.edu.sg`) `[Email]`
@@ -308,11 +280,10 @@
   - Experience Level `[Novice / Intermediate / Experienced]`
   - Topics of Interest `[Checkboxes: AI, Bioethics, War, Animal Rights, Justice]`
 - **Submit Button**: `[Sign Up for MPEO ✦]`
-- **Booth Quick-Action**: `[Show Booth QR Code]` (Displays full-screen QR code for friends to scan on phone).
 
 ---
 
-### Section 14: Footer
+### Section 13: Footer
 - **Title**: Model Philosophy Ethics Olympiad Society (MPEO)
 - **School & Affiliation**: High School Student Society • Affiliated with the International Ethics Olympiad.
 - **Copyright**: `© 2026 Model Philosophy Ethics Olympiad Society. All rights reserved.`
