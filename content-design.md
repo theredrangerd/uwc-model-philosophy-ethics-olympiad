@@ -155,8 +155,8 @@
 - *"No prior experience needed — first-timers welcome every week."*
 
 **3.2 How to Actually Register**
-- Primary framing: *"This website is informational. To officially join MPEO, register through **CIMS** (your school's activity portal) — search "Model Philosophy Ethics Olympiad" or find us under the Philosophy/Debate category."*
-- CTA button: `Register on CIMS ✦` (styled as the primary gold CTA; site copy should make clear this points visitors to go register on CIMS themselves — it does not submit anything from this page).
+- Primary framing: *"This website is informational. To officially join MPEO, register through **CIMS** (your school's activity portal at `https://webapps.uwcsea.edu.sg/cims/Activities/Student`) — search "Model Philosophy Ethics Olympiad" or find us under the Philosophy/Debate category."*
+- CTA button: `Register on CIMS ↗` (styled as the primary gold CTA linking directly to `https://webapps.uwcsea.edu.sg/cims/Activities/Student` in a new tab).
 
 **3.3 QR Code Panel**
 - Reserved layout space for a **QR code image**, currently a **placeholder** — the real code encodes the live site URL itself (e.g. the GitHub Pages link) and can't be generated until the site is actually deployed. Ship the placeholder graphic now; swap in the real QR image as a drop-in asset once the site is live, no layout change needed.

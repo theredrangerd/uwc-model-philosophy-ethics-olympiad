@@ -225,12 +225,12 @@ img {
 }
 
 .splash-crest {
-  width: clamp(160px, 24vw, 240px);
-  height: clamp(160px, 24vw, 240px);
+  width: clamp(220px, 32vw, 340px);
+  height: clamp(220px, 32vw, 340px);
   object-fit: contain;
   margin-bottom: 28px;
-  filter: drop-shadow(0 0 35px var(--color-gold-glow));
-  animation: pulse-glow 3s infinite alternate;
+  filter: drop-shadow(0 0 45px rgba(212, 175, 55, 0.6)) drop-shadow(0 0 80px rgba(212, 175, 55, 0.35));
+  animation: splash-pulse-glow 3.5s infinite alternate ease-in-out;
 }
 
 .splash-title-container {
@@ -1716,6 +1716,17 @@ img {
 /* ==========================================================================
    ANIMATIONS & KEYFRAMES
    ========================================================================== */
+@keyframes splash-pulse-glow {
+  0% {
+    filter: drop-shadow(0 0 25px rgba(212, 175, 55, 0.4)) drop-shadow(0 0 50px rgba(212, 175, 55, 0.2));
+    transform: scale(0.98);
+  }
+  100% {
+    filter: drop-shadow(0 0 55px rgba(212, 175, 55, 0.85)) drop-shadow(0 0 110px rgba(212, 175, 55, 0.5));
+    transform: scale(1.02);
+  }
+}
+
 @keyframes pulse-glow {
   0% {
     filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.2));
