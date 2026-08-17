@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <!-- Text Arc Path along upper circle -->
+    <path id="crest-text-path" d="M 55,270 A 195,195 0 1,1 445,270" fill="none" />
+    
+    <!-- Gold Gradient for optional accents -->
+    <linearGradient id="crest-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3C4" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#AA820A" />
+    </linearGradient>
+
+    <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#D4AF37" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Arched Top Text -->
+  <text font-family="'Playfair Display', 'Cinzel', Georgia, serif" font-size="25.5" font-weight="700" fill="#FFFFFF" letter-spacing="1.2">
+    <textPath href="#crest-text-path" startOffset="50%" text-anchor="middle">
+      Model Philosophy Ethics Olympiad Society
+    </textPath>
+  </text>
+
+  <!-- Omega Symbol -->
+  <text x="250" y="275" font-family="'Cinzel', 'Playfair Display', Georgia, serif" font-size="215" font-weight="900" text-anchor="middle" dominant-baseline="central" fill="#FFFFFF">
+    Ω
+  </text>
+
+  <!-- Laurel Wreath at Bottom -->
+  <g stroke="#FFFFFF" fill="#FFFFFF">
+    <!-- Main stem arch -->
+    <path d="M 75,315 Q 250,475 425,315" fill="none" stroke-width="4.5" stroke-linecap="round" />
+
+    <!-- Left Laurel Leaves -->
+    <!-- Leaf 1 (Outer Top Left) -->
+    <path d="M 85,325 C 65,310 60,285 75,270 C 85,290 95,310 85,325 Z" />
+    <!-- Leaf 2 (Inner Top Left) -->
+    <path d="M 105,340 C 85,325 80,300 95,290 C 105,310 115,325 105,340 Z" />
+    <!-- Leaf 3 -->
+    <path d="M 130,360 C 105,355 95,335 110,320 C 125,335 135,350 130,360 Z" />
+    <!-- Leaf 4 -->
+    <path d="M 160,382 C 135,385 125,365 140,350 C 155,365 165,375 160,382 Z" />
+    <!-- Leaf 5 -->
+    <path d="M 195,400 C 170,410 160,390 175,375 C 190,385 200,395 195,400 Z" />
+    <!-- Leaf 6 (Center-Left) -->
+    <path d="M 230,412 C 210,425 200,410 215,395 C 225,400 235,408 230,412 Z" />
+
+    <!-- Under-Stem Leaves (Left) -->
+    <path d="M 115,355 C 105,375 120,390 135,380 C 130,368 122,360 115,355 Z" />
+    <path d="M 155,388 C 145,410 160,422 175,410 C 170,398 162,392 155,388 Z" />
+    <path d="M 200,412 C 190,432 210,442 222,430 C 216,420 208,415 200,412 Z" />
+
+    <!-- Right Laurel Leaves (Symmetrical) -->
+    <!-- Leaf 1 (Outer Top Right) -->
+    <path d="M 415,325 C 435,310 440,285 425,270 C 415,290 405,310 415,325 Z" />
+    <!-- Leaf 2 (Inner Top Right) -->
+    <path d="M 395,340 C 415,325 420,300 405,290 C 395,310 385,325 395,340 Z" />
+    <!-- Leaf 3 -->
+    <path d="M 370,360 C 395,355 405,335 390,320 C 375,335 365,350 370,360 Z" />
+    <!-- Leaf 4 -->
+    <path d="M 340,382 C 365,385 375,365 360,350 C 345,365 335,375 340,382 Z" />
+    <!-- Leaf 5 -->
+    <path d="M 305,400 C 330,410 340,390 325,375 C 310,385 300,395 305,400 Z" />
+    <!-- Leaf 6 (Center-Right) -->
+    <path d="M 270,412 C 290,425 300,410 285,395 C 275,400 265,408 270,412 Z" />
+
+    <!-- Under-Stem Leaves (Right) -->
+    <path d="M 385,355 C 395,375 380,390 365,380 C 370,368 378,360 385,355 Z" />
+    <path d="M 345,388 C 355,410 340,422 325,410 C 330,398 338,392 345,388 Z" />
+    <path d="M 300,412 C 310,432 290,442 278,430 C 284,420 292,415 300,412 Z" />
+
+    <!-- Center Tip Leaf -->
+    <path d="M 250,422 C 240,442 260,442 250,422 Z" />
+  </g>
+</svg>

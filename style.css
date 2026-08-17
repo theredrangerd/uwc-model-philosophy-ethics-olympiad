@@ -225,10 +225,11 @@ img {
 }
 
 .splash-crest {
-  width: 70px;
-  height: 70px;
-  margin-bottom: 24px;
-  filter: drop-shadow(0 0 20px var(--color-gold-glow));
+  width: clamp(160px, 24vw, 240px);
+  height: clamp(160px, 24vw, 240px);
+  object-fit: contain;
+  margin-bottom: 28px;
+  filter: drop-shadow(0 0 35px var(--color-gold-glow));
   animation: pulse-glow 3s infinite alternate;
 }
 
