@@ -317,13 +317,16 @@ const navMenu = document.getElementById('nav-menu');
 
 if (mobileToggle && navMenu) {
   mobileToggle.addEventListener('click', () => {
-    navMenu.classList.toggle('open');
+    const isOpen = navMenu.classList.toggle('open');
+    navMenu.classList.toggle('active', isOpen);
+    mobileToggle.textContent = isOpen ? '✕' : '☰';
   });
 
   // Close menu when clicking on any navigation link
   navMenu.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => {
-      navMenu.classList.remove('open');
+      navMenu.classList.remove('open', 'active');
+      mobileToggle.textContent = '☰';
     });
   });
 }

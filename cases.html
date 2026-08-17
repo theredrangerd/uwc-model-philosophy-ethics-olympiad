@@ -3,47 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Past Competition Cases & Dilemmas | Model Philosophy Ethics Olympiad (MPEO)</title>
-  <meta name="description" content="Explore official past competition cases and moral dilemmas from the Senior Ethics Olympiad. Learn how philosophical frameworks apply to AI, bioethics, environmental justice, and law.">
-  <meta name="keywords" content="Ethics Olympiad Cases, Past Cases, Ethics Dilemmas, Philosophy Case Studies, Bioethics, AI Ethics, MPEO">
-  <meta name="theme-color" content="#0E1013">
+  <title>Resources & Case Vault | Model Philosophy Ethics Olympiad (MPEO)</title>
+  <meta name="description" content="Explore official tournament PDF case packs, workshop slide decks, philosophical framework toolkits, and scoring rubrics in a modern Bento Box interface from MPEO.">
+  <meta name="theme-color" content="#080A0D">
 
   <!-- Open Graph Meta Tags -->
-  <meta property="og:title" content="Past Competition Cases | Model Philosophy Ethics Olympiad">
-  <meta property="og:description" content="Explore real-world moral dilemmas from the Ethics Olympiad and see how collaborative philosophical analysis resolves ethical friction.">
+  <meta property="og:title" content="Resources & Case Vault | Model Philosophy Ethics Olympiad">
+  <meta property="og:description" content="Explore authentic tournament case packs, classroom training slide decks, and ethical framework toolkits in a clean Bento interface.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="assets/team-squad.png">
 
   <!-- Preconnect to Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Spectral:ital,wght@0,400;0,500;1,400&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Spectral:ital,wght@0,400;0,500;1,400&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css?v=2">
+  <link rel="stylesheet" href="style.css?v=11">
+  <link rel="stylesheet" href="resources.css?v=11">
   <link rel="icon" type="image/png" href="assets/omega-crest.png?v=3">
-
-  <!-- Synchronous Adaptive Tier Detection -->
-  <script>
-    (function() {
-      const isLite = (
-        window.matchMedia('(max-width: 768px)').matches ||
-        window.matchMedia('(pointer: coarse)').matches ||
-        window.matchMedia('(prefers-reduced-motion: reduce)').matches ||
-        (navigator.deviceMemory && navigator.deviceMemory <= 4) ||
-        (navigator.connection && ['slow-2g', '2g', '3g'].includes(navigator.connection.effectiveType))
-      );
-      if (isLite) {
-        document.documentElement.classList.add('lite-mode-detected');
-      }
-    })();
-  </script>
 </head>
-<body class="cases-page">
+<body class="resources-bento-body">
 
-  <!-- Decorative Greek Watermark Background -->
-  <div class="bg-greek-columns" aria-hidden="true"></div>
-
-  <!-- SECTION 1: STICKY NAVBAR -->
+  <!-- SECTION: STICKY NAVBAR -->
   <header>
     <nav class="navbar" id="navbar" aria-label="Main Navigation">
       <div class="container navbar-inner">
@@ -55,7 +36,7 @@
         <ul class="nav-menu" id="nav-menu">
           <li><a href="index.html#about" class="nav-link">About</a></li>
           <li><a href="index.html#format" class="nav-link">Match Format</a></li>
-          <li><a href="cases.html" class="nav-link active">Past Cases</a></li>
+          <li><a href="cases.html" class="nav-link active">Resources & Vault</a></li>
           <li><a href="index.html#accomplishments" class="nav-link">Accomplishments</a></li>
           <li><a href="index.html#journey" class="nav-link">Journey</a></li>
           <li><a href="index.html#why-join" class="nav-link">Why Join</a></li>
@@ -72,477 +53,427 @@
     </nav>
   </header>
 
-  <main>
-    <!-- BREADCRUMB BAR -->
-    <div class="cases-breadcrumb-bar">
-      <div class="container">
-        <div class="breadcrumb-inner">
-          <a href="index.html" class="breadcrumb-back-link">
-            <span>←</span>
-            <span>Back to Society Overview</span>
-          </a>
-          <div class="breadcrumb-trail">
-            <a href="index.html">MPEO Home</a>
-            <span class="sep">/</span>
-            <span class="current">Past Competition Cases</span>
-          </div>
-        </div>
+  <!-- MASTER BENTO DASHBOARD -->
+  <main class="bento-dashboard-wrapper">
+    
+    <!-- Top Breadcrumb Bar -->
+    <div class="bento-top-nav-bar">
+      <a href="index.html" class="bento-back-btn">← Back to Society Overview</a>
+      <div class="bento-breadcrumbs-text">
+        <span>MPEO</span>
+        <span style="opacity: 0.4; margin: 0 6px;">/</span>
+        <span class="highlight">Resources & Case Vault</span>
       </div>
     </div>
 
-    <!-- HERO SECTION -->
-    <section class="cases-hero-section">
-      <div class="container">
-        <div class="cases-hero-banner">
-          <div class="hero-pill-badge">
-            ✦ SOCRATIC ARCHIVE • ETHICS OLYMPIAD CASE PACKS ✦
-          </div>
-          <h1 class="cases-hero-title">
-            PAST COMPETITION <br><span class="gold">CASES & DILEMMAS</span>
+    <!-- ROW 1: HERO & SIDE INFO BENTO COMPARTMENTS -->
+    <section class="bento-row-hero">
+      <!-- Main Hero Bento (Span 2) -->
+      <div class="bento-box bento-hero-card">
+        <div class="bento-glow-gold"></div>
+        <div>
+          <div class="bento-pill-tag">✦ SNEAK PEEK • INSIDE A DAY AT MPEO & SOCRATIC VAULT ✦</div>
+          <h1 class="bento-hero-title">
+            A SNEAK PEEK <br><span class="gold-gradient-text">INTO A DAY AT MPEO</span>
           </h1>
-          <p class="cases-hero-subtitle">
-            In the Ethics Olympiad, cases are drawn from urgent contemporary dilemmas where fundamental moral principles collide. Unlike traditional debate with pre-assigned sides, teams must navigate genuine trade-offs, weigh conflicting duties, and build collaborative philosophical consensus.
+          <p class="bento-hero-paragraph">
+            A curated look under the hood for curious thinkers and prospective members. Explore verbatim tournament case sets, flip through our live Wednesday workshop training slides, and test-drive the philosophical frameworks our medalists rely on.
           </p>
+        </div>
+        <div class="bento-quick-links-row">
+          <a href="#case-packs" class="bento-nav-btn">📥 Competition Case Sets</a>
+          <a href="#slideshow-theatre" class="bento-nav-btn">👀 A Day at MPEO (Slides)</a>
+          <a href="#frameworks-toolkit" class="bento-nav-btn">⚖️ Socratic Frameworks</a>
+          <a href="#scoring-rubric" class="bento-nav-btn">🎯 Judging Rubric</a>
+        </div>
+      </div>
 
-          <div class="cases-hero-stats">
-            <div class="hero-stat-pill">
-              <span class="stat-num">8</span>
-              <span class="stat-lbl">Featured Cases</span>
+      <!-- Side Info Bento (Span 1) -->
+      <div class="bento-box bento-side-info-card">
+        <div>
+          <div class="side-status-pill">
+            <span class="status-dot"></span>
+            <span>Active Season 2026</span>
+          </div>
+
+          <div class="side-metric-group">
+            <div class="side-metric-label">WEEKLY WORKSHOP</div>
+            <div class="side-metric-val">Wednesday 3:00–4:30 PM</div>
+            <div class="side-metric-sub">Math Block • Room 204</div>
+          </div>
+
+          <div class="side-bento-divider"></div>
+
+          <div class="side-metric-group">
+            <div class="side-metric-label">NEXT TOURNAMENT BID</div>
+            <div class="side-metric-val gold">International Grand Finals</div>
+            <div class="side-metric-sub">August 29, 2026 • Global Delegation</div>
+          </div>
+        </div>
+
+        <div>
+          <a href="https://webapps.uwcsea.edu.sg/cims/Activities/Student" target="_blank" rel="noopener noreferrer" class="side-cims-btn">
+            Register on CIMS Portal ↗
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROW 2: AUTHENTIC TOURNAMENT CASE PACKS -->
+    <section id="case-packs">
+      <div class="bento-section-label-bar">
+        <h2 class="bento-section-heading">
+          <span>📥</span>
+          <span>Official Competition Case Sets</span>
+        </h2>
+        <span class="bento-section-subhead">Verbatim competition booklets from tournament directors</span>
+      </div>
+
+      <div class="bento-row-packs">
+        <!-- Pack 1: TKEthics Fall 2025 (Silver Accent) -->
+        <div class="bento-box bento-pack-box silver-accent">
+          <div>
+            <div class="pack-box-top">
+              <span class="pack-tag-pill silver">🥈 2nd Place Silver Trophy</span>
+              <span class="pack-file-size">449 KB PDF</span>
             </div>
-            <div class="hero-stat-pill">
-              <span class="stat-num">5</span>
-              <span class="stat-lbl">Thematic Areas</span>
+            <h3 class="pack-box-title">TKEthics Fall 2025 Invitational</h3>
+            <p class="pack-box-desc">
+              The championship case compendium where MPEO secured 2nd Place overall, tackling the Right to be Forgotten, deepfake political satire, and digital privacy ethics.
+            </p>
+            <div class="pack-box-meta-tags">
+              <span class="pack-meta-pill">✦ National Invitational</span>
+              <span class="pack-meta-pill">✦ 10 Full Cases</span>
             </div>
-            <div class="hero-stat-pill">
-              <span class="stat-num">10+</span>
-              <span class="stat-lbl">Core Frameworks</span>
+          </div>
+          <div class="pack-box-actions">
+            <a href="assets/ethicsresources/2025 TKEthics Fall CASE SET.pdf" download="2025_TKEthics_Fall_CASE_SET.pdf" class="btn-pack-download">
+              📥 Download PDF
+            </a>
+            <a href="assets/ethicsresources/2025 TKEthics Fall CASE SET.pdf" target="_blank" rel="noopener noreferrer" class="btn-pack-view">
+              ↗ View in Tab
+            </a>
+          </div>
+        </div>
+
+        <!-- Pack 2: Senior Olympiad 2026 (Bronze Accent) -->
+        <div class="bento-box bento-pack-box bronze-accent">
+          <div>
+            <div class="pack-box-top">
+              <span class="pack-tag-pill bronze">🥉 3rd Place Bronze Medal</span>
+              <span class="pack-file-size">534 KB PDF</span>
             </div>
-            <button type="button" class="btn-random-case" id="btn-random-case">
-              <span>🎲 Deliberate a Random Case</span>
-            </button>
+            <h3 class="pack-box-title">Senior High School Ethics Olympiad 2026</h3>
+            <p class="pack-box-desc">
+              The official case pack for the 2026 Senior Olympiad season, covering algorithmic ICU triage, mitochondrial replacement therapy, and stratospheric solar management.
+            </p>
+            <div class="pack-box-meta-tags">
+              <span class="pack-meta-pill">✦ Senior Olympiad</span>
+              <span class="pack-meta-pill">✦ 8 Official Cases</span>
+            </div>
+          </div>
+          <div class="pack-box-actions">
+            <a href="assets/ethicsresources/EthicsOlympiadSHSCases2026.pdf" download="EthicsOlympiadSHSCases2026.pdf" class="btn-pack-download">
+              📥 Download PDF
+            </a>
+            <a href="assets/ethicsresources/EthicsOlympiadSHSCases2026.pdf" target="_blank" rel="noopener noreferrer" class="btn-pack-view">
+              ↗ View in Tab
+            </a>
+          </div>
+        </div>
+
+        <!-- Pack 3: Grand Finals 2026 (Gold Accent) -->
+        <div class="bento-box bento-pack-box gold-accent">
+          <div>
+            <div class="pack-box-top">
+              <span class="pack-tag-pill gold">🌐 Grand Finals 2026</span>
+              <span class="pack-file-size">314 KB PDF</span>
+            </div>
+            <h3 class="pack-box-title">TKEthics International Grand Final 2026</h3>
+            <p class="pack-box-desc">
+              The exclusive international championship case briefing covering woolly mammoth de-extinction, lethal autonomous weapon swarms, and planetary climate governance.
+            </p>
+            <div class="pack-box-meta-tags">
+              <span class="pack-meta-pill">✦ International Bid</span>
+              <span class="pack-meta-pill">✦ 6 Global Dilemmas</span>
+            </div>
+          </div>
+          <div class="pack-box-actions">
+            <a href="assets/ethicsresources/Case Set_ TKEthics International Grand Final 2026.pdf" download="TKEthics_International_Grand_Final_2026_Case_Set.pdf" class="btn-pack-download">
+              📥 Download PDF
+            </a>
+            <a href="assets/ethicsresources/Case Set_ TKEthics International Grand Final 2026.pdf" target="_blank" rel="noopener noreferrer" class="btn-pack-view">
+              ↗ View in Tab
+            </a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- CASE BROWSER & FILTERING SECTION -->
-    <section class="section" id="case-explorer">
-      <div class="container">
-        <div class="cases-filter-container">
-          <!-- Search input -->
-          <div class="case-search-wrapper">
-            <span class="search-icon">🔍</span>
+    <!-- ROW 3: SNEAK PEEK: A DAY AT MPEO WORKSHOP DECK -->
+    <section id="slideshow-theatre">
+      <div class="bento-section-label-bar">
+        <h2 class="bento-section-heading">
+          <span>👀</span>
+          <span>A Day at MPEO: Live Workshop Deck</span>
+        </h2>
+        <span class="bento-section-subhead">A sneak peek into what we train and deliberate every Wednesday afternoon</span>
+      </div>
+
+      <div class="bento-box bento-theatre-card">
+        <div class="theatre-hud-bar">
+          <div class="theatre-hud-left">
+            <span class="status-dot"></span>
+            <span class="theatre-deck-title">✦ Live Workshop Experience: Inside Wednesday Practice in Room 204</span>
+          </div>
+          <a href="https://www.canva.com/design/DAHDJAJqyf4/USw1uX0zH_7bXgzmmbaBqg/view" target="_blank" rel="noopener noreferrer" class="theatre-canva-out-btn">
+            Open Full Deck ↗
+          </a>
+        </div>
+
+        <div class="theatre-viewport-container">
+          <iframe 
+            src="https://www.canva.com/design/DAHDJAJqyf4/USw1uX0zH_7bXgzmmbaBqg/view?embed" 
+            allowfullscreen="allowfullscreen" 
+            allow="fullscreen" 
+            loading="lazy" 
+            class="theatre-canva-iframe"
+            title="A Day at MPEO Workshop Slide Deck"
+          ></iframe>
+        </div>
+
+        <div class="theatre-footer-bar">
+          <div class="theatre-tip-text">
+            ✨ <strong>Inside the Session:</strong> We run live case breakdowns, 5-minute timed rounds, and collaborative Socratic discourse.
+          </div>
+          <div class="theatre-schedule-tag">
+            📍 Math Block Room 204 • Wednesdays 3:00–4:30 PM
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROW 4: PHILOSOPHICAL FRAMEWORK MATRIX -->
+    <section id="frameworks-toolkit">
+      <div class="bento-section-label-bar">
+        <h2 class="bento-section-heading">
+          <span>⚖️</span>
+          <span>Philosophical Framework Matrix</span>
+        </h2>
+        <span class="bento-section-subhead">Six foundational traditions tested in match deliberations</span>
+      </div>
+
+      <div class="bento-row-frameworks">
+        <!-- 1. Utilitarianism -->
+        <div class="bento-box bento-framework-box">
+          <div class="framework-top-row">
+            <span class="framework-icon">⚡</span>
+            <span class="framework-badge">Consequentialism</span>
+          </div>
+          <h3 class="framework-title">Utilitarianism</h3>
+          <div class="framework-thinkers">Bentham • Mill • Singer</div>
+          <p class="framework-core-text">
+            An action is morally right if it produces the greatest net happiness (utility) for the greatest number of sentient beings.
+          </p>
+          <div class="framework-insight-box">
+            <strong>Key Distinction:</strong> Act vs. Rule Utility; Mill's qualitative higher pleasures of the intellect.
+          </div>
+        </div>
+
+        <!-- 2. Kantian Deontology -->
+        <div class="bento-box bento-framework-box">
+          <div class="framework-top-row">
+            <span class="framework-icon">📜</span>
+            <span class="framework-badge">Duty Ethics</span>
+          </div>
+          <h3 class="framework-title">Kantian Deontology</h3>
+          <div class="framework-thinkers">Immanuel Kant • Korsgaard</div>
+          <p class="framework-core-text">
+            Actions are intrinsically right or wrong regardless of outcomes, evaluated by duty and the Categorical Imperative.
+          </p>
+          <div class="framework-insight-box">
+            <strong>Core Maxim:</strong> Never treat human beings merely as means to an end, but always as ends in themselves.
+          </div>
+        </div>
+
+        <!-- 3. Aristotelian Virtue Ethics -->
+        <div class="bento-box bento-framework-box">
+          <div class="framework-top-row">
+            <span class="framework-icon">🏛️</span>
+            <span class="framework-badge">Character & Eudaimonia</span>
+          </div>
+          <h3 class="framework-title">Virtue Ethics</h3>
+          <div class="framework-thinkers">Aristotle • MacIntyre • Nussbaum</div>
+          <p class="framework-core-text">
+            Cultivating excellent character traits (virtues) through practical wisdom (*Phronesis*) aiming for human flourishing (*Eudaimonia*).
+          </p>
+          <div class="framework-insight-box">
+            <strong>The Golden Mean:</strong> Virtue is the deliberate balance between deficiency and excess.
+          </div>
+        </div>
+
+        <!-- 4. Care Ethics -->
+        <div class="bento-box bento-framework-box">
+          <div class="framework-top-row">
+            <span class="framework-icon">🤝</span>
+            <span class="framework-badge">Relational Theory</span>
+          </div>
+          <h3 class="framework-title">Ethics of Care</h3>
+          <div class="framework-thinkers">Gilligan • Held • Noddings</div>
+          <p class="framework-core-text">
+            Moral duties arise from authentic human relationships, empathy, mutual vulnerability, and the preservation of trust.
+          </p>
+          <div class="framework-insight-box">
+            <strong>Application:</strong> Highlights invisible caregiving labor and focuses on repairing relational harm.
+          </div>
+        </div>
+
+        <!-- 5. Rawlsian Justice -->
+        <div class="bento-box bento-framework-box">
+          <div class="framework-top-row">
+            <span class="framework-icon">⚖️</span>
+            <span class="framework-badge">Social Contract</span>
+          </div>
+          <h3 class="framework-title">Rawlsian Justice</h3>
+          <div class="framework-thinkers">John Rawls • Scanlon</div>
+          <p class="framework-core-text">
+            Fair terms of social cooperation are those that rational, equal persons choose from behind a *Veil of Ignorance*.
+          </p>
+          <div class="framework-insight-box">
+            <strong>Difference Principle:</strong> Inequalities are permissible only if they benefit the least advantaged.
+          </div>
+        </div>
+
+        <!-- 6. Biomedical Principles Quartet -->
+        <div class="bento-box bento-framework-box">
+          <div class="framework-top-row">
+            <span class="framework-icon">🧬</span>
+            <span class="framework-badge">Applied Bioethics</span>
+          </div>
+          <h3 class="framework-title">Principlism (4 Pillars)</h3>
+          <div class="framework-thinkers">Beauchamp & Childress</div>
+          <p class="framework-core-text">
+            The four universal bioethical pillars applied by clinical ethics boards and public health regulators globally.
+          </p>
+          <div class="framework-insight-box">
+            <strong>The 4 Pillars:</strong> Autonomy, Beneficence, Non-Maleficence, and Distributive Justice.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROW 5: OFFICIAL SCORING RUBRIC -->
+    <section id="scoring-rubric">
+      <div class="bento-section-label-bar">
+        <h2 class="bento-section-heading">
+          <span>🎯</span>
+          <span>Official Judging Criteria & Score Sheet</span>
+        </h2>
+        <span class="bento-section-subhead">Authentic criteria evaluated by tournament judges during match rounds</span>
+      </div>
+
+      <div class="bento-row-rubric">
+        <div class="bento-box bento-rubric-card">
+          <span class="rubric-pill">CRITERIA 1</span>
+          <h4 class="rubric-heading">Clarity & Presentation</h4>
+          <p class="rubric-text">Clear, systematic, and well-organized argument addressing the central prompt directly.</p>
+          <div class="rubric-score-footer">
+            <span class="rubric-score-badge">
+              <span class="rubric-score-icon">✦</span>
+              <span class="rubric-score-text">Out of <strong>10 Pts</strong></span>
+            </span>
+          </div>
+        </div>
+
+        <div class="bento-box bento-rubric-card">
+          <span class="rubric-pill">CRITERIA 2</span>
+          <h4 class="rubric-heading">Moral Dimensions</h4>
+          <p class="rubric-text">Identification and thorough analysis of core ethical tensions and philosophical principles.</p>
+          <div class="rubric-score-footer">
+            <span class="rubric-score-badge">
+              <span class="rubric-score-icon">✦</span>
+              <span class="rubric-score-text">Out of <strong>10 Pts</strong></span>
+            </span>
+          </div>
+        </div>
+
+        <div class="bento-box bento-rubric-card">
+          <span class="rubric-pill">CRITERIA 3</span>
+          <h4 class="rubric-heading">Counter-Perspectives</h4>
+          <p class="rubric-text">Honest recognition of trade-offs, diverse viewpoints, and counter-arguments.</p>
+          <div class="rubric-score-footer">
+            <span class="rubric-score-badge">
+              <span class="rubric-score-icon">✦</span>
+              <span class="rubric-score-text">Out of <strong>10 Pts</strong></span>
+            </span>
+          </div>
+        </div>
+
+        <div class="bento-box bento-rubric-card">
+          <span class="rubric-pill">CRITERIA 4</span>
+          <h4 class="rubric-heading">Collaborative Dialogue</h4>
+          <p class="rubric-text">Constructive commentary, active listening, and respectful Socratic discourse.</p>
+          <div class="rubric-score-footer">
+            <span class="rubric-score-badge">
+              <span class="rubric-score-icon">✦</span>
+              <span class="rubric-score-text">Out of <strong>10 Pts</strong></span>
+            </span>
+          </div>
+        </div>
+
+        <div class="bento-box bento-rubric-card">
+          <span class="rubric-pill">CRITERIA 5</span>
+          <h4 class="rubric-heading">Response to Judges' Q&A</h4>
+          <p class="rubric-text">Poise, logical depth, and adaptability when responding to probing hypothetical edge cases.</p>
+          <div class="rubric-score-footer">
+            <span class="rubric-score-badge">
+              <span class="rubric-score-icon">✦</span>
+              <span class="rubric-score-text">Out of <strong>10 Pts</strong></span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROW 6: CALL TO ACTION BENTO BOX & INLINE SCHOOL ID CAPTURE -->
+    <section>
+      <div class="bento-box bento-cta-box">
+        <div class="bento-pill-tag" style="margin: 0 auto 14px;">✦ JOIN THE SQUAD ✦</div>
+        <h2 class="bento-cta-title">Ready to Deliberate Real Cases With Us?</h2>
+        <p class="bento-cta-sub">
+          Join our weekly Wednesday workshops in Math Block Room 204. Enter your School ID below to receive workshop updates, or register directly on CIMS.
+        </p>
+
+        <!-- Inline School ID Capture Form -->
+        <div class="bento-interest-form-wrapper">
+          <form class="bento-interest-form" id="interest-form">
             <input 
               type="text" 
-              id="case-search-input" 
-              class="case-search-input" 
-              placeholder="Search cases by keyword, dilemma, stakeholder, or ethical theory (e.g. CRISPR, Utilitarianism, AI)..."
-              aria-label="Search cases"
+              class="bento-interest-input" 
+              id="interest-email" 
+              placeholder="School ID (e.g. [id removed])" 
+              required
+              aria-label="Enter your School ID"
             >
-            <button type="button" id="search-clear-btn" class="search-clear-btn" aria-label="Clear search" style="display: none;">✕</button>
-          </div>
-
-          <!-- Category filter buttons -->
-          <div class="case-category-filters" role="tablist" aria-label="Filter cases by theme">
-            <button type="button" class="case-filter-btn active" data-filter="all" role="tab" aria-selected="true">
-              All Cases <span class="filter-count">(8)</span>
+            <button type="submit" class="bento-interest-submit-btn" id="interest-submit-btn">
+              Notify Me ✦
             </button>
-            <button type="button" class="case-filter-btn" data-filter="ai" role="tab" aria-selected="false">
-              🤖 AI & Technology <span class="filter-count">(2)</span>
-            </button>
-            <button type="button" class="case-filter-btn" data-filter="bioethics" role="tab" aria-selected="false">
-              🧬 Bioethics & Medicine <span class="filter-count">(2)</span>
-            </button>
-            <button type="button" class="case-filter-btn" data-filter="environment" role="tab" aria-selected="false">
-              🌿 Environmental Justice <span class="filter-count">(2)</span>
-            </button>
-            <button type="button" class="case-filter-btn" data-filter="governance" role="tab" aria-selected="false">
-              🏛️ Law & Governance <span class="filter-count">(1)</span>
-            </button>
-            <button type="button" class="case-filter-btn" data-filter="media" role="tab" aria-selected="false">
-              🎭 Media, Truth & Autonomy <span class="filter-count">(1)</span>
-            </button>
-          </div>
-
-          <div class="cases-results-meta">
-            <span id="cases-count-label">Showing all 8 tournament cases</span>
-          </div>
+          </form>
+          <div class="bento-interest-status" id="interest-status"></div>
         </div>
 
-        <!-- CASES GRID -->
-        <div class="cases-grid" id="cases-grid">
-          <!-- Cases injected via JavaScript and server-rendered below for instant visibility -->
-
-          <!-- CASE 01 -->
-          <article class="case-card" data-category="ai bioethics" data-id="case-1">
-            <div class="case-card-header">
-              <div class="case-number-tag">CASE 01</div>
-              <div class="case-origin-badge">✦ Senior Olympiad 2025</div>
-            </div>
-            <div class="case-category-pill">🤖 AI & Biomedical Ethics</div>
-            <h3 class="case-title">The Autonomous Triage Protocol</h3>
-            <p class="case-summary">
-              When an intensive care unit faces severe ventilator shortages, a neural network prioritizes patients by maximizing Quality-Adjusted Life Years (QALYs), creating deep tension between utilitarian efficiency and deontological duties of non-discrimination.
-            </p>
-            <div class="case-tension-tags">
-              <span class="tension-tag">Utility vs. Human Dignity</span>
-              <span class="tension-tag">Algorithmic Bias</span>
-              <span class="tension-tag">Distributive Justice</span>
-            </div>
-            <div class="case-card-footer">
-              <button type="button" class="btn-inspect-case" data-case-target="case-1">
-                <span>Examine Case Dossier</span>
-                <span class="arrow">✦</span>
-              </button>
-            </div>
-          </article>
-
-          <!-- CASE 02 -->
-          <article class="case-card" data-category="environment" data-id="case-2">
-            <div class="case-card-header">
-              <div class="case-number-tag">CASE 02</div>
-              <div class="case-origin-badge">✦ Grand Finals Prep</div>
-            </div>
-            <div class="case-category-pill">🌿 Environmental & Climate Ethics</div>
-            <h3 class="case-title">De-Extinction and Ecological Hubris</h3>
-            <p class="case-summary">
-              A synthetic biology consortium resurrects a woolly mammoth proxy to combat Arctic permafrost thaw. While proponents cite carbon mitigation, indigenous councils and conservationists fear unpredictable ecological disruption and moral hazard.
-            </p>
-            <div class="case-tension-tags">
-              <span class="tension-tag">Anthropocentrism vs. Ecocentrism</span>
-              <span class="tension-tag">Technofix Moral Hazard</span>
-              <span class="tension-tag">Indigenous Sovereignty</span>
-            </div>
-            <div class="case-card-footer">
-              <button type="button" class="btn-inspect-case" data-case-target="case-2">
-                <span>Examine Case Dossier</span>
-                <span class="arrow">✦</span>
-              </button>
-            </div>
-          </article>
-
-          <!-- CASE 03 -->
-          <article class="case-card" data-category="governance media" data-id="case-3">
-            <div class="case-card-header">
-              <div class="case-number-tag">CASE 03</div>
-              <div class="case-origin-badge">✦ TKEthics Invitational 2025</div>
-            </div>
-            <div class="case-category-pill">🏛️ Law & Digital Human Rights</div>
-            <h3 class="case-title">The Right to Forget vs. The Public Record</h3>
-            <p class="case-summary">
-              A reformed activist convicted of civil disobedience ten years ago petitions search engines to delist arrest records to rebuild her professional livelihood, sparking a constitutional debate against journalists preserving public integrity.
-            </p>
-            <div class="case-tension-tags">
-              <span class="tension-tag">Rehabilitation vs. Historical Truth</span>
-              <span class="tension-tag">Informational Privacy</span>
-              <span class="tension-tag">Freedom of Expression</span>
-            </div>
-            <div class="case-card-footer">
-              <button type="button" class="btn-inspect-case" data-case-target="case-3">
-                <span>Examine Case Dossier</span>
-                <span class="arrow">✦</span>
-              </button>
-            </div>
-          </article>
-
-          <!-- CASE 04 -->
-          <article class="case-card" data-category="bioethics" data-id="case-4">
-            <div class="case-card-header">
-              <div class="case-number-tag">CASE 04</div>
-              <div class="case-origin-badge">✦ Senior Olympiad Podium Round</div>
-            </div>
-            <div class="case-category-pill">🧬 Bioethics & Genetics</div>
-            <h3 class="case-title">CRISPR Germline Enhancement & Meritocracy</h3>
-            <p class="case-summary">
-              A bioethics council debates approving heritable embryonic gene edits for cognitive longevity and environmental resilience. Wealthy families move to purchase enhancements, threatening to encode social stratification directly into biology.
-            </p>
-            <div class="case-tension-tags">
-              <span class="tension-tag">Therapy vs. Enhancement</span>
-              <span class="tension-tag">Intergenerational Consent</span>
-              <span class="tension-tag">Genetic Stratification</span>
-            </div>
-            <div class="case-card-footer">
-              <button type="button" class="btn-inspect-case" data-case-target="case-4">
-                <span>Examine Case Dossier</span>
-                <span class="arrow">✦</span>
-              </button>
-            </div>
-          </article>
-
-          <!-- CASE 05 -->
-          <article class="case-card" data-category="ai governance" data-id="case-5">
-            <div class="case-card-header">
-              <div class="case-number-tag">CASE 05</div>
-              <div class="case-origin-badge">✦ Ethics Olympiad Case Pack</div>
-            </div>
-            <div class="case-category-pill">🤖 AI & Social Justice</div>
-            <h3 class="case-title">Predictive Policing and Feedback Loops</h3>
-            <p class="case-summary">
-              City authorities deploy machine-learning models to forecast neighborhood crime hotspots. While property theft drops citywide, minority neighborhoods experience compounding surveillance loops and disproportionate stop-and-frisk encounters.
-            </p>
-            <div class="case-tension-tags">
-              <span class="tension-tag">Collective Security vs. Liberty</span>
-              <span class="tension-tag">Feedback Bias Loops</span>
-              <span class="tension-tag">Epistemic Injustice</span>
-            </div>
-            <div class="case-card-footer">
-              <button type="button" class="btn-inspect-case" data-case-target="case-5">
-                <span>Examine Case Dossier</span>
-                <span class="arrow">✦</span>
-              </button>
-            </div>
-          </article>
-
-          <!-- CASE 06 -->
-          <article class="case-card" data-category="environment governance" data-id="case-6">
-            <div class="case-card-header">
-              <div class="case-number-tag">CASE 06</div>
-              <div class="case-origin-badge">✦ Grand Finals Roster</div>
-            </div>
-            <div class="case-category-pill">🌿 Environmental & Geopolitical Ethics</div>
-            <h3 class="case-title">Sovereign Stratospheric Geoengineering</h3>
-            <p class="case-summary">
-              A sinking Pacific island nation prepares unilateral stratospheric aerosol injection to halt thermal expansion of oceans after global climate treaties stall, raising profound questions of planetary consent and emergency self-defense.
-            </p>
-            <div class="case-tension-tags">
-              <span class="tension-tag">National Self-Defense vs. Planetary Consent</span>
-              <span class="tension-tag">Precautionary Principle</span>
-              <span class="tension-tag">Intergenerational Equity</span>
-            </div>
-            <div class="case-card-footer">
-              <button type="button" class="btn-inspect-case" data-case-target="case-6">
-                <span>Examine Case Dossier</span>
-                <span class="arrow">✦</span>
-              </button>
-            </div>
-          </article>
-
-          <!-- CASE 07 -->
-          <article class="case-card" data-category="bioethics" data-id="case-7">
-            <div class="case-card-header">
-              <div class="case-number-tag">CASE 07</div>
-              <div class="case-origin-badge">✦ Regional Invitational</div>
-            </div>
-            <div class="case-category-pill">🧬 Bioethics & Professional Autonomy</div>
-            <h3 class="case-title">Cognitive Enhancement in High-Stakes Surgery</h3>
-            <p class="case-summary">
-              Hospitals offer voluntary pharmacological nootropics to surgical teams that reduce fatigue errors by 70%. When malpractice insurance rates drop for medicated surgeons, unmedicated physicians face coercive institutional pressures.
-            </p>
-            <div class="case-tension-tags">
-              <span class="tension-tag">Voluntary Choice vs. Subtle Coercion</span>
-              <span class="tension-tag">Patient Safety vs. Bodily Integrity</span>
-              <span class="tension-tag">Professional Fiduciary Duty</span>
-            </div>
-            <div class="case-card-footer">
-              <button type="button" class="btn-inspect-case" data-case-target="case-7">
-                <span>Examine Case Dossier</span>
-                <span class="arrow">✦</span>
-              </button>
-            </div>
-          </article>
-
-          <!-- CASE 08 -->
-          <article class="case-card" data-category="media governance" data-id="case-8">
-            <div class="case-card-header">
-              <div class="case-number-tag">CASE 08</div>
-              <div class="case-origin-badge">✦ Senior Olympiad Case Pack</div>
-            </div>
-            <div class="case-category-pill">🎭 Media, Truth & Autonomy</div>
-            <h3 class="case-title">AI Parody and Democratic Epistemic Integrity</h3>
-            <p class="case-summary">
-              A satirical political candidate releases hyper-realistic synthetic audio of rivals confessing to corporate influence. Though labeled as parody in small text, millions believe the clips, destabilizing the voting public's trust in authentic evidence.
-            </p>
-            <div class="case-tension-tags">
-              <span class="tension-tag">Satirical Free Speech vs. Epistemic Truth</span>
-              <span class="tension-tag">Democratic Integrity</span>
-              <span class="tension-tag">Virtue Ethics & Truthfulness</span>
-            </div>
-            <div class="case-card-footer">
-              <button type="button" class="btn-inspect-case" data-case-target="case-8">
-                <span>Examine Case Dossier</span>
-                <span class="arrow">✦</span>
-              </button>
-            </div>
-          </article>
+        <div class="bento-cta-btn-group">
+          <a href="https://webapps.uwcsea.edu.sg/cims/Activities/Student" target="_blank" rel="noopener noreferrer" class="btn-cta-gold">
+            Register on CIMS ↗
+          </a>
+          <a href="index.html" class="btn-cta-return">
+            ← Return to Society Overview
+          </a>
         </div>
       </div>
     </section>
 
-    <!-- SECTION: THE SOCRATIC DELIBERATION METHOD -->
-    <section class="section" style="background: radial-gradient(circle at 50% 50%, #15181F 0%, #0E1013 100%);">
-      <div class="container">
-        <div class="section-header">
-          <div class="section-tag">COMPETITIVE METHODOLOGY</div>
-          <h2 class="section-title">How MPEO Deliberates Any Case</h2>
-          <p class="section-subtitle">The 5-step analytical framework taught in our weekly workshops to systematically deconstruct moral dilemmas.</p>
-        </div>
-
-        <div class="methodology-grid">
-          <div class="methodology-step-card">
-            <div class="step-badge">STEP 01</div>
-            <div class="step-icon">🎯</div>
-            <h3 class="step-title">Isolate Core Friction</h3>
-            <p class="step-desc">
-              Identify the genuine moral disagreement beneath emotional rhetoric. Distinguish empirical uncertainties from fundamental value conflicts (e.g. Autonomy vs. Beneficence).
-            </p>
-          </div>
-
-          <div class="methodology-step-card">
-            <div class="step-badge">STEP 02</div>
-            <div class="step-icon">👥</div>
-            <h3 class="step-title">Map All Stakeholders</h3>
-            <p class="step-desc">
-              Chart the direct and indirect impacts on all affected groups, paying special attention to disenfranchised voices, non-human entities, and future generations.
-            </p>
-          </div>
-
-          <div class="methodology-step-card">
-            <div class="step-badge">STEP 03</div>
-            <div class="step-icon">⚖️</div>
-            <h3 class="step-title">Apply Ethical Lenses</h3>
-            <p class="step-desc">
-              Evaluate the dilemma across major philosophical traditions: Utilitarian utility, Kantian categorical duties, Aristotelian virtue, Gilligan's Care Ethics, and Rawlsian justice.
-            </p>
-          </div>
-
-          <div class="methodology-step-card">
-            <div class="step-badge">STEP 04</div>
-            <div class="step-icon">🔍</div>
-            <h3 class="step-title">Acknowledge Trade-offs</h3>
-            <p class="step-desc">
-              Intellectual honesty is paramount. No legitimate dilemma has a cost-free solution. Explicitly acknowledge the moral sacrifices required by your chosen stance.
-            </p>
-          </div>
-
-          <div class="methodology-step-card">
-            <div class="step-badge">STEP 05</div>
-            <div class="step-icon">🤝</div>
-            <h3 class="step-title">Collaborative Synthesis</h3>
-            <p class="step-desc">
-              Listen actively to the opposing team's perspective. Synthesize their constructive critique into a refined, robust policy recommendation that judges reward.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION: CALL TO ACTION BANNER -->
-    <section class="section" style="padding-top: 40px;">
-      <div class="container">
-        <div class="cases-cta-box">
-          <div class="cta-crest-glow"></div>
-          <div class="section-tag">JOIN THE DELIBERATION</div>
-          <h2 style="font-family: var(--font-display); font-size: 2.2rem; color: #FFFFFF; margin-bottom: 16px;">
-            Ready to Analyze Real Cases With Us?
-          </h2>
-          <p style="font-family: var(--font-serif-body); font-style: italic; font-size: 1.15rem; color: var(--color-text-secondary); max-width: 650px; margin: 0 auto 28px;">
-            Join our weekly Wednesday workshops where we break down fresh competition case packs, run practice deliberations, and prepare for national and international podiums.
-          </p>
-          <div class="cases-cta-actions">
-            <a href="https://webapps.uwcsea.edu.sg/cims/Activities/Student" target="_blank" rel="noopener noreferrer" class="btn-cta-gold">
-              Register on CIMS ↗
-            </a>
-            <a href="index.html#interest" class="btn-cta-secondary">
-              Express Interest / Notify Me ✦
-            </a>
-            <a href="index.html" class="btn-cta-ghost">
-              ← Return to Main Page
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
   </main>
-
-  <!-- INTERACTIVE CASE DOSSIER MODAL -->
-  <div class="case-modal-backdrop" id="case-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-case-title">
-    <div class="case-modal-container">
-      <button type="button" class="case-modal-close" id="case-modal-close-btn" aria-label="Close case dossier">✕</button>
-      
-      <div class="case-modal-header">
-        <div class="modal-meta-row">
-          <span class="modal-case-code" id="modal-case-code">CASE 01</span>
-          <span class="modal-case-origin" id="modal-case-origin">✦ Senior Olympiad 2025</span>
-          <span class="modal-case-category" id="modal-case-category">🤖 AI & Biomedical Ethics</span>
-        </div>
-        <h2 class="modal-case-title" id="modal-case-title">The Autonomous Triage Protocol</h2>
-      </div>
-
-      <!-- Modal Tabs -->
-      <div class="modal-tabs-nav" role="tablist">
-        <button type="button" class="modal-tab-btn active" data-tab="scenario" role="tab" aria-selected="true">
-          📖 Scenario Narrative
-        </button>
-        <button type="button" class="modal-tab-btn" data-tab="stakeholders" role="tab" aria-selected="false">
-          👥 Stakeholder Matrix
-        </button>
-        <button type="button" class="modal-tab-btn" data-tab="frameworks" role="tab" aria-selected="false">
-          ⚖️ Ethical Frameworks
-        </button>
-        <button type="button" class="modal-tab-btn" data-tab="dialogue" role="tab" aria-selected="false">
-          ✦ Socratic Match Analysis
-        </button>
-      </div>
-
-      <!-- Tab Content Area -->
-      <div class="modal-tab-content-area">
-        <!-- TAB 1: SCENARIO -->
-        <div class="modal-tab-pane active" id="tab-scenario">
-          <div class="scenario-lead-box">
-            <span class="quote-icon">“</span>
-            <p id="modal-scenario-text">
-              During a regional health emergency, a metropolitan hospital’s intensive care unit is inundated with critical respiratory failure patients. Facing a strict deficit of ECMO and mechanical ventilator units, the clinical ethics board deploys 'Aegis-Triage'—a validated predictive machine learning system designed to allocate life support.
-            </p>
-          </div>
-          <div class="dossier-sub-section">
-            <h4 class="dossier-sub-title">✦ The Ethical Dilemma</h4>
-            <p id="modal-dilemma-details">
-              The algorithm maximizes cumulative Quality-Adjusted Life Years (QALYs) by deprioritizing individuals with severe chronic comorbidities and elderly patients whose statistical survival probability is lower. However, community advocates note that historical socioeconomic disparities have resulted in higher baseline comorbidity rates among marginalized populations, meaning the algorithm systematically denies care to vulnerable demographic groups.
-            </p>
-          </div>
-          <div class="dossier-sub-section">
-            <h4 class="dossier-sub-title">✦ Guiding Deliberation Questions for Teams</h4>
-            <ul class="dossier-questions-list" id="modal-questions-list">
-              <li>Is a purely utilitarian allocation (maximizing QALYs saved) morally justifiable when it compounds historical systemic injustice?</li>
-              <li>Should a lottery system or 'first-come, first-served' model be favored over algorithmic scoring despite saving fewer total lives?</li>
-              <li>How can medical practitioners balance the duty of individual beneficence with collective public health triage?</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- TAB 2: STAKEHOLDERS -->
-        <div class="modal-tab-pane" id="tab-stakeholders">
-          <div class="stakeholders-matrix-grid" id="modal-stakeholders-grid">
-            <!-- Dynamic Stakeholder Cards -->
-          </div>
-        </div>
-
-        <!-- TAB 3: FRAMEWORKS -->
-        <div class="modal-tab-pane" id="tab-frameworks">
-          <div class="frameworks-analysis-grid" id="modal-frameworks-grid">
-            <!-- Dynamic Framework Breakdown -->
-          </div>
-        </div>
-
-        <!-- TAB 4: SOCRATIC MATCH ANALYSIS -->
-        <div class="modal-tab-pane" id="tab-dialogue">
-          <div class="socratic-match-walkthrough" id="modal-dialogue-content">
-            <!-- Model Olympiad Round Walkthrough -->
-          </div>
-        </div>
-      </div>
-
-      <!-- Modal Footer -->
-      <div class="case-modal-footer">
-        <div class="modal-footer-nav">
-          <button type="button" class="modal-nav-btn prev" id="modal-prev-case-btn">← Previous Case</button>
-          <span class="modal-case-indicator" id="modal-case-indicator">1 of 8</span>
-          <button type="button" class="modal-nav-btn next" id="modal-next-case-btn">Next Case →</button>
-        </div>
-        <button type="button" class="btn-cta-gold" id="modal-close-action-btn" style="padding: 6px 18px; font-size: 0.82rem;">Done Reading</button>
-      </div>
-    </div>
-  </div>
 
   <!-- SECTION: FOOTER -->
   <footer class="site-footer" id="footer">
@@ -566,7 +497,7 @@
           <ul class="footer-links">
             <li><a href="index.html#about">What is Ethics Olympiad?</a></li>
             <li><a href="index.html#format">Match Anatomy</a></li>
-            <li><a href="cases.html">Past Competition Cases</a></li>
+            <li><a href="cases.html">Resources & Case Vault</a></li>
             <li><a href="index.html#accomplishments">Accomplishments & Medals</a></li>
             <li><a href="index.html#journey">Road to Grand Finals</a></li>
             <li><a href="index.html#why-join">Why Join MPEO</a></li>
@@ -599,6 +530,6 @@
     </div>
   </footer>
 
-  <script src="cases.js"></script>
+  <script src="cases.js?v=10"></script>
 </body>
 </html>
