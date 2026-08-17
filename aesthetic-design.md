@@ -238,7 +238,8 @@ Everything specified in 4.1–4.5 as written: kinetic letter-fall splash, 3-laye
 - **Visual Style**: Dark slate cards with engraved philosopher thumbnails and hover elevation.
 
 ### 5.8 Leadership Team Grid (`<Leadership>`)
-- **Profile cards for all 5 Student Leaders**:
+- **Profile cards for Student Leaders**:
+  - [student] (`[email removed]`)
   - [student] (`[email removed]`)
   - [student] (`[email removed]`)
   - [student] (`[email removed]`)
