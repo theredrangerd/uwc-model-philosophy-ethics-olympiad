@@ -282,12 +282,12 @@
 - **Section Title**: `Leadership Team Contact Details`
 - **Lead Text**: *Have questions or want to learn more? Reach out to any of our student leaders directly via email:*
 - **Leadership Contacts (Exact Roster from Poster)**:
-  - **[student]** — `[email removed]`
-  - **[student]** — `[email removed]`
-  - **[student]** — `[email removed]`
-  - **[student]** — `[email removed]`
-  - **[student]** — `[email removed]`
-  - **[student]** — `[email removed]`
+  - **[student]** (Grade 11) — `[email removed]`
+  - **[student]** (Grade 12) — `[email removed]`
+  - **[student]** (Grade 11) — `[email removed]`
+  - **[student]** (Grade 12) — `[email removed]`
+  - **[student]** (Grade 10) — `[email removed]`
+  - **[student]** (Grade 11) — `[email removed]`
 
 ---
 

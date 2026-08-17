@@ -1444,7 +1444,37 @@ img {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--color-gold-primary);
-  margin-bottom: 14px;
+  margin-bottom: 6px;
+}
+
+.leader-grade-badge {
+  display: inline-block;
+  font-family: var(--font-badge);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  margin-bottom: 12px;
+}
+
+.leader-grade-badge.grade-12 {
+  background: rgba(212, 175, 55, 0.15);
+  border: 1px solid rgba(212, 175, 55, 0.45);
+  color: #FFE082;
+}
+
+.leader-grade-badge.grade-11 {
+  background: rgba(192, 199, 208, 0.12);
+  border: 1px solid rgba(192, 199, 208, 0.35);
+  color: #E2E8F0;
+}
+
+.leader-grade-badge.grade-10 {
+  background: rgba(205, 127, 50, 0.12);
+  border: 1px solid rgba(205, 127, 50, 0.35);
+  color: #F6AD55;
 }
 
 .leader-email-link {
