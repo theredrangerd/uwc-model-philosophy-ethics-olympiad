@@ -112,44 +112,61 @@ The case reader employs a synchronized **two-pane split layout** inspired by hig
      - First, the structured summary card with key takeaway pills.
      - Followed by a direct "View Official Case PDF" button and responsive viewer drawer.
 
+### 3.3 Authentic Tournament Case Pack Repository (`assets/ethicsresources/`)
+
+The archive directly links and embeds three authentic, official competition case sets collected from our tournament campaigns:
+
+| Tournament Case Pack | File Location | Size | Associated Team Milestone |
+| :--- | :--- | :--- | :--- |
+| **Senior High School Ethics Olympiad 2026 Case Set** | `assets/ethicsresources/EthicsOlympiadSHSCases2026.pdf` | `534 KB` | 🥉 **3rd Place Bronze Medalist** / Finalist Award |
+| **TKEthics Fall 2025 Invitational Case Set** | `assets/ethicsresources/2025 TKEthics Fall CASE SET.pdf` | `449 KB` | 🥈 **2nd Place Invitational** Silver Trophy |
+| **TKEthics International Grand Final 2026 Case Set** | `assets/ethicsresources/Case Set_ TKEthics International Grand Final 2026.pdf` | `314 KB` | 🌐 **International Grand Finals** Bid (Aug 29, 2026) |
+
+Each case in our interactive explorer is mapped directly to its official source page within these three PDF case sets, enabling students to read our structured Socratic breakdown on the left while viewing or downloading the verbatim tournament prompt on the right.
+
 ---
 
-## 4. Classroom Slideshow Architecture: Google Slides Engine
+## 4. Classroom Slideshow Architecture: Interactive Presentation Engine
 
-*(Selected Implementation: Embedded Google Slides)*
+*(Selected Implementation: Embedded Presentation Player — Canva & Web Slides)*
 
 ### 4.1 Design Specification
 Training slide decks used in weekly club meetings (Math Block Room 204) are showcased in a responsive, branded presentation theatre.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│ ✦ WORKSHOP DECK: MASTERING THE 4-STEP MATCH ANATOMY & SCORING RUBRIC ✦      │
+│ ✦ FEATURED WORKSHOP DECK: ETHICS OLYMPIAD TRAINING & STRATEGY ✦             │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │ ┌─────────────────────────────────────────────────────────────────────────┐ │
 │ │                                                                         │ │
-│ │                         GOOGLE SLIDES EMBED                             │ │
+│ │                  CANVA / WEB PRESENTATION PLAYER EMBED                  │ │
 │ │                         (16:9 Aspect Ratio)                             │ │
 │ │                                                                         │ │
-│ │      Slide 1: Anatomy of an Ethics Olympiad Round (5m/3m/3m/7m)         │ │
+│ │               https://www.canva.com/design/DAHDJAJqyf4/...              │ │
 │ │                                                                         │ │
 │ └─────────────────────────────────────────────────────────────────────────┘ │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│ [⏮ Prev Slide] [Next Slide ⏭]   [⛶ Fullscreen]   [📥 Download Slides PDF]    │
+│ [⏮ Prev Slide] [Next Slide ⏭]   [⛶ Fullscreen]   [🔗 Open on Canva ↗]       │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│ 💡 STUDENT LEADER SPEAKER NOTES & JUDGE RUBRIC CORRELATION                  │
-│ • "Focus on clear thesis statement in minute 1. Judges reward intellectual │
+│ 💡 SQUAD STRATEGY & JUDGE RUBRIC CORRELATION                                │
+│ • "Focus on clear thesis statement in minute 1. Judges reward intellectual  │
 │   humility and trade-off acknowledgement over rigid stubbornness."          │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-### 4.2 Core Features
-1. **Responsive 16:9 Frame**: Custom container with CSS `aspect-ratio: 16 / 9` and dual-hairline gold architectural borders (`border: 1px solid rgba(212, 175, 55, 0.3)`).
-2. **Workshop Deck Selector**: An interactive carousel/tab bar allowing members to switch between available presentations:
-   - **Deck 01**: *Match Format & Round Anatomy* (5m / 3m / 3m / 7m breakdown).
-   - **Deck 02**: *Applying Moral Frameworks Without Being Dogmatic*.
-   - **Deck 03**: *How to Navigate Judges' Cross-Examination*.
-   - **Deck 04**: *Constructive Critique & Socratic Commentary*.
-3. **Companion Speaker & Judge Notes**: An expandable drawer beneath each slide deck providing insider commentary from our experienced varsity competitors on what judges specifically look for.
+### 4.2 Active Presentation Assets
+- **Primary Workshop Deck (Canva)**:
+  - **Live URL**: `https://www.canva.com/design/DAHDJAJqyf4/USw1uX0zH_7bXgzmmbaBqg/view`
+  - **Embed Source**: `https://www.canva.com/design/DAHDJAJqyf4/USw1uX0zH_7bXgzmmbaBqg/view?embed`
+  - **Container**: 16:9 CSS aspect ratio box wrapped in a dark slate card with dual-hairline gold architectural borders (`rgba(212, 175, 55, 0.3)`).
+
+### 4.3 Core Features
+1. **Responsive 16:9 Frame**: Custom container with CSS `aspect-ratio: 16 / 9`, `border-radius: 12px`, and hardware-accelerated rendering.
+2. **Integrated Player Controls**:
+   - Built-in slide forward/backward navigation.
+   - 1-click **Full Screen Toggle (`⛶`)**.
+   - Direct link to **"Open on Canva ↗"** or download presentation copy.
+3. **Companion Speaker & Judge Notes**: An expandable accordion below the deck highlighting varsity tips on scoring high points in tournament rounds.
 
 ---
 
