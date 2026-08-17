@@ -257,12 +257,15 @@ const interestStatus = document.getElementById('interest-status');
 if (interestForm) {
   interestForm.addEventListener('submit', async (e) => {
     e.preventDefault();
-    const email = interestEmail.value.trim();
+    const input = interestEmail.value.trim();
 
-    if (!email || !email.includes('@')) {
-      showFormStatus('Please enter a valid student email address.', 'error');
+    if (!input) {
+      showFormStatus('Please enter your school ID or email address.', 'error');
       return;
     }
+
+    // Auto-complete school domain if only username prefix is entered
+    const email = input.includes('@') ? input : `${input}@gapps.uwcsea.edu.sg`;
 
     // Set loading state
     interestSubmitBtn.disabled = true;

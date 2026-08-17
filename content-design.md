@@ -140,7 +140,7 @@
       *"Two HS teams from MPEO competed in the international Senior Ethics Olympiad; one of which achieved a bronze medal finalist award. Our team is now headed to the International Grand Finals on August 29, 2026."*
     - **Box 2: `SOCIETY HIGHLIGHTS`**
       - **No prior experience needed**: *"No matter what your experience of philosophy or ethics is, you'll still be able to participate and learn alongside others."*
-      - **Competition preparation**: *"If you join this academic year you will have the opportunity to take part in the 2027 Senior Ethics Olympiad — an event that we will prepare you and your team for."*
+      - **2026 UWC Ethics Olympiad**: *"If you join this academic year you will immediately get competition experience and possible awards."*
 
 ---
 
@@ -225,9 +225,11 @@
   3. 🥉 **Phase 3: Senior School Ethics Olympiad (May 2026)**
      *Competed against the strongest teams across the continent, securing the **Bronze Medalist / Finalist Award** before an international panel of judges.*
   4. 🌐 **Phase 4: The International Grand Finals — August 29, 2026**
-     *Invited to the highest echelon of competitive ethics, our team will match wits with global regional winners on the world stage. **(Upcoming — frame as a countdown/anticipation node, not a past event.)***
-  5. 🚀 **Phase 5: The 2027 Senior Ethics Olympiad (Your Opportunity!)**
-     *If you join MPEO, you will train directly alongside our medalists and represent our school on the 2027 competition roster.*
+     *Invited to the highest echelon of competitive ethics, our team will represent our school against global champions on the international stage.*
+  5. 🏆 **Phase 5: In-School Ethics Olympiad (November 2026 — Your First Arena!)**
+     *Organised directly by our student leadership team right here at school. Sign up early to gain immediate tournament experience, debate live dilemmas, and contend for awards soon in Term 1.*
+  6. 🚀 **Phase 6: The 2027 Senior Ethics Olympiad (Your Next Stage!)**
+     *Receive direct mentorship from our medalists, refine your argumentative agility, and earn your place on our 2027 international championship competition roster.*
 
 ---
 
@@ -272,7 +274,7 @@
 ### Section 10: Society Highlights & Why Join MPEO?
 - **Highlight Cards**:
   1. **No Prior Experience Needed**: Open to everyone. We build your confidence and debate skills from ground zero.
-  2. **Competition Preparation for 2027**: Structured coaching and scrimmage pathways to prepare you for the upcoming 2027 Senior Ethics Olympiad.
+  2. **November Olympiad & Awards**: Compete soon after joining! Our leadership team is organising an in-school Ethics Olympiad this November so you gain early competition experience and contend for awards.
   3. **Premier Academic Profile**: Build high-level critical thinking, oral persuasion, and philosophical literacy recognized by top global universities.
   4. **Dynamic & Supportive Community**: Join a vibrant group of passionate thinkers where intellectual debate is fun, collaborative, and friendly.
 
@@ -305,10 +307,13 @@
 4. **Q: What happens at a typical Wednesday meeting?**
    *A: We explore an exciting philosophical theory or real-world controversy, break into small groups to analyze a case study, and run a friendly mini-deliberation round.*
 
-5. **Q: Can I participate if I also have sports or music commitments?**
+5. **Q: When is the earliest I can compete and win awards in Ethics Olympiad?**
+   *A: Very soon! Our student leadership team is organising an internal Ethics Olympiad right here at school around November. Signing up early on CIMS ensures you get hands-on training, early tournament experience, and an opportunity to compete for awards in Term 1 before the 2027 Senior Ethics Olympiad season begins.*
+
+6. **Q: Can I participate if I also have sports or music commitments?**
    *A: Yes! Our regular society meetings run on Wednesdays, and we offer flexible participation tracks for students balancing multiple activities.*
 
-6. **Q: Does filling out the email form on this site register me for MPEO?**
+7. **Q: Does filling out the email form on this site register me for MPEO?**
    *A: No. This site's email form only adds you to our interest list — it is not an official membership registration. To officially join, register through CIMS.*
 
 ---

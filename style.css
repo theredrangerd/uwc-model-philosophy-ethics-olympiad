@@ -710,6 +710,41 @@ img {
   color: var(--color-text-secondary);
 }
 
+.november-callout-box {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(22, 25, 30, 0.7) 100%);
+  border: 1px solid var(--color-border-gold);
+  border-left: 4px solid var(--color-gold-primary);
+  padding: 16px 20px;
+  border-radius: var(--radius-md);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+}
+
+.november-callout-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.november-callout-icon {
+  font-size: 1.25rem;
+}
+
+.november-callout-header h4 {
+  font-family: var(--font-display);
+  font-size: 1.02rem;
+  color: var(--color-gold-hover);
+  letter-spacing: 0.03em;
+  margin: 0;
+}
+
+.november-callout-box p {
+  font-size: 0.9rem;
+  color: var(--color-text-primary);
+  line-height: 1.55;
+  margin: 0;
+}
+
 .cims-instructions {
   background: rgba(0, 0, 0, 0.35);
   border-left: 3px solid var(--color-gold-primary);
@@ -1104,28 +1139,28 @@ img {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  width: 44px;
-  height: 44px;
+  width: 52px;
+  height: 52px;
   border-radius: 50%;
   background: #16191E;
   border: 2px solid var(--color-gold-primary);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   z-index: 2;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.85), 0 0 12px rgba(212, 175, 55, 0.2);
   transition: var(--transition-normal);
 }
 
 .timeline-item.active .timeline-node {
-  box-shadow: 0 0 20px var(--color-gold-glow);
+  box-shadow: 0 0 22px var(--color-gold-glow), 0 0 8px rgba(212, 175, 55, 0.5);
   background: var(--color-gold-primary);
   color: #0E1013;
 }
 
 .timeline-content-card {
-  width: calc(50% - 44px);
+  width: calc(50% - 46px);
   background: var(--color-bg-secondary);
   border: 1px solid var(--color-border-subtle);
   border-radius: var(--radius-md);
@@ -1160,6 +1195,61 @@ img {
   font-size: 0.9rem;
   color: var(--color-text-secondary);
   line-height: 1.6;
+}
+
+/* Special Authorial Dark Antique Bronze/Beige Spotlight Timeline Cards */
+.timeline-content-card.card-parchment {
+  background: linear-gradient(145deg, #282115 0%, #18140D 100%) !important;
+  border: 2px solid var(--color-gold-primary) !important;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.75), 0 0 28px rgba(212, 175, 55, 0.3) !important;
+  position: relative;
+  overflow: hidden;
+  transition: var(--transition-normal);
+}
+
+.timeline-content-card.card-parchment::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #997A1E, #D4AF37, #F3CE5E, #D4AF37, #997A1E);
+}
+
+.timeline-content-card.card-parchment:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.85), 0 0 36px rgba(212, 175, 55, 0.45) !important;
+  border-color: var(--color-gold-hover) !important;
+}
+
+.timeline-phase-tag.tag-parchment {
+  color: var(--color-gold-hover) !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.14em;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+.timeline-phase-title.title-parchment {
+  color: #FFFFFF !important;
+  font-size: 1.25rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.04em;
+}
+
+.timeline-phase-desc.desc-parchment {
+  color: #DDD4C4 !important;
+  font-weight: 400 !important;
+  line-height: 1.65 !important;
+}
+
+.timeline-node.node-parchment {
+  background: linear-gradient(135deg, #F3CE5E, #D4AF37) !important;
+  border: 2px solid #FFFFFF !important;
+  color: #0E1013 !important;
+  box-shadow: 0 0 24px rgba(212, 175, 55, 0.75), 0 4px 14px rgba(0, 0, 0, 0.6) !important;
+  transform: translateX(-50%) scale(1.08);
+  font-size: 1.55rem !important;
 }
 
 /* ==========================================================================
@@ -1769,16 +1859,16 @@ img {
   }
 
   .timeline-spine {
-    left: 24px;
+    left: 26px;
   }
 
   .timeline-item, .timeline-item:nth-child(odd) {
     flex-direction: row;
-    padding-left: 60px;
+    padding-left: 70px;
   }
 
   .timeline-node {
-    left: 24px;
+    left: 26px;
   }
 
   .timeline-content-card {

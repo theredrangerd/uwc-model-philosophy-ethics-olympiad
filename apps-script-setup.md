@@ -37,18 +37,23 @@ function doPost(e) {
   var email = '';
 
   try {
-    // Handles JSON body: { "email": "student@example.com" }
+    // Handles JSON body: { "email": "student@example.com" } or { "email": "[id removed]" }
     var data = JSON.parse(e.postData.contents);
-    email = data.email;
+    email = data.email ? String(data.email).trim() : '';
   } catch (err) {
     // Fallback: handles a plain form-encoded POST (e.parameter.email)
-    email = e.parameter.email;
+    email = e.parameter.email ? String(e.parameter.email).trim() : '';
   }
 
-  if (!email || email.indexOf('@') === -1) {
+  if (!email) {
     return ContentService.createTextOutput(
-      JSON.stringify({ result: 'error', message: 'Invalid email' })
+      JSON.stringify({ result: 'error', message: 'Empty input' })
     ).setMimeType(ContentService.MimeType.JSON);
+  }
+
+  // Auto-complete domain if student provided ID prefix only
+  if (email.indexOf('@') === -1) {
+    email += '@gapps.uwcsea.edu.sg';
   }
 
   sheet.appendRow([new Date(), email]);
@@ -58,7 +63,7 @@ function doPost(e) {
   //   'New MPEO Interest Signup', 'New email: ' + email);
 
   return ContentService.createTextOutput(
-    JSON.stringify({ result: 'success' })
+    JSON.stringify({ result: 'success', email: email })
   ).setMimeType(ContentService.MimeType.JSON);
 }
 ```
