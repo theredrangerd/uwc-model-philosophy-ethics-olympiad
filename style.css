@@ -1385,14 +1385,31 @@ img {
 }
 
 /* ==========================================================================
-   SECTION 11: LEADERSHIP TEAM GRID (3x2 Array)
+   SECTION 11: LEADERSHIP TEAM GRID (Grade-Tiered Layout: 2 / 3 / 1)
    ========================================================================== */
-.leadership-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+.leadership-tiered-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
   max-width: 1080px;
   margin: 0 auto;
+}
+
+.leadership-row {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.leadership-row .leader-card {
+  flex: 1 1 280px;
+  max-width: 320px;
+  min-width: 260px;
+}
+
+.leadership-row-1 .leader-card {
+  max-width: 340px;
 }
 
 .leader-card {
@@ -1735,11 +1752,6 @@ img {
     grid-template-columns: 1fr;
   }
 
-  .leadership-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-
   .stepper-nav {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1790,11 +1802,6 @@ img {
 
   .logistics-card-wrapper {
     padding: 24px 16px;
-  }
-
-  .leadership-grid {
-    grid-template-columns: 1fr;
-    gap: 16px;
   }
 
   .interest-form {
