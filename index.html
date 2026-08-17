@@ -70,13 +70,13 @@
 
         <ul class="nav-menu" id="nav-menu">
           <li><a href="#about" class="nav-link">About</a></li>
-          <li><a href="#logistics" class="nav-link">Logistics & QR</a></li>
+          <li><a href="#format" class="nav-link">Match Format</a></li>
           <li><a href="#accomplishments" class="nav-link">Accomplishments</a></li>
           <li><a href="#journey" class="nav-link">Journey</a></li>
-          <li><a href="#format" class="nav-link">Match Format</a></li>
-          <li><a href="#curriculum" class="nav-link">Topics</a></li>
+          <li><a href="#why-join" class="nav-link">Why Join</a></li>
           <li><a href="#leadership" class="nav-link">Leadership</a></li>
           <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li><a href="#logistics" class="nav-link">Logistics & QR</a></li>
         </ul>
 
         <div style="display: flex; align-items: center; gap: 12px;">
@@ -161,7 +161,531 @@
       </div>
     </section>
 
-    <!-- SECTION 3: KEY LOGISTICS, QR CODE & HOW TO REGISTER -->
+    <!-- SECTION 3: WHAT IS THE ETHICS OLYMPIAD? -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">CIVIL DISCOURSE & PHILOSOPHICAL INQUIRY</div>
+          <h2 class="section-title">What is the Ethics Olympiad?</h2>
+          <p class="section-subtitle">A unique arena where constructive cooperation replaces combative argument.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Text & Comparison Column -->
+          <div>
+            <div class="verbatim-quote-box">
+              <p>
+                "The Ethics Olympiad, an event characterised by competition and cooperation, enables students to engage in discussions on current, real-life ethical dilemmas."
+              </p>
+              <p>
+                "The activity encourages students to deliberate on moral issues together, mirroring the complex moral and political interactions of our society. Students participating in this activity will be taught in a way that prepares them for attending the competition. They will be able to understand more about philosophical theories and how ethics plays a role in the real world, while also applying them to debates to challenge each other's thinking."
+              </p>
+            </div>
+
+            <div class="distinction-cards">
+              <div class="distinction-card">
+                <div class="distinction-title">
+                  <span>⚖️</span>
+                  <span>Constructive, Not Combative</span>
+                </div>
+                <div class="distinction-desc">
+                  Unlike traditional debate where you are forced to attack arbitrary positions, the Ethics Olympiad rewards teams for discovering common ground, recognizing nuances, and strengthening collective moral arguments.
+                </div>
+              </div>
+
+              <div class="distinction-card">
+                <div class="distinction-title">
+                  <span>🌐</span>
+                  <span>Real-World Dilemmas</span>
+                </div>
+                <div class="distinction-desc">
+                  Analyze complex case studies crafted by international ethicists covering AI governance, biomedical technology, environmental justice, and international law.
+                </div>
+              </div>
+
+              <div class="distinction-card">
+                <div class="distinction-title">
+                  <span>🎓</span>
+                  <span>Judged by Professional Ethicists</span>
+                </div>
+                <div class="distinction-desc">
+                  Rounds are evaluated by university philosophers and legal scholars who score philosophical consistency, clarity, empathy, and intellectual humility rather than mere rhetoric.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sculpture & Scales Visual -->
+          <div>
+            <div class="lady-justice-frame">
+              <img src="assets/lady-justice.jpg" alt="Classical Lady Justice Statue holding Golden Scales" loading="lazy">
+              <div class="lady-justice-overlay">
+                <div class="lady-justice-tag">✦ Equilibrium & Moral Rigor ✦</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: ANATOMY OF A MATCH (4-STEP ROUND STEPPER) -->
+    <section class="section" id="format" style="background: rgba(14, 16, 20, 0.75);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">COMPETITION MECHANICS</div>
+          <h2 class="section-title">Anatomy of an Olympiad Round</h2>
+          <p class="section-subtitle">Unlike combative debate, an Ethics Olympiad round is structured into 4 civil, collaborative stages.</p>
+        </div>
+
+        <div class="stepper-nav" id="match-stepper-tabs" role="tablist">
+          <button class="stepper-tab active" data-step="1" role="tab" aria-selected="true">
+            <div class="step-num">STEP 01</div>
+            <div class="step-name">Ethical Presentation</div>
+            <div class="step-time-pill">5 Minutes</div>
+          </button>
+
+          <button class="stepper-tab" data-step="2" role="tab" aria-selected="false">
+            <div class="step-num">STEP 02</div>
+            <div class="step-name">Collaborative Response</div>
+            <div class="step-time-pill">3 Minutes</div>
+          </button>
+
+          <button class="stepper-tab" data-step="3" role="tab" aria-selected="false">
+            <div class="step-num">STEP 03</div>
+            <div class="step-name">Synthesis & Commentary</div>
+            <div class="step-time-pill">3 Minutes</div>
+          </button>
+
+          <button class="stepper-tab" data-step="4" role="tab" aria-selected="false">
+            <div class="step-num">STEP 04</div>
+            <div class="step-name">Judges' Socratic Q&A</div>
+            <div class="step-time-pill">10 Minutes</div>
+          </button>
+        </div>
+
+        <div class="stepper-display-card" id="stepper-content">
+          <!-- Dynamic Step Content Rendered by JS -->
+          <div id="step-main-info">
+            <h3 class="step-detail-title" id="step-title">1. Presentation of Position</h3>
+            <p class="step-detail-desc" id="step-desc">
+              Team A presents their structured philosophical stance on an unannounced ethical case study, articulating conflicting values, identifying key stakeholders, and applying relevant moral frameworks.
+            </p>
+            <ul class="step-key-principles" id="step-principles">
+              <li>Articulate primary moral conflict and stakeholder interests</li>
+              <li>Apply rigorous philosophical theories (e.g., Deontology, Utilitarianism, Virtue Ethics)</li>
+              <li>Address counter-arguments and acknowledge moral trade-offs</li>
+            </ul>
+          </div>
+
+          <div class="step-tactics-box" id="step-tactics">
+            <div class="step-tactics-header">✦ Tactical Focus & Socratic Value</div>
+            <p class="step-tactics-text" id="step-tactics-text">
+              "Clarity of thought and consistency of reasoning are evaluated above theatrical oratory. Avoid dogmatism; embrace intellectual nuance."
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: STUDENT VOICE (TESTIMONIAL SPOTLIGHT) -->
+    <section class="section testimonial-section" id="testimonial">
+      <div class="container">
+        <div class="testimonial-card">
+          <div class="testimonial-quote-mark">“</div>
+          <p class="testimonial-quote-text">
+            "Before joining MPEO, I thought philosophy was just abstract theory in old books. The Olympiad completely changed how I think: it taught us how to listen closely, deconstruct real crises together, and defend nuanced moral stances with clarity and empathy."
+          </p>
+          <div class="testimonial-author">MPEO Competitive Squad</div>
+          <div class="testimonial-role">Senior School Ethics Olympiad Medalist Team</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: OUR ACCOMPLISHMENTS (HALL OF PRESTIGE) -->
+    <section class="section" id="accomplishments" style="background: radial-gradient(circle at 50% 50%, #15181F 0%, #0E1013 100%);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">PROVEN COMPETITIVE SUCCESS</div>
+          <h2 class="section-title">Our Accomplishments</h2>
+          <p class="section-subtitle">In the 2026 competition circuit, MPEO proved its standing as a premier philosophical delegation.</p>
+        </div>
+
+        <div class="accomplishments-grid">
+          <!-- Card 1: 2nd Place TKEthics Invitational Fall 2025 -->
+          <div class="award-card silver">
+            <div>
+              <div class="award-medal-badge silver">🥈</div>
+              <h3 class="award-rank">2nd Place</h3>
+              <div class="award-tournament">TKEthics Invitational Fall 2025</div>
+              <p class="award-desc">
+                Silver finish (Nov, 2025) against elite regional debate squads, demonstrating mastery of spontaneous moral triage, multi-framework analysis, and collaborative dialogue.
+              </p>
+            </div>
+            <div class="section-tag" style="background: rgba(192, 199, 208, 0.1); border-color: rgba(192, 199, 208, 0.3); color: var(--color-silver);">
+              ✦ Podium Silver Finish
+            </div>
+          </div>
+
+          <!-- Card 2: 3rd Place Senior Ethics Olympiad -->
+          <div class="award-card bronze">
+            <div>
+              <div class="award-medal-badge bronze">🥉</div>
+              <h3 class="award-rank">3rd Place</h3>
+              <div class="award-tournament">Senior School Ethics Olympiad</div>
+              <p class="award-desc">
+                Out of dozens of competing high school teams, MPEO advanced to the grand podium, celebrated for analytical rigor, ethical depth, and exceptional team cohesion.
+              </p>
+            </div>
+            <div class="section-tag" style="background: rgba(205, 127, 50, 0.1); border-color: rgba(205, 127, 50, 0.3); color: var(--color-bronze);">
+              ✦ Bronze Medalist & Finalist Award
+            </div>
+          </div>
+
+          <!-- Card 3: International Grand Finals Invitation (Upcoming) -->
+          <div class="award-card gold-finals">
+            <div>
+              <div class="award-medal-badge gold">🌐</div>
+              <h3 class="award-rank">Grand Finals</h3>
+              <div class="award-tournament">International Ethics Olympiad</div>
+              <p class="award-desc">
+                Following our regional medal finish, MPEO earned an exclusive invitation to represent our school at the International Grand Finals, matching wits with champion delegations worldwide.
+              </p>
+            </div>
+            <div class="countdown-box">
+              <div class="countdown-label">✦ Countdown to Grand Finals ✦</div>
+              <div class="countdown-digits" id="grand-finals-countdown">
+                <div><span id="cd-days">--</span><span class="countdown-unit">Days</span></div>
+                <div>:</div>
+                <div><span id="cd-hours">--</span><span class="countdown-unit">Hours</span></div>
+                <div>:</div>
+                <div><span id="cd-mins">--</span><span class="countdown-unit">Mins</span></div>
+                <div>:</div>
+                <div><span id="cd-secs">--</span><span class="countdown-unit">Secs</span></div>
+              </div>
+              <div style="font-size: 0.72rem; color: var(--color-gold-hover); margin-top: 6px;">
+                August 29, 2026 • World Stage
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: ROAD TO GRAND FINALS (VISUAL TIMELINE) -->
+    <section class="section" id="journey">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">PROVEN TRAJECTORY & YOUR PATHWAY</div>
+          <h2 class="section-title">The Road to Grand Finals</h2>
+          <p class="section-subtitle">Every champion on our roster started with zero philosophy background in Math Block 204.</p>
+        </div>
+
+        <div class="timeline-wrapper" id="timeline-container">
+          <div class="timeline-spine">
+            <div class="timeline-spine-progress" id="timeline-progress-bar"></div>
+          </div>
+
+          <!-- Node 1: Foundations -->
+          <div class="timeline-item active">
+            <div class="timeline-node">🏛️</div>
+            <div class="timeline-content-card">
+              <div class="timeline-phase-tag">Phase 1 • Term 1</div>
+              <h3 class="timeline-phase-title">Foundations & Socratic Salons</h3>
+              <p class="timeline-phase-desc">
+                Weekly Wednesday workshops in Math Block 204. Master the 10 core frameworks, dissect real-world cases, and forge unbreakable team chemistry.
+              </p>
+            </div>
+          </div>
+
+          <!-- Node 2: TKEthics Invitational Fall 2025 -->
+          <div class="timeline-item active">
+            <div class="timeline-node">🥈</div>
+            <div class="timeline-content-card">
+              <div class="timeline-phase-tag">Phase 2 • Nov, 2025</div>
+              <h3 class="timeline-phase-title">TKEthics Invitational Fall 2025</h3>
+              <p class="timeline-phase-desc">
+                Our squad achieved <strong>2nd Place Overall</strong>, advancing through grueling rounds with sharp deconstructions of biomedical and artificial intelligence cases.
+              </p>
+            </div>
+          </div>
+
+          <!-- Node 3: Senior School Ethics Olympiad -->
+          <div class="timeline-item active">
+            <div class="timeline-node">🥉</div>
+            <div class="timeline-content-card">
+              <div class="timeline-phase-tag">Phase 3 • May 2026</div>
+              <h3 class="timeline-phase-title">Senior School Ethics Olympiad</h3>
+              <p class="timeline-phase-desc">
+                Matched against top regional high schools to claim the <strong>Bronze Medalist / Finalist Award</strong> before an international panel of ethics professors.
+              </p>
+            </div>
+          </div>
+
+          <!-- Node 4: International Grand Finals -->
+          <div class="timeline-item active">
+            <div class="timeline-node" style="border-color: var(--color-gold-hover);">🌐</div>
+            <div class="timeline-content-card" style="border-color: var(--color-gold-primary);">
+              <div class="timeline-phase-tag" style="color: var(--color-gold-hover);">Phase 4 • August 29, 2026 (Upcoming)</div>
+              <h3 class="timeline-phase-title">International Grand Finals</h3>
+              <p class="timeline-phase-desc">
+                Invited to the highest echelon of competitive ethics, our team will represent our school against global champions on the international stage.
+              </p>
+            </div>
+          </div>
+
+          <!-- Node 5: In-School Olympiad (New Member Milestone) -->
+          <div class="timeline-item timeline-item-parchment">
+            <div class="timeline-node node-parchment">🏆</div>
+            <div class="timeline-content-card card-parchment">
+              <div class="timeline-phase-tag tag-parchment">✦ Phase 5 • November 2026 (Your First Arena!) ✦</div>
+              <h3 class="timeline-phase-title title-parchment">In-School Ethics Olympiad</h3>
+              <p class="timeline-phase-desc desc-parchment">
+                Organised directly by our student leadership team right here at school. Sign up early to gain immediate tournament experience, debate live dilemmas, and contend for awards soon.
+              </p>
+            </div>
+          </div>
+
+          <!-- Node 6: 2027 Season -->
+          <div class="timeline-item timeline-item-parchment">
+            <div class="timeline-node node-parchment">🚀</div>
+            <div class="timeline-content-card card-parchment">
+              <div class="timeline-phase-tag tag-parchment">✦ Phase 6 • 2027 Season (Your Next Stage!) ✦</div>
+              <h3 class="timeline-phase-title title-parchment">2027 Senior Ethics Olympiad</h3>
+              <p class="timeline-phase-desc desc-parchment">
+                Receive direct mentorship from our medalists, refine your argumentative agility, and earn your place on our 2027 international championship competition roster.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 8: WHY JOIN MPEO -->
+    <section class="section" id="why-join" style="background: radial-gradient(circle at 50% 50%, #15181F 0%, #0E1013 100%);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">COMMUNITY & PREPARATION</div>
+          <h2 class="section-title">Why Join MPEO?</h2>
+          <p class="section-subtitle">What makes the Model Philosophy Ethics Olympiad one of the school's most rewarding activities.</p>
+        </div>
+
+        <div class="highlights-grid">
+          <div class="highlight-feature-card">
+            <div class="highlight-icon-circle">🌱</div>
+            <h3 class="highlight-title">No Prior Experience Needed</h3>
+            <p class="highlight-desc">
+              Open to all students from Grade 9 to 12. We teach you moral philosophy and tournament strategies from ground zero.
+            </p>
+          </div>
+
+          <div class="highlight-feature-card">
+            <div class="highlight-icon-circle">🏆</div>
+            <h3 class="highlight-title">November Olympiad & Awards</h3>
+            <p class="highlight-desc">
+              Compete soon after joining! Our leadership team is organising an in-school Ethics Olympiad this November so you gain early competition experience and contend for awards.
+            </p>
+          </div>
+
+          <div class="highlight-feature-card">
+            <div class="highlight-icon-circle">🎓</div>
+            <h3 class="highlight-title">Premier Academic Profile</h3>
+            <p class="highlight-desc">
+              Develop world-class critical thinking, oral argumentation, and philosophical literacy prized by global top universities.
+            </p>
+          </div>
+
+          <div class="highlight-feature-card">
+            <div class="highlight-icon-circle">✨</div>
+            <h3 class="highlight-title">Supportive Community</h3>
+            <p class="highlight-desc">
+              Deliberate in an environment where questions are celebrated, friendships are built, and intellectual curiosity thrives.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 9: LEADERSHIP TEAM GRID -->
+    <section class="section" id="leadership">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">STUDENT LEADERSHIP</div>
+          <h2 class="section-title">Leadership Team Contact Details</h2>
+          <p class="section-subtitle">Have questions or want to learn more? Reach out to any of our student leaders directly via email:</p>
+        </div>
+
+        <div class="leadership-tiered-layout">
+          <!-- Top Tier: Grade 12 ([student] & [student]) -->
+          <div class="leadership-row leadership-row-2">
+            <!-- Leader 1: [student] -->
+            <div class="leader-card">
+              <div class="leader-avatar-ph">NZ</div>
+              <h3 class="leader-name">[student]</h3>
+              <div class="leader-role">Student Leader</div>
+              <span class="leader-grade-badge grade-12">Grade 12</span>
+              <a href="mailto:[email removed]" class="leader-email-link">[email removed]</a>
+            </div>
+
+            <!-- Leader 2: [student] -->
+            <div class="leader-card">
+              <div class="leader-avatar-ph">NG</div>
+              <h3 class="leader-name">[student]</h3>
+              <div class="leader-role">Student Leader</div>
+              <span class="leader-grade-badge grade-12">Grade 12</span>
+              <a href="mailto:[email removed]" class="leader-email-link">[email removed]</a>
+            </div>
+          </div>
+
+          <!-- Middle Tier: Grade 11 ([student], [student], [student]) -->
+          <div class="leadership-row leadership-row-3">
+            <!-- Leader 3: [student] -->
+            <div class="leader-card">
+              <div class="leader-avatar-ph">SL</div>
+              <h3 class="leader-name">[student]</h3>
+              <div class="leader-role">Student Leader</div>
+              <span class="leader-grade-badge grade-11">Grade 11</span>
+              <a href="mailto:[email removed]" class="leader-email-link">[email removed]</a>
+            </div>
+
+            <!-- Leader 4: [student] -->
+            <div class="leader-card">
+              <div class="leader-avatar-ph">NA</div>
+              <h3 class="leader-name">[student]</h3>
+              <div class="leader-role">Student Leader</div>
+              <span class="leader-grade-badge grade-11">Grade 11</span>
+              <a href="mailto:[email removed]" class="leader-email-link">[email removed]</a>
+            </div>
+
+            <!-- Leader 5: [student] -->
+            <div class="leader-card">
+              <div class="leader-avatar-ph">AG</div>
+              <h3 class="leader-name">[student]</h3>
+              <div class="leader-role">Student Leader</div>
+              <span class="leader-grade-badge grade-11">Grade 11</span>
+              <a href="mailto:[email removed]" class="leader-email-link">[email removed]</a>
+            </div>
+          </div>
+
+          <!-- Bottom Tier: Grade 10 ([student]) -->
+          <div class="leadership-row leadership-row-1">
+            <!-- Leader 6: [student] -->
+            <div class="leader-card">
+              <div class="leader-avatar-ph">LQ</div>
+              <h3 class="leader-name">[student]</h3>
+              <div class="leader-role">Student Leader</div>
+              <span class="leader-grade-badge grade-10">Grade 10</span>
+              <a href="mailto:[email removed]" class="leader-email-link">[email removed]</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 10: FREQUENTLY ASKED QUESTIONS (FAQ) -->
+    <section class="section" id="faq" style="background: rgba(14, 16, 20, 0.6);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">QUESTIONS & CLARIFICATIONS</div>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">Common questions from prospective members and LifeCon visitors.</p>
+        </div>
+
+        <div class="faq-container">
+          <!-- FAQ 1 -->
+          <div class="faq-item">
+            <button class="faq-question-btn" aria-expanded="false">
+              <span>Do I need any previous experience with philosophy or debate?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Absolutely not! Our society welcomes students of all experience levels. We guide you step-by-step through every ethical framework, case analysis method, and competition strategy.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item">
+            <button class="faq-question-btn" aria-expanded="false">
+              <span>How does Ethics Olympiad differ from Model United Nations (MUN) or traditional debate?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                In traditional debate, the goal is to defeat an opponent by defending a rigid assigned stance. In Ethics Olympiad, teams are judged on philosophical rigor, depth of analysis, nuance, and constructive, civil collaboration.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item">
+            <button class="faq-question-btn" aria-expanded="false">
+              <span>How can I earn a spot on the competitive team for tournaments?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                We run internal practice scrimmages using official competition case packs. All interested members are encouraged to try out, and teams are formed based on enthusiasm, teamwork, and critical thinking.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item">
+            <button class="faq-question-btn" aria-expanded="false">
+              <span>What happens at a typical Wednesday meeting?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                We explore an exciting philosophical theory or real-world controversy, break into small groups to analyze a case study, and run a friendly mini-deliberation round.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="faq-item">
+            <button class="faq-question-btn" aria-expanded="false">
+              <span>When is the earliest I can compete and win awards in Ethics Olympiad?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Very soon! Our student leadership team is organising an internal Ethics Olympiad right here at school around November. Signing up early on CIMS ensures you get hands-on training, early tournament experience, and an opportunity to compete for awards in Term 1 before the 2027 Senior Ethics Olympiad season begins.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 6 -->
+          <div class="faq-item">
+            <button class="faq-question-btn" aria-expanded="false">
+              <span>Can I participate if I also have sports or music commitments?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Yes! Our regular society meetings run on Wednesdays, and we offer flexible participation tracks for students balancing multiple activities.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 7 -->
+          <div class="faq-item">
+            <button class="faq-question-btn" aria-expanded="false">
+              <span>Does filling out the email form on this site register me for MPEO?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                No. This site's email form only adds you to our interest list for a friendly reminder. To officially join, please complete registration through your school's CIMS portal.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 11: KEY LOGISTICS, QR CODE & HOW TO REGISTER -->
     <section class="section" id="logistics" style="background: rgba(14, 16, 20, 0.6);">
       <div class="container">
         <div class="section-header">
@@ -278,664 +802,7 @@
       </div>
     </section>
 
-    <!-- SECTION 4: WHAT IS THE ETHICS OLYMPIAD? -->
-    <section class="section" id="about">
-      <div class="container">
-        <div class="section-header">
-          <div class="section-tag">CIVIL DISCOURSE & PHILOSOPHICAL INQUIRY</div>
-          <h2 class="section-title">What is the Ethics Olympiad?</h2>
-          <p class="section-subtitle">A unique arena where constructive cooperation replaces combative argument.</p>
-        </div>
-
-        <div class="about-grid">
-          <!-- Text & Comparison Column -->
-          <div>
-            <div class="verbatim-quote-box">
-              <p>
-                "The Ethics Olympiad, an event characterised by competition and cooperation, enables students to engage in discussions on current, real-life ethical dilemmas."
-              </p>
-              <p>
-                "The activity encourages students to deliberate on moral issues together, mirroring the complex moral and political interactions of our society. Students participating in this activity will be taught in a way that prepares them for attending the competition. They will be able to understand more about philosophical theories and how ethics plays a role in the real world, while also applying them to debates to challenge each other's thinking."
-              </p>
-            </div>
-
-            <div class="distinction-cards">
-              <div class="distinction-card">
-                <div class="distinction-title">
-                  <span>⚖️</span>
-                  <span>Constructive, Not Combative</span>
-                </div>
-                <div class="distinction-desc">
-                  Unlike traditional debate where you are forced to attack arbitrary positions, the Ethics Olympiad rewards teams for discovering common ground, recognizing nuances, and strengthening collective moral arguments.
-                </div>
-              </div>
-
-              <div class="distinction-card">
-                <div class="distinction-title">
-                  <span>🌐</span>
-                  <span>Real-World Dilemmas</span>
-                </div>
-                <div class="distinction-desc">
-                  Analyze complex case studies crafted by international ethicists covering AI governance, biomedical technology, environmental justice, and international law.
-                </div>
-              </div>
-
-              <div class="distinction-card">
-                <div class="distinction-title">
-                  <span>🎓</span>
-                  <span>Judged by Professional Ethicists</span>
-                </div>
-                <div class="distinction-desc">
-                  Rounds are evaluated by university philosophers and legal scholars who score philosophical consistency, clarity, empathy, and intellectual humility rather than mere rhetoric.
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Sculpture & Scales Visual -->
-          <div>
-            <div class="lady-justice-frame">
-              <img src="assets/lady-justice.jpg" alt="Classical Lady Justice Statue holding Golden Scales" loading="lazy">
-              <div class="lady-justice-overlay">
-                <div class="lady-justice-tag">✦ Equilibrium & Moral Rigor ✦</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION 5: OUR ACCOMPLISHMENTS (HALL OF PRESTIGE) -->
-    <section class="section" id="accomplishments" style="background: radial-gradient(circle at 50% 50%, #15181F 0%, #0E1013 100%);">
-      <div class="container">
-        <div class="section-header">
-          <div class="section-tag">PROVEN COMPETITIVE SUCCESS</div>
-          <h2 class="section-title">Our Accomplishments</h2>
-          <p class="section-subtitle">In the 2026 competition circuit, MPEO proved its standing as a premier philosophical delegation.</p>
-        </div>
-
-        <div class="accomplishments-grid">
-          <!-- Card 1: 2nd Place TKE Invitational -->
-          <div class="award-card silver">
-            <div>
-              <div class="award-medal-badge silver">🥈</div>
-              <h3 class="award-rank">2nd Place</h3>
-              <div class="award-tournament">TKE Ethics Fall Invitational</div>
-              <p class="award-desc">
-                Silver finish against elite regional debate squads, demonstrating mastery of spontaneous moral triage, multi-framework analysis, and collaborative dialogue.
-              </p>
-            </div>
-            <div class="section-tag" style="background: rgba(192, 199, 208, 0.1); border-color: rgba(192, 199, 208, 0.3); color: var(--color-silver);">
-              ✦ Podium Silver Finish
-            </div>
-          </div>
-
-          <!-- Card 2: 3rd Place Senior Ethics Olympiad -->
-          <div class="award-card bronze">
-            <div>
-              <div class="award-medal-badge bronze">🥉</div>
-              <h3 class="award-rank">3rd Place</h3>
-              <div class="award-tournament">Senior School Ethics Olympiad</div>
-              <p class="award-desc">
-                Out of dozens of competing high school teams, MPEO advanced to the grand podium, celebrated for analytical rigor, ethical depth, and exceptional team cohesion.
-              </p>
-            </div>
-            <div class="section-tag" style="background: rgba(205, 127, 50, 0.1); border-color: rgba(205, 127, 50, 0.3); color: var(--color-bronze);">
-              ✦ Bronze Medalist & Finalist Award
-            </div>
-          </div>
-
-          <!-- Card 3: International Grand Finals Invitation (Upcoming) -->
-          <div class="award-card gold-finals">
-            <div>
-              <div class="award-medal-badge gold">🌐</div>
-              <h3 class="award-rank">Grand Finals</h3>
-              <div class="award-tournament">International Ethics Olympiad</div>
-              <p class="award-desc">
-                Following our regional medal finish, MPEO earned an exclusive invitation to represent our school at the International Grand Finals, matching wits with champion delegations worldwide.
-              </p>
-            </div>
-            <div class="countdown-box">
-              <div class="countdown-label">✦ Countdown to Grand Finals ✦</div>
-              <div class="countdown-digits" id="grand-finals-countdown">
-                <div><span id="cd-days">--</span><span class="countdown-unit">Days</span></div>
-                <div>:</div>
-                <div><span id="cd-hours">--</span><span class="countdown-unit">Hours</span></div>
-                <div>:</div>
-                <div><span id="cd-mins">--</span><span class="countdown-unit">Mins</span></div>
-                <div>:</div>
-                <div><span id="cd-secs">--</span><span class="countdown-unit">Secs</span></div>
-              </div>
-              <div style="font-size: 0.72rem; color: var(--color-gold-hover); margin-top: 6px;">
-                August 29, 2026 • World Stage
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION 6: STUDENT VOICE (TESTIMONIAL SPOTLIGHT) -->
-    <section class="section testimonial-section" id="testimonial">
-      <div class="container">
-        <div class="testimonial-card">
-          <div class="testimonial-quote-mark">“</div>
-          <p class="testimonial-quote-text">
-            "Before joining MPEO, I thought philosophy was just abstract theory in old books. The Olympiad completely changed how I think: it taught us how to listen closely, deconstruct real crises together, and defend nuanced moral stances with clarity and empathy."
-          </p>
-          <div class="testimonial-author">MPEO Competitive Squad</div>
-          <div class="testimonial-role">Senior School Ethics Olympiad Medalist Team</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION 7: ROAD TO GRAND FINALS (VISUAL TIMELINE) -->
-    <section class="section" id="journey">
-      <div class="container">
-        <div class="section-header">
-          <div class="section-tag">PROVEN TRAJECTORY & YOUR PATHWAY</div>
-          <h2 class="section-title">The Road to Grand Finals</h2>
-          <p class="section-subtitle">Every champion on our roster started with zero philosophy background in Math Block 204.</p>
-        </div>
-
-        <div class="timeline-wrapper" id="timeline-container">
-          <div class="timeline-spine">
-            <div class="timeline-spine-progress" id="timeline-progress-bar"></div>
-          </div>
-
-          <!-- Node 1: Foundations -->
-          <div class="timeline-item active">
-            <div class="timeline-node">🏛️</div>
-            <div class="timeline-content-card">
-              <div class="timeline-phase-tag">Phase 1 • Term 1</div>
-              <h3 class="timeline-phase-title">Foundations & Socratic Salons</h3>
-              <p class="timeline-phase-desc">
-                Weekly Wednesday workshops in Math Block 204. Master the 10 core frameworks, dissect real-world cases, and forge unbreakable team chemistry.
-              </p>
-            </div>
-          </div>
-
-          <!-- Node 2: TKE Fall Invitational -->
-          <div class="timeline-item active">
-            <div class="timeline-node">🥈</div>
-            <div class="timeline-content-card">
-              <div class="timeline-phase-tag">Phase 2 • November 2025</div>
-              <h3 class="timeline-phase-title">TKE Fall Invitational</h3>
-              <p class="timeline-phase-desc">
-                Our squad achieved <strong>2nd Place Overall</strong>, advancing through grueling rounds with sharp deconstructions of biomedical and artificial intelligence cases.
-              </p>
-            </div>
-          </div>
-
-          <!-- Node 3: Senior School Ethics Olympiad -->
-          <div class="timeline-item active">
-            <div class="timeline-node">🥉</div>
-            <div class="timeline-content-card">
-              <div class="timeline-phase-tag">Phase 3 • May 2026</div>
-              <h3 class="timeline-phase-title">Senior School Ethics Olympiad</h3>
-              <p class="timeline-phase-desc">
-                Matched against top regional high schools to claim the <strong>Bronze Medalist / Finalist Award</strong> before an international panel of ethics professors.
-              </p>
-            </div>
-          </div>
-
-          <!-- Node 4: International Grand Finals -->
-          <div class="timeline-item active">
-            <div class="timeline-node" style="border-color: var(--color-gold-hover);">🌐</div>
-            <div class="timeline-content-card" style="border-color: var(--color-gold-primary);">
-              <div class="timeline-phase-tag" style="color: var(--color-gold-hover);">Phase 4 • August 29, 2026 (Upcoming)</div>
-              <h3 class="timeline-phase-title">International Grand Finals</h3>
-              <p class="timeline-phase-desc">
-                Invited to the highest echelon of competitive ethics, our team will represent our school against global champions on the international stage.
-              </p>
-            </div>
-          </div>
-
-          <!-- Node 5: In-School Olympiad (New Member Milestone) -->
-          <div class="timeline-item timeline-item-parchment">
-            <div class="timeline-node node-parchment">🏆</div>
-            <div class="timeline-content-card card-parchment">
-              <div class="timeline-phase-tag tag-parchment">✦ Phase 5 • November 2026 (Your First Arena!) ✦</div>
-              <h3 class="timeline-phase-title title-parchment">In-School Ethics Olympiad</h3>
-              <p class="timeline-phase-desc desc-parchment">
-                Organised directly by our student leadership team right here at school. Sign up early to gain immediate tournament experience, debate live dilemmas, and contend for awards soon.
-              </p>
-            </div>
-          </div>
-
-          <!-- Node 6: 2027 Season -->
-          <div class="timeline-item timeline-item-parchment">
-            <div class="timeline-node node-parchment">🚀</div>
-            <div class="timeline-content-card card-parchment">
-              <div class="timeline-phase-tag tag-parchment">✦ Phase 6 • 2027 Season (Your Next Stage!) ✦</div>
-              <h3 class="timeline-phase-title title-parchment">2027 Senior Ethics Olympiad</h3>
-              <p class="timeline-phase-desc desc-parchment">
-                Receive direct mentorship from our medalists, refine your argumentative agility, and earn your place on our 2027 international championship competition roster.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION 8: ANATOMY OF A MATCH (4-STEP ROUND STEPPER) -->
-    <section class="section" id="format" style="background: rgba(14, 16, 20, 0.75);">
-      <div class="container">
-        <div class="section-header">
-          <div class="section-tag">COMPETITION MECHANICS</div>
-          <h2 class="section-title">Anatomy of an Olympiad Round</h2>
-          <p class="section-subtitle">Unlike combative debate, an Ethics Olympiad round is structured into 4 civil, collaborative stages.</p>
-        </div>
-
-        <div class="stepper-nav" id="match-stepper-tabs" role="tablist">
-          <button class="stepper-tab active" data-step="1" role="tab" aria-selected="true">
-            <div class="step-num">STEP 01</div>
-            <div class="step-name">Ethical Presentation</div>
-            <div class="step-time-pill">5 Minutes</div>
-          </button>
-
-          <button class="stepper-tab" data-step="2" role="tab" aria-selected="false">
-            <div class="step-num">STEP 02</div>
-            <div class="step-name">Collaborative Response</div>
-            <div class="step-time-pill">3 Minutes</div>
-          </button>
-
-          <button class="stepper-tab" data-step="3" role="tab" aria-selected="false">
-            <div class="step-num">STEP 03</div>
-            <div class="step-name">Synthesis & Commentary</div>
-            <div class="step-time-pill">3 Minutes</div>
-          </button>
-
-          <button class="stepper-tab" data-step="4" role="tab" aria-selected="false">
-            <div class="step-num">STEP 04</div>
-            <div class="step-name">Judges' Socratic Q&A</div>
-            <div class="step-time-pill">10 Minutes</div>
-          </button>
-        </div>
-
-        <div class="stepper-display-card" id="stepper-content">
-          <!-- Dynamic Step Content Rendered by JS -->
-          <div id="step-main-info">
-            <h3 class="step-detail-title" id="step-title">1. Presentation of Position</h3>
-            <p class="step-detail-desc" id="step-desc">
-              Team A presents their structured philosophical stance on an unannounced ethical case study, articulating conflicting values, identifying key stakeholders, and applying relevant moral frameworks.
-            </p>
-            <ul class="step-key-principles" id="step-principles">
-              <li>Articulate primary moral conflict and stakeholder interests</li>
-              <li>Apply rigorous philosophical theories (e.g., Deontology, Utilitarianism, Virtue Ethics)</li>
-              <li>Address counter-arguments and acknowledge moral trade-offs</li>
-            </ul>
-          </div>
-
-          <div class="step-tactics-box" id="step-tactics">
-            <div class="step-tactics-header">✦ Tactical Focus & Socratic Value</div>
-            <p class="step-tactics-text" id="step-tactics-text">
-              "Clarity of thought and consistency of reasoning are evaluated above theatrical oratory. Avoid dogmatism; embrace intellectual nuance."
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION 9: TOPICS & CURRICULUM GRID (10 MODULES) -->
-    <section class="section" id="curriculum">
-      <div class="container">
-        <div class="section-header">
-          <div class="section-tag">KNOWLEDGE & FRAMEWORKS</div>
-          <h2 class="section-title">Topics & Ethical Theories Covered</h2>
-          <p class="section-subtitle">Master classical philosophical lenses and apply them to 21st-century controversies.</p>
-        </div>
-
-        <div class="curriculum-grid">
-          <!-- Module 1: AI -->
-          <div class="curriculum-card">
-            <div>
-              <div class="curriculum-icon">🤖</div>
-              <h3 class="curriculum-title">Ethics of AI</h3>
-              <p class="curriculum-desc">
-                Algorithmic bias, automated decision systems, synthetic intelligence personhood, and autonomous warfare ethics.
-              </p>
-            </div>
-            <div class="section-tag" style="margin-top: 14px; font-size: 0.68rem;">Applied Technology</div>
-          </div>
-
-          <!-- Module 2: Bioethics -->
-          <div class="curriculum-card">
-            <div>
-              <div class="curriculum-icon">🧬</div>
-              <h3 class="curriculum-title">Biomedical Ethics</h3>
-              <p class="curriculum-desc">
-                CRISPR gene editing, medical triage prioritization, cognitive enhancement, and end-of-life autonomy.
-              </p>
-            </div>
-            <div class="section-tag" style="margin-top: 14px; font-size: 0.68rem;">Medical Philosophy</div>
-          </div>
-
-          <!-- Module 3: Animal Rights -->
-          <div class="curriculum-card">
-            <div>
-              <div class="curriculum-icon">🐾</div>
-              <h3 class="curriculum-title">Animal Rights</h3>
-              <p class="curriculum-desc">
-                Sentience, speciesism, moral patienthood, and industrial agricultural ethics.
-              </p>
-            </div>
-            <div class="section-tag" style="margin-top: 14px; font-size: 0.68rem;">Moral Status</div>
-          </div>
-
-          <!-- Module 4: Personhood -->
-          <div class="curriculum-card">
-            <div>
-              <div class="curriculum-icon">🧠</div>
-              <h3 class="curriculum-title">Personhood</h3>
-              <p class="curriculum-desc">
-                Criteria for moral agency, consciousness boundaries, and the future of legal personhood.
-              </p>
-            </div>
-            <div class="section-tag" style="margin-top: 14px; font-size: 0.68rem;">Metaphysics of Mind</div>
-          </div>
-
-          <!-- Module 5: Ethic of War -->
-          <div class="curriculum-card">
-            <div>
-              <div class="curriculum-icon">⚔️</div>
-              <h3 class="curriculum-title">Ethic of War</h3>
-              <p class="curriculum-desc">
-                <em>Jus ad bellum</em> (just cause) and <em>jus in bello</em> (proportionality, distinction, non-combatant immunity).
-              </p>
-            </div>
-            <div class="section-tag" style="margin-top: 14px; font-size: 0.68rem;">Political Ethics</div>
-          </div>
-
-          <!-- Module 6: Rawlsian Justice -->
-          <div class="curriculum-card">
-            <div>
-              <div class="curriculum-icon">🏛️</div>
-              <h3 class="curriculum-title">Rawlsian Justice</h3>
-              <p class="curriculum-desc">
-                John Rawls' <em>Veil of Ignorance</em>, the difference principle, and equitable social contracts.
-              </p>
-            </div>
-            <div class="section-tag" style="margin-top: 14px; font-size: 0.68rem;">Social Philosophy</div>
-          </div>
-
-          <!-- Module 7: Aristotelian Virtue -->
-          <div class="curriculum-card">
-            <div>
-              <div class="curriculum-icon">🌿</div>
-              <h3 class="curriculum-title">Aristotelian Virtue</h3>
-              <p class="curriculum-desc">
-                Cultivation of moral character, <em>eudaimonia</em> (human flourishing), <em>telos</em>, and the Golden Mean.
-              </p>
-            </div>
-            <div class="section-tag" style="margin-top: 14px; font-size: 0.68rem;">Classical Virtue</div>
-          </div>
-
-          <!-- Module 8: Kantian Deontology -->
-          <div class="curriculum-card">
-            <div>
-              <div class="curriculum-icon">📜</div>
-              <h3 class="curriculum-title">Kantian Deontology</h3>
-              <p class="curriculum-desc">
-                Immanuel Kant's duty-based ethics, the Categorical Imperative, and the prohibition on using persons as mere means.
-              </p>
-            </div>
-            <div class="section-tag" style="margin-top: 14px; font-size: 0.68rem;">Deontology</div>
-          </div>
-
-          <!-- Module 9: Utilitarianism -->
-          <div class="curriculum-card">
-            <div>
-              <div class="curriculum-icon">⚡</div>
-              <h3 class="curriculum-title">Utilitarianism</h3>
-              <p class="curriculum-desc">
-                Bentham & Mill's consequentialist framework, utility maximization, and qualitative vs. quantitative pleasure.
-              </p>
-            </div>
-            <div class="section-tag" style="margin-top: 14px; font-size: 0.68rem;">Consequentialism</div>
-          </div>
-
-          <!-- Module 10: Care Ethics -->
-          <div class="curriculum-card">
-            <div>
-              <div class="curriculum-icon">🤝</div>
-              <h3 class="curriculum-title">Care Ethics</h3>
-              <p class="curriculum-desc">
-                Nel Noddings' relational approach prioritizing empathy, interpersonal compassion, and communal interdependence.
-              </p>
-            </div>
-            <div class="section-tag" style="margin-top: 14px; font-size: 0.68rem;">Relational Ethics</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION 10: SOCIETY HIGHLIGHTS & WHY JOIN MPEO -->
-    <section class="section" id="why-join" style="background: radial-gradient(circle at 50% 50%, #15181F 0%, #0E1013 100%);">
-      <div class="container">
-        <div class="section-header">
-          <div class="section-tag">COMMUNITY & PREPARATION</div>
-          <h2 class="section-title">Why Join MPEO?</h2>
-          <p class="section-subtitle">What makes the Model Philosophy Ethics Olympiad one of the school's most rewarding activities.</p>
-        </div>
-
-        <div class="highlights-grid">
-          <div class="highlight-feature-card">
-            <div class="highlight-icon-circle">🌱</div>
-            <h3 class="highlight-title">No Prior Experience Needed</h3>
-            <p class="highlight-desc">
-              Open to all students from Grade 9 to 12. We teach you moral philosophy and tournament strategies from ground zero.
-            </p>
-          </div>
-
-          <div class="highlight-feature-card">
-            <div class="highlight-icon-circle">🏆</div>
-            <h3 class="highlight-title">November Olympiad & Awards</h3>
-            <p class="highlight-desc">
-              Compete soon after joining! Our leadership team is organising an in-school Ethics Olympiad this November so you gain early competition experience and contend for awards.
-            </p>
-          </div>
-
-          <div class="highlight-feature-card">
-            <div class="highlight-icon-circle">🎓</div>
-            <h3 class="highlight-title">Premier Academic Profile</h3>
-            <p class="highlight-desc">
-              Develop world-class critical thinking, oral argumentation, and philosophical literacy prized by global top universities.
-            </p>
-          </div>
-
-          <div class="highlight-feature-card">
-            <div class="highlight-icon-circle">✨</div>
-            <h3 class="highlight-title">Supportive Community</h3>
-            <p class="highlight-desc">
-              Deliberate in an environment where questions are celebrated, friendships are built, and intellectual curiosity thrives.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION 11: LEADERSHIP TEAM GRID -->
-    <section class="section" id="leadership">
-      <div class="container">
-        <div class="section-header">
-          <div class="section-tag">STUDENT LEADERSHIP</div>
-          <h2 class="section-title">Leadership Team Contact Details</h2>
-          <p class="section-subtitle">Have questions or want to learn more? Reach out to any of our student leaders directly via email:</p>
-        </div>
-
-        <div class="leadership-tiered-layout">
-          <!-- Top Tier: Grade 12 ([student] & [student]) -->
-          <div class="leadership-row leadership-row-2">
-            <!-- Leader 1: [student] -->
-            <div class="leader-card">
-              <div class="leader-avatar-ph">NZ</div>
-              <h3 class="leader-name">[student]</h3>
-              <div class="leader-role">Student Leader</div>
-              <span class="leader-grade-badge grade-12">Grade 12</span>
-              <a href="mailto:[email removed]" class="leader-email-link">[email removed]</a>
-            </div>
-
-            <!-- Leader 2: [student] -->
-            <div class="leader-card">
-              <div class="leader-avatar-ph">NG</div>
-              <h3 class="leader-name">[student]</h3>
-              <div class="leader-role">Student Leader</div>
-              <span class="leader-grade-badge grade-12">Grade 12</span>
-              <a href="mailto:[email removed]" class="leader-email-link">[email removed]</a>
-            </div>
-          </div>
-
-          <!-- Middle Tier: Grade 11 ([student], [student], [student]) -->
-          <div class="leadership-row leadership-row-3">
-            <!-- Leader 3: [student] -->
-            <div class="leader-card">
-              <div class="leader-avatar-ph">SL</div>
-              <h3 class="leader-name">[student]</h3>
-              <div class="leader-role">Student Leader</div>
-              <span class="leader-grade-badge grade-11">Grade 11</span>
-              <a href="mailto:[email removed]" class="leader-email-link">[email removed]</a>
-            </div>
-
-            <!-- Leader 4: [student] -->
-            <div class="leader-card">
-              <div class="leader-avatar-ph">NA</div>
-              <h3 class="leader-name">[student]</h3>
-              <div class="leader-role">Student Leader</div>
-              <span class="leader-grade-badge grade-11">Grade 11</span>
-              <a href="mailto:[email removed]" class="leader-email-link">[email removed]</a>
-            </div>
-
-            <!-- Leader 5: [student] -->
-            <div class="leader-card">
-              <div class="leader-avatar-ph">AG</div>
-              <h3 class="leader-name">[student]</h3>
-              <div class="leader-role">Student Leader</div>
-              <span class="leader-grade-badge grade-11">Grade 11</span>
-              <a href="mailto:[email removed]" class="leader-email-link">[email removed]</a>
-            </div>
-          </div>
-
-          <!-- Bottom Tier: Grade 10 ([student]) -->
-          <div class="leadership-row leadership-row-1">
-            <!-- Leader 6: [student] -->
-            <div class="leader-card">
-              <div class="leader-avatar-ph">LQ</div>
-              <h3 class="leader-name">[student]</h3>
-              <div class="leader-role">Student Leader</div>
-              <span class="leader-grade-badge grade-10">Grade 10</span>
-              <a href="mailto:[email removed]" class="leader-email-link">[email removed]</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION 12: FREQUENTLY ASKED QUESTIONS (FAQ) -->
-    <section class="section" id="faq" style="background: rgba(14, 16, 20, 0.6);">
-      <div class="container">
-        <div class="section-header">
-          <div class="section-tag">QUESTIONS & CLARIFICATIONS</div>
-          <h2 class="section-title">Frequently Asked Questions</h2>
-          <p class="section-subtitle">Common questions from prospective members and LifeCon visitors.</p>
-        </div>
-
-        <div class="faq-container">
-          <!-- FAQ 1 -->
-          <div class="faq-item">
-            <button class="faq-question-btn" aria-expanded="false">
-              <span>Do I need any previous experience with philosophy or debate?</span>
-              <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-              <p>
-                Absolutely not! Our society welcomes students of all experience levels. We guide you step-by-step through every ethical framework, case analysis method, and competition strategy.
-              </p>
-            </div>
-          </div>
-
-          <!-- FAQ 2 -->
-          <div class="faq-item">
-            <button class="faq-question-btn" aria-expanded="false">
-              <span>How does Ethics Olympiad differ from Model United Nations (MUN) or traditional debate?</span>
-              <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-              <p>
-                In traditional debate, the goal is to defeat an opponent by defending a rigid assigned stance. In Ethics Olympiad, teams are judged on philosophical rigor, depth of analysis, nuance, and constructive, civil collaboration.
-              </p>
-            </div>
-          </div>
-
-          <!-- FAQ 3 -->
-          <div class="faq-item">
-            <button class="faq-question-btn" aria-expanded="false">
-              <span>How can I earn a spot on the competitive team for tournaments?</span>
-              <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-              <p>
-                We run internal practice scrimmages using official competition case packs. All interested members are encouraged to try out, and teams are formed based on enthusiasm, teamwork, and critical thinking.
-              </p>
-            </div>
-          </div>
-
-          <!-- FAQ 4 -->
-          <div class="faq-item">
-            <button class="faq-question-btn" aria-expanded="false">
-              <span>What happens at a typical Wednesday meeting?</span>
-              <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-              <p>
-                We explore an exciting philosophical theory or real-world controversy, break into small groups to analyze a case study, and run a friendly mini-deliberation round.
-              </p>
-            </div>
-          </div>
-
-          <!-- FAQ 5 -->
-          <div class="faq-item">
-            <button class="faq-question-btn" aria-expanded="false">
-              <span>When is the earliest I can compete and win awards in Ethics Olympiad?</span>
-              <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-              <p>
-                Very soon! Our student leadership team is organising an internal Ethics Olympiad right here at school around November. Signing up early on CIMS ensures you get hands-on training, early tournament experience, and an opportunity to compete for awards in Term 1 before the 2027 Senior Ethics Olympiad season begins.
-              </p>
-            </div>
-          </div>
-
-          <!-- FAQ 6 -->
-          <div class="faq-item">
-            <button class="faq-question-btn" aria-expanded="false">
-              <span>Can I participate if I also have sports or music commitments?</span>
-              <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-              <p>
-                Yes! Our regular society meetings run on Wednesdays, and we offer flexible participation tracks for students balancing multiple activities.
-              </p>
-            </div>
-          </div>
-
-          <!-- FAQ 7 -->
-          <div class="faq-item">
-            <button class="faq-question-btn" aria-expanded="false">
-              <span>Does filling out the email form on this site register me for MPEO?</span>
-              <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-              <p>
-                No. This site's email form only adds you to our interest list for a friendly reminder. To officially join, please complete registration through your school's CIMS portal.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION 13: EXPRESS YOUR INTEREST (EMAIL CAPTURE) -->
+    <!-- SECTION 12: EXPRESS YOUR INTEREST (EMAIL CAPTURE) -->
     <section class="section" id="interest">
       <div class="container">
         <div class="interest-capture-card">
@@ -958,7 +825,7 @@
     </section>
   </main>
 
-  <!-- SECTION 14: FOOTER -->
+  <!-- SECTION 13: FOOTER -->
   <footer class="site-footer" id="footer">
     <div class="container">
       <div class="footer-grid">
@@ -979,10 +846,10 @@
           <h4>Navigation</h4>
           <ul class="footer-links">
             <li><a href="#about">What is Ethics Olympiad?</a></li>
-            <li><a href="#logistics">Logistics & CIMS Guide</a></li>
+            <li><a href="#format">Match Anatomy</a></li>
             <li><a href="#accomplishments">Accomplishments & Medals</a></li>
             <li><a href="#journey">Road to Grand Finals</a></li>
-            <li><a href="#format">Match Anatomy</a></li>
+            <li><a href="#why-join">Why Join MPEO</a></li>
           </ul>
         </div>
 
@@ -990,16 +857,20 @@
           <h4>Affiliation & Links</h4>
           <ul class="footer-links">
             <li><a href="https://ethicsolympiad.org" target="_blank" rel="noopener">International Ethics Olympiad ↗</a></li>
-            <li><a href="#curriculum">Philosophical Curriculum</a></li>
             <li><a href="#leadership">Student Leadership Roster</a></li>
             <li><a href="#faq">Frequently Asked Questions</a></li>
+            <li><a href="#logistics">Logistics & CIMS Guide</a></li>
           </ul>
         </div>
       </div>
 
       <div class="footer-bottom">
         <div>
-          © 2026 Model Philosophy Ethics Olympiad Society. All rights reserved.
+          <div>© 2026 Model Philosophy Ethics Olympiad Society. All rights reserved.</div>
+          <div class="author-credit">
+            <span>Site Crafted by</span>
+            <span class="fiery-gold-text">✦ [student] ✦</span>
+          </div>
         </div>
         <div>
           <a href="#hero" style="color: var(--color-gold-hover);">Back to Top ↑</a>

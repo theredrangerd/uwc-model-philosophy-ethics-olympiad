@@ -25,7 +25,7 @@ The visual identity of the **Model Philosophy Ethics Olympiad (MPEO)** website m
 ├─────────────────────────────────────────────────────────────────────────┤
 │ [LAYER 2: INTERACTIVE VISUAL TIMELINE]                                  │
 │  • Illuminated Gold Spine with Pulsing Milestone Nodes                  │
-│  • 2nd Place TKE ➔ 3rd Place Senior Olympiad ➔ Grand Finals Invitation  │
+│  • 2nd Place TKEthics ➔ 3rd Place Senior Olympiad ➔ Grand Finals Bid    │
 ├─────────────────────────────────────────────────────────────────────────┤
 │ [LAYER 3: 4-STEP MATCH ANATOMY STEPPER]                                 │
 │  • Sequential Step Cards with Socratic Dialogue Time Indicators         │
@@ -61,7 +61,7 @@ The site embraces a sleek dark-slate aesthetic with warm cream/parchment accents
 | `--color-gold-primary` | `#D4AF37` | `46°, 65%, 52%` | Classical Olympic Gold / Grand Finals highlight / Crown accent |
 | `--color-gold-hover` | `#F3CE5E` | `45°, 86%, 66%` | Button hover state and luminous highlights |
 | `--color-gold-glow` | `rgba(212, 175, 55, 0.25)`| — | Radial ambient glow behind trophies and milestone nodes |
-| `--color-silver` | `#C0C7D0` | `213°, 14%, 78%` | 2nd Place TKE Invitational badge & secondary metallic |
+| `--color-silver` | `#C0C7D0` | `213°, 14%, 78%` | 2nd Place TKEthics Invitational badge & secondary metallic |
 | `--color-bronze` | `#CD7F32` | `29°, 61%, 50%` | 3rd Place Senior Ethics Olympiad Bronze Medalist badge |
 | `--color-olive-laurel` | `#4F6052` | `131°, 10%, 34%` | Watermark laurel foliage, tag pills, leaf motifs |
 | `--color-text-primary` | `#F5F6F8` | `220°, 14%, 97%` | Primary text on dark backgrounds |
@@ -207,7 +207,7 @@ Everything specified in 4.1–4.5 as written: kinetic letter-fall splash, 3-laye
 
 ### 5.3 Accomplishments & International Grand Finals Spotlight (`<Accomplishments>`)
 - **Visual Design**: Multi-tier pedestal cards:
-  1. 🥈 **2nd Place** — *TKE Ethics Fall Invitational* (Silver leaf badge with light-sweep effect).
+  1. 🥈 **2nd Place** — *TKEthics Invitational Fall 2025 (Nov, 2025)* (Silver leaf badge with light-sweep effect).
   2. 🥉 **3rd Place** — *Senior School Ethics Olympiad* (Bronze Medalist / Finalist ribbon).
   3. 🌐 **International Grand Finals — August 29, 2026** — Global champion stage feature with gold foil shimmer border. **Copy/animation must read as anticipation (countdown-style), not a completed result** — the event postdates the TKE and Senior Olympiad results but is still upcoming.
 

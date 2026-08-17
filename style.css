@@ -1800,7 +1800,36 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
   font-size: 0.8rem;
+}
+
+.author-credit {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 6px;
+  font-size: 0.82rem;
+  color: var(--color-text-secondary);
+}
+
+.fiery-gold-text {
+  font-family: var(--font-badge);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #FFF176 0%, #FFB300 28%, #FF6D00 68%, #FFD54F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 10px rgba(255, 109, 0, 0.55)) drop-shadow(0 0 20px rgba(212, 175, 55, 0.4));
+  display: inline-block;
+  transition: var(--transition-fast);
+}
+
+.fiery-gold-text:hover {
+  filter: drop-shadow(0 0 14px rgba(255, 109, 0, 0.85)) drop-shadow(0 0 26px rgba(255, 179, 0, 0.7));
+  transform: translateY(-1px) scale(1.04);
 }
 
 /* ==========================================================================

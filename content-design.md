@@ -12,7 +12,7 @@
 ### 1.1 Core Objectives
 1. **Drive High-Conversion Recruitment for LifeCon**: Capture prospective students' interest immediately with bold visual presentation, clear value propositions, and a QR-code fast-path — recognizing most visitors reach this site by scanning a code at the booth on a phone, not browsing a desktop.
 2. **Celebrate Elite Accomplishments**:
-   - 🥈 **2nd Place** — *TKE Ethics Fall Invitational*
+   - 🥈 **2nd Place** — *TKEthics Invitational Fall 2025 (Nov, 2025)*
    - 🥉 **3rd Place (Bronze Medalist / Finalist Award)** — *Senior School Ethics Olympiad*
    - 🌐 **Exclusive Qualification & Invitation to the International Grand Finals** — **August 29, 2026** — to compete against top regional champions globally. *(Upcoming, not yet completed — copy must read as anticipation/countdown, not a past result.)*
 3. **Give the Achievement a Human Voice**: Pair the accomplishments/timeline narrative with a short first-person quote from a competing team member (interview pending) — statistics alone intrigue less than a peer's voice describing what it actually felt like.
@@ -53,7 +53,7 @@
 │   • Lady Justice Sculpture & Scales Feature                                 │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                   5. OUR ACCOMPLISHMENTS (HALL OF PRESTIGE)                 │
-│   🥈 2nd Place – TKE Ethics Fall Invitational                               │
+│   🥈 2nd Place – TKEthics Invitational Fall 2025 (Nov, 2025)                │
 │   🥉 3rd Place – Senior School Ethics Olympiad (Bronze Medal Finalist)      │
 │   🌐 International Grand Finals — August 29, 2026 (Upcoming)                │
 ├─────────────────────────────────────────────────────────────────────────────┤
@@ -63,7 +63,7 @@
 ├─────────────────────────────────────────────────────────────────────────────┤
 │            7. THE ROAD TO GRAND FINALS (VISUAL JOURNEY TIMELINE)            │
 │   • Milestone 1: Weekly Foundations (Math Block 204)                        │
-│   • Milestone 2: TKE Fall Invitational (Silver Podium)                      │
+│   • Milestone 2: TKEthics Invitational Fall 2025 (Silver Podium)            │
 │   • Milestone 3: Senior School Ethics Olympiad (Bronze Medalist)            │
 │   • Milestone 4: International Grand Finals — August 29, 2026 (Upcoming)    │
 │   • Milestone 5: 2027 Senior Ethics Olympiad (Your Stage!)                  │
@@ -190,7 +190,7 @@
 - **Lead Copy**:
   *In the 2026 competition circuit, MPEO proved its standing as one of the premier philosophy and ethics delegations in the region:*
 - **Three Award Showcases**:
-  1. 🥈 **2nd Place — TKE Ethics Fall Invitational**
+  1. 🥈 **2nd Place — TKEthics Invitational Fall 2025 (Nov, 2025)**
      - *Silver Finish in a grueling tournament against elite regional debate squads, demonstrating mastery of spontaneous moral triage and multi-framework analysis.*
   2. 🥉 **3rd Place (Bronze Medalist / Finalist Award) — Senior School Ethics Olympiad**
      - *Out of dozens of competing high school teams, MPEO advanced to the grand podium, celebrated for analytical rigor and exceptional team cohesion.*
@@ -220,7 +220,7 @@
 - **Timeline Milestones**:
   1. 🏛️ **Phase 1: Foundations & Socratic Salons (Term 1)**
      *Weekly Wednesday sessions in Math Block 204. Master the 10 core frameworks, run practice case deliberations, and build unbreakable team chemistry.*
-  2. 🥈 **Phase 2: TKE Ethics Fall Invitational (November 2025)**
+  2. 🥈 **Phase 2: TKEthics Invitational Fall 2025 (Nov, 2025)**
      *Our squad earned **2nd Place Overall**, going undefeated through preliminary rounds with razor-sharp deconstruction of bioethics cases.*
   3. 🥉 **Phase 3: Senior School Ethics Olympiad (May 2026)**
      *Competed against the strongest teams across the continent, securing the **Bronze Medalist / Finalist Award** before an international panel of judges.*
