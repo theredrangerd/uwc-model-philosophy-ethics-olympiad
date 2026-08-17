@@ -2391,6 +2391,7 @@ img {
   text-transform: uppercase;
   background: linear-gradient(135deg, #FFF176 0%, #FFB300 28%, #FF6D00 68%, #FFD54F 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 0 10px rgba(255, 109, 0, 0.55)) drop-shadow(0 0 20px rgba(212, 175, 55, 0.4));
   display: inline-block;
