@@ -1385,26 +1385,33 @@ img {
 }
 
 /* ==========================================================================
-   SECTION 11: LEADERSHIP TEAM GRID
+   SECTION 11: LEADERSHIP TEAM GRID (3x2 Array)
    ========================================================================== */
 .leadership-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 1080px;
+  margin: 0 auto;
 }
 
 .leader-card {
   background: var(--color-bg-secondary);
   border: 1px solid var(--color-border-subtle);
   border-radius: var(--radius-md);
-  padding: 24px 20px;
+  padding: 28px 20px;
   text-align: center;
   transition: var(--transition-fast);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .leader-card:hover {
   border-color: var(--color-border-gold);
   transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
 }
 
 .leader-avatar-ph {
@@ -1416,7 +1423,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 16px;
+  margin-bottom: 16px;
   font-family: var(--font-display);
   font-weight: 700;
   color: var(--color-gold-primary);
@@ -1425,7 +1432,7 @@ img {
 
 .leader-name {
   font-family: var(--font-display);
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   font-weight: 700;
   color: #FFFFFF;
   margin-bottom: 4px;
@@ -1437,7 +1444,7 @@ img {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--color-gold-primary);
-  margin-bottom: 12px;
+  margin-bottom: 14px;
 }
 
 .leader-email-link {
@@ -1445,14 +1452,16 @@ img {
   color: var(--color-text-secondary);
   word-break: break-all;
   display: inline-block;
-  padding: 4px 8px;
+  padding: 6px 12px;
   border-radius: var(--radius-sm);
   background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .leader-email-link:hover {
   color: var(--color-gold-hover);
   background: rgba(212, 175, 55, 0.1);
+  border-color: var(--color-gold-primary);
 }
 
 /* ==========================================================================
@@ -1681,7 +1690,7 @@ img {
 }
 
 /* ==========================================================================
-   PERFORMANCE TIERING: MOBILE & LITE MODE STYLES
+   PERFORMANCE TIERING: RESPONSIVE MEDIA QUERIES
    ========================================================================== */
 @media (max-width: 992px) {
   .hero-grid,
@@ -1694,6 +1703,11 @@ img {
 
   .accomplishments-grid {
     grid-template-columns: 1fr;
+  }
+
+  .leadership-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
 
   .stepper-nav {
@@ -1746,6 +1760,11 @@ img {
 
   .logistics-card-wrapper {
     padding: 24px 16px;
+  }
+
+  .leadership-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
   }
 
   .interest-form {
