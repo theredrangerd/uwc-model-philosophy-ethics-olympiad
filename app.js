@@ -85,7 +85,7 @@ const matchSteps = {
       'Apply rigorous philosophical frameworks (e.g., Deontology, Utilitarianism, Virtue Ethics)',
       'Address counter-arguments and acknowledge moral trade-offs'
     ],
-    tactics: '“Clarity of thought and consistency of reasoning are evaluated above theatrical oratory. Avoid dogmatism; embrace intellectual nuance.”'
+    tactics: 'Clarity of thought and consistency of reasoning are evaluated above theatrical oratory. Avoid dogmatism; embrace intellectual nuance.'
   },
   2: {
     title: '2. Collaborative Response',
@@ -95,7 +95,7 @@ const matchSteps = {
       'Pose constructive questions that elevate inquiry without hostility',
       'Acknowledge strengths and robust points in Team A’s presentation'
     ],
-    tactics: '“Never seek to demolish the other team. The judges award points for constructive synthesis and collaborative advancement.”'
+    tactics: 'Never seek to demolish the other team. The judges award points for constructive synthesis and collaborative advancement.'
   },
   3: {
     title: '3. Synthesis & Commentary',
@@ -105,7 +105,7 @@ const matchSteps = {
       'Integrate valid points into an updated ethical position',
       'Demonstrate intellectual humility and agile reasoning'
     ],
-    tactics: '“Refining your view in light of thoughtful feedback is a sign of strength, not weakness, in the Ethics Olympiad.”'
+    tactics: 'Refining your view in light of thoughtful feedback is a sign of strength, not weakness, in the Ethics Olympiad.'
   },
   4: {
     title: '4. Judges’ Socratic Q&A',
@@ -115,7 +115,7 @@ const matchSteps = {
       'Unpack underlying meta-ethical and epistemic assumptions',
       'Balance team contributions across all participating speakers'
     ],
-    tactics: '“Judges probe edge-cases and moral boundaries. Stay grounded in your chosen frameworks and maintain calm, precise logic.”'
+    tactics: 'Judges probe edge-cases and moral boundaries. Stay grounded in your chosen frameworks and maintain calm, precise logic.'
   }
 };
 

@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Past Competition Cases & Dilemmas | Model Philosophy Ethics Olympiad (MPEO)</title>
+  <meta name="description" content="Explore official past competition cases and moral dilemmas from the Senior Ethics Olympiad. Learn how philosophical frameworks apply to AI, bioethics, environmental justice, and law.">
+  <meta name="keywords" content="Ethics Olympiad Cases, Past Cases, Ethics Dilemmas, Philosophy Case Studies, Bioethics, AI Ethics, MPEO">
+  <meta name="theme-color" content="#0E1013">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Past Competition Cases | Model Philosophy Ethics Olympiad">
+  <meta property="og:description" content="Explore real-world moral dilemmas from the Ethics Olympiad and see how collaborative philosophical analysis resolves ethical friction.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/team-squad.png">
+
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Spectral:ital,wght@0,400;0,500;1,400&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css?v=2">
+  <link rel="icon" type="image/png" href="assets/omega-crest.png?v=3">
+
+  <!-- Synchronous Adaptive Tier Detection -->
+  <script>
+    (function() {
+      const isLite = (
+        window.matchMedia('(max-width: 768px)').matches ||
+        window.matchMedia('(pointer: coarse)').matches ||
+        window.matchMedia('(prefers-reduced-motion: reduce)').matches ||
+        (navigator.deviceMemory && navigator.deviceMemory <= 4) ||
+        (navigator.connection && ['slow-2g', '2g', '3g'].includes(navigator.connection.effectiveType))
+      );
+      if (isLite) {
+        document.documentElement.classList.add('lite-mode-detected');
+      }
+    })();
+  </script>
+</head>
+<body class="cases-page">
+
+  <!-- Decorative Greek Watermark Background -->
+  <div class="bg-greek-columns" aria-hidden="true"></div>
+
+  <!-- SECTION 1: STICKY NAVBAR -->
+  <header>
+    <nav class="navbar" id="navbar" aria-label="Main Navigation">
+      <div class="container navbar-inner">
+        <a href="index.html" class="nav-brand">
+          <img src="assets/omega-crest.png?v=3" alt="MPEO Crest">
+          <span>MPEO <span class="nav-brand-tag">✦</span></span>
+        </a>
+
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html#about" class="nav-link">About</a></li>
+          <li><a href="index.html#format" class="nav-link">Match Format</a></li>
+          <li><a href="cases.html" class="nav-link active">Past Cases</a></li>
+          <li><a href="index.html#accomplishments" class="nav-link">Accomplishments</a></li>
+          <li><a href="index.html#journey" class="nav-link">Journey</a></li>
+          <li><a href="index.html#why-join" class="nav-link">Why Join</a></li>
+          <li><a href="index.html#leadership" class="nav-link">Leadership</a></li>
+          <li><a href="index.html#faq" class="nav-link">FAQ</a></li>
+          <li><a href="index.html#logistics" class="nav-link">Logistics & QR</a></li>
+        </ul>
+
+        <div style="display: flex; align-items: center; gap: 12px;">
+          <a href="https://webapps.uwcsea.edu.sg/cims/Activities/Student" target="_blank" rel="noopener noreferrer" class="btn-cta-gold">Register on CIMS ↗</a>
+          <button class="mobile-menu-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">☰</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- BREADCRUMB BAR -->
+    <div class="cases-breadcrumb-bar">
+      <div class="container">
+        <div class="breadcrumb-inner">
+          <a href="index.html" class="breadcrumb-back-link">
+            <span>←</span>
+            <span>Back to Society Overview</span>
+          </a>
+          <div class="breadcrumb-trail">
+            <a href="index.html">MPEO Home</a>
+            <span class="sep">/</span>
+            <span class="current">Past Competition Cases</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section class="cases-hero-section">
+      <div class="container">
+        <div class="cases-hero-banner">
+          <div class="hero-pill-badge">
+            ✦ SOCRATIC ARCHIVE • ETHICS OLYMPIAD CASE PACKS ✦
+          </div>
+          <h1 class="cases-hero-title">
+            PAST COMPETITION <br><span class="gold">CASES & DILEMMAS</span>
+          </h1>
+          <p class="cases-hero-subtitle">
+            In the Ethics Olympiad, cases are drawn from urgent contemporary dilemmas where fundamental moral principles collide. Unlike traditional debate with pre-assigned sides, teams must navigate genuine trade-offs, weigh conflicting duties, and build collaborative philosophical consensus.
+          </p>
+
+          <div class="cases-hero-stats">
+            <div class="hero-stat-pill">
+              <span class="stat-num">8</span>
+              <span class="stat-lbl">Featured Cases</span>
+            </div>
+            <div class="hero-stat-pill">
+              <span class="stat-num">5</span>
+              <span class="stat-lbl">Thematic Areas</span>
+            </div>
+            <div class="hero-stat-pill">
+              <span class="stat-num">10+</span>
+              <span class="stat-lbl">Core Frameworks</span>
+            </div>
+            <button type="button" class="btn-random-case" id="btn-random-case">
+              <span>🎲 Deliberate a Random Case</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CASE BROWSER & FILTERING SECTION -->
+    <section class="section" id="case-explorer">
+      <div class="container">
+        <div class="cases-filter-container">
+          <!-- Search input -->
+          <div class="case-search-wrapper">
+            <span class="search-icon">🔍</span>
+            <input 
+              type="text" 
+              id="case-search-input" 
+              class="case-search-input" 
+              placeholder="Search cases by keyword, dilemma, stakeholder, or ethical theory (e.g. CRISPR, Utilitarianism, AI)..."
+              aria-label="Search cases"
+            >
+            <button type="button" id="search-clear-btn" class="search-clear-btn" aria-label="Clear search" style="display: none;">✕</button>
+          </div>
+
+          <!-- Category filter buttons -->
+          <div class="case-category-filters" role="tablist" aria-label="Filter cases by theme">
+            <button type="button" class="case-filter-btn active" data-filter="all" role="tab" aria-selected="true">
+              All Cases <span class="filter-count">(8)</span>
+            </button>
+            <button type="button" class="case-filter-btn" data-filter="ai" role="tab" aria-selected="false">
+              🤖 AI & Technology <span class="filter-count">(2)</span>
+            </button>
+            <button type="button" class="case-filter-btn" data-filter="bioethics" role="tab" aria-selected="false">
+              🧬 Bioethics & Medicine <span class="filter-count">(2)</span>
+            </button>
+            <button type="button" class="case-filter-btn" data-filter="environment" role="tab" aria-selected="false">
+              🌿 Environmental Justice <span class="filter-count">(2)</span>
+            </button>
+            <button type="button" class="case-filter-btn" data-filter="governance" role="tab" aria-selected="false">
+              🏛️ Law & Governance <span class="filter-count">(1)</span>
+            </button>
+            <button type="button" class="case-filter-btn" data-filter="media" role="tab" aria-selected="false">
+              🎭 Media, Truth & Autonomy <span class="filter-count">(1)</span>
+            </button>
+          </div>
+
+          <div class="cases-results-meta">
+            <span id="cases-count-label">Showing all 8 tournament cases</span>
+          </div>
+        </div>
+
+        <!-- CASES GRID -->
+        <div class="cases-grid" id="cases-grid">
+          <!-- Cases injected via JavaScript and server-rendered below for instant visibility -->
+
+          <!-- CASE 01 -->
+          <article class="case-card" data-category="ai bioethics" data-id="case-1">
+            <div class="case-card-header">
+              <div class="case-number-tag">CASE 01</div>
+              <div class="case-origin-badge">✦ Senior Olympiad 2025</div>
+            </div>
+            <div class="case-category-pill">🤖 AI & Biomedical Ethics</div>
+            <h3 class="case-title">The Autonomous Triage Protocol</h3>
+            <p class="case-summary">
+              When an intensive care unit faces severe ventilator shortages, a neural network prioritizes patients by maximizing Quality-Adjusted Life Years (QALYs), creating deep tension between utilitarian efficiency and deontological duties of non-discrimination.
+            </p>
+            <div class="case-tension-tags">
+              <span class="tension-tag">Utility vs. Human Dignity</span>
+              <span class="tension-tag">Algorithmic Bias</span>
+              <span class="tension-tag">Distributive Justice</span>
+            </div>
+            <div class="case-card-footer">
+              <button type="button" class="btn-inspect-case" data-case-target="case-1">
+                <span>Examine Case Dossier</span>
+                <span class="arrow">✦</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- CASE 02 -->
+          <article class="case-card" data-category="environment" data-id="case-2">
+            <div class="case-card-header">
+              <div class="case-number-tag">CASE 02</div>
+              <div class="case-origin-badge">✦ Grand Finals Prep</div>
+            </div>
+            <div class="case-category-pill">🌿 Environmental & Climate Ethics</div>
+            <h3 class="case-title">De-Extinction and Ecological Hubris</h3>
+            <p class="case-summary">
+              A synthetic biology consortium resurrects a woolly mammoth proxy to combat Arctic permafrost thaw. While proponents cite carbon mitigation, indigenous councils and conservationists fear unpredictable ecological disruption and moral hazard.
+            </p>
+            <div class="case-tension-tags">
+              <span class="tension-tag">Anthropocentrism vs. Ecocentrism</span>
+              <span class="tension-tag">Technofix Moral Hazard</span>
+              <span class="tension-tag">Indigenous Sovereignty</span>
+            </div>
+            <div class="case-card-footer">
+              <button type="button" class="btn-inspect-case" data-case-target="case-2">
+                <span>Examine Case Dossier</span>
+                <span class="arrow">✦</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- CASE 03 -->
+          <article class="case-card" data-category="governance media" data-id="case-3">
+            <div class="case-card-header">
+              <div class="case-number-tag">CASE 03</div>
+              <div class="case-origin-badge">✦ TKEthics Invitational 2025</div>
+            </div>
+            <div class="case-category-pill">🏛️ Law & Digital Human Rights</div>
+            <h3 class="case-title">The Right to Forget vs. The Public Record</h3>
+            <p class="case-summary">
+              A reformed activist convicted of civil disobedience ten years ago petitions search engines to delist arrest records to rebuild her professional livelihood, sparking a constitutional debate against journalists preserving public integrity.
+            </p>
+            <div class="case-tension-tags">
+              <span class="tension-tag">Rehabilitation vs. Historical Truth</span>
+              <span class="tension-tag">Informational Privacy</span>
+              <span class="tension-tag">Freedom of Expression</span>
+            </div>
+            <div class="case-card-footer">
+              <button type="button" class="btn-inspect-case" data-case-target="case-3">
+                <span>Examine Case Dossier</span>
+                <span class="arrow">✦</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- CASE 04 -->
+          <article class="case-card" data-category="bioethics" data-id="case-4">
+            <div class="case-card-header">
+              <div class="case-number-tag">CASE 04</div>
+              <div class="case-origin-badge">✦ Senior Olympiad Podium Round</div>
+            </div>
+            <div class="case-category-pill">🧬 Bioethics & Genetics</div>
+            <h3 class="case-title">CRISPR Germline Enhancement & Meritocracy</h3>
+            <p class="case-summary">
+              A bioethics council debates approving heritable embryonic gene edits for cognitive longevity and environmental resilience. Wealthy families move to purchase enhancements, threatening to encode social stratification directly into biology.
+            </p>
+            <div class="case-tension-tags">
+              <span class="tension-tag">Therapy vs. Enhancement</span>
+              <span class="tension-tag">Intergenerational Consent</span>
+              <span class="tension-tag">Genetic Stratification</span>
+            </div>
+            <div class="case-card-footer">
+              <button type="button" class="btn-inspect-case" data-case-target="case-4">
+                <span>Examine Case Dossier</span>
+                <span class="arrow">✦</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- CASE 05 -->
+          <article class="case-card" data-category="ai governance" data-id="case-5">
+            <div class="case-card-header">
+              <div class="case-number-tag">CASE 05</div>
+              <div class="case-origin-badge">✦ Ethics Olympiad Case Pack</div>
+            </div>
+            <div class="case-category-pill">🤖 AI & Social Justice</div>
+            <h3 class="case-title">Predictive Policing and Feedback Loops</h3>
+            <p class="case-summary">
+              City authorities deploy machine-learning models to forecast neighborhood crime hotspots. While property theft drops citywide, minority neighborhoods experience compounding surveillance loops and disproportionate stop-and-frisk encounters.
+            </p>
+            <div class="case-tension-tags">
+              <span class="tension-tag">Collective Security vs. Liberty</span>
+              <span class="tension-tag">Feedback Bias Loops</span>
+              <span class="tension-tag">Epistemic Injustice</span>
+            </div>
+            <div class="case-card-footer">
+              <button type="button" class="btn-inspect-case" data-case-target="case-5">
+                <span>Examine Case Dossier</span>
+                <span class="arrow">✦</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- CASE 06 -->
+          <article class="case-card" data-category="environment governance" data-id="case-6">
+            <div class="case-card-header">
+              <div class="case-number-tag">CASE 06</div>
+              <div class="case-origin-badge">✦ Grand Finals Roster</div>
+            </div>
+            <div class="case-category-pill">🌿 Environmental & Geopolitical Ethics</div>
+            <h3 class="case-title">Sovereign Stratospheric Geoengineering</h3>
+            <p class="case-summary">
+              A sinking Pacific island nation prepares unilateral stratospheric aerosol injection to halt thermal expansion of oceans after global climate treaties stall, raising profound questions of planetary consent and emergency self-defense.
+            </p>
+            <div class="case-tension-tags">
+              <span class="tension-tag">National Self-Defense vs. Planetary Consent</span>
+              <span class="tension-tag">Precautionary Principle</span>
+              <span class="tension-tag">Intergenerational Equity</span>
+            </div>
+            <div class="case-card-footer">
+              <button type="button" class="btn-inspect-case" data-case-target="case-6">
+                <span>Examine Case Dossier</span>
+                <span class="arrow">✦</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- CASE 07 -->
+          <article class="case-card" data-category="bioethics" data-id="case-7">
+            <div class="case-card-header">
+              <div class="case-number-tag">CASE 07</div>
+              <div class="case-origin-badge">✦ Regional Invitational</div>
+            </div>
+            <div class="case-category-pill">🧬 Bioethics & Professional Autonomy</div>
+            <h3 class="case-title">Cognitive Enhancement in High-Stakes Surgery</h3>
+            <p class="case-summary">
+              Hospitals offer voluntary pharmacological nootropics to surgical teams that reduce fatigue errors by 70%. When malpractice insurance rates drop for medicated surgeons, unmedicated physicians face coercive institutional pressures.
+            </p>
+            <div class="case-tension-tags">
+              <span class="tension-tag">Voluntary Choice vs. Subtle Coercion</span>
+              <span class="tension-tag">Patient Safety vs. Bodily Integrity</span>
+              <span class="tension-tag">Professional Fiduciary Duty</span>
+            </div>
+            <div class="case-card-footer">
+              <button type="button" class="btn-inspect-case" data-case-target="case-7">
+                <span>Examine Case Dossier</span>
+                <span class="arrow">✦</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- CASE 08 -->
+          <article class="case-card" data-category="media governance" data-id="case-8">
+            <div class="case-card-header">
+              <div class="case-number-tag">CASE 08</div>
+              <div class="case-origin-badge">✦ Senior Olympiad Case Pack</div>
+            </div>
+            <div class="case-category-pill">🎭 Media, Truth & Autonomy</div>
+            <h3 class="case-title">AI Parody and Democratic Epistemic Integrity</h3>
+            <p class="case-summary">
+              A satirical political candidate releases hyper-realistic synthetic audio of rivals confessing to corporate influence. Though labeled as parody in small text, millions believe the clips, destabilizing the voting public's trust in authentic evidence.
+            </p>
+            <div class="case-tension-tags">
+              <span class="tension-tag">Satirical Free Speech vs. Epistemic Truth</span>
+              <span class="tension-tag">Democratic Integrity</span>
+              <span class="tension-tag">Virtue Ethics & Truthfulness</span>
+            </div>
+            <div class="case-card-footer">
+              <button type="button" class="btn-inspect-case" data-case-target="case-8">
+                <span>Examine Case Dossier</span>
+                <span class="arrow">✦</span>
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: THE SOCRATIC DELIBERATION METHOD -->
+    <section class="section" style="background: radial-gradient(circle at 50% 50%, #15181F 0%, #0E1013 100%);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">COMPETITIVE METHODOLOGY</div>
+          <h2 class="section-title">How MPEO Deliberates Any Case</h2>
+          <p class="section-subtitle">The 5-step analytical framework taught in our weekly workshops to systematically deconstruct moral dilemmas.</p>
+        </div>
+
+        <div class="methodology-grid">
+          <div class="methodology-step-card">
+            <div class="step-badge">STEP 01</div>
+            <div class="step-icon">🎯</div>
+            <h3 class="step-title">Isolate Core Friction</h3>
+            <p class="step-desc">
+              Identify the genuine moral disagreement beneath emotional rhetoric. Distinguish empirical uncertainties from fundamental value conflicts (e.g. Autonomy vs. Beneficence).
+            </p>
+          </div>
+
+          <div class="methodology-step-card">
+            <div class="step-badge">STEP 02</div>
+            <div class="step-icon">👥</div>
+            <h3 class="step-title">Map All Stakeholders</h3>
+            <p class="step-desc">
+              Chart the direct and indirect impacts on all affected groups, paying special attention to disenfranchised voices, non-human entities, and future generations.
+            </p>
+          </div>
+
+          <div class="methodology-step-card">
+            <div class="step-badge">STEP 03</div>
+            <div class="step-icon">⚖️</div>
+            <h3 class="step-title">Apply Ethical Lenses</h3>
+            <p class="step-desc">
+              Evaluate the dilemma across major philosophical traditions: Utilitarian utility, Kantian categorical duties, Aristotelian virtue, Gilligan's Care Ethics, and Rawlsian justice.
+            </p>
+          </div>
+
+          <div class="methodology-step-card">
+            <div class="step-badge">STEP 04</div>
+            <div class="step-icon">🔍</div>
+            <h3 class="step-title">Acknowledge Trade-offs</h3>
+            <p class="step-desc">
+              Intellectual honesty is paramount. No legitimate dilemma has a cost-free solution. Explicitly acknowledge the moral sacrifices required by your chosen stance.
+            </p>
+          </div>
+
+          <div class="methodology-step-card">
+            <div class="step-badge">STEP 05</div>
+            <div class="step-icon">🤝</div>
+            <h3 class="step-title">Collaborative Synthesis</h3>
+            <p class="step-desc">
+              Listen actively to the opposing team's perspective. Synthesize their constructive critique into a refined, robust policy recommendation that judges reward.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: CALL TO ACTION BANNER -->
+    <section class="section" style="padding-top: 40px;">
+      <div class="container">
+        <div class="cases-cta-box">
+          <div class="cta-crest-glow"></div>
+          <div class="section-tag">JOIN THE DELIBERATION</div>
+          <h2 style="font-family: var(--font-display); font-size: 2.2rem; color: #FFFFFF; margin-bottom: 16px;">
+            Ready to Analyze Real Cases With Us?
+          </h2>
+          <p style="font-family: var(--font-serif-body); font-style: italic; font-size: 1.15rem; color: var(--color-text-secondary); max-width: 650px; margin: 0 auto 28px;">
+            Join our weekly Wednesday workshops where we break down fresh competition case packs, run practice deliberations, and prepare for national and international podiums.
+          </p>
+          <div class="cases-cta-actions">
+            <a href="https://webapps.uwcsea.edu.sg/cims/Activities/Student" target="_blank" rel="noopener noreferrer" class="btn-cta-gold">
+              Register on CIMS ↗
+            </a>
+            <a href="index.html#interest" class="btn-cta-secondary">
+              Express Interest / Notify Me ✦
+            </a>
+            <a href="index.html" class="btn-cta-ghost">
+              ← Return to Main Page
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- INTERACTIVE CASE DOSSIER MODAL -->
+  <div class="case-modal-backdrop" id="case-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-case-title">
+    <div class="case-modal-container">
+      <button type="button" class="case-modal-close" id="case-modal-close-btn" aria-label="Close case dossier">✕</button>
+      
+      <div class="case-modal-header">
+        <div class="modal-meta-row">
+          <span class="modal-case-code" id="modal-case-code">CASE 01</span>
+          <span class="modal-case-origin" id="modal-case-origin">✦ Senior Olympiad 2025</span>
+          <span class="modal-case-category" id="modal-case-category">🤖 AI & Biomedical Ethics</span>
+        </div>
+        <h2 class="modal-case-title" id="modal-case-title">The Autonomous Triage Protocol</h2>
+      </div>
+
+      <!-- Modal Tabs -->
+      <div class="modal-tabs-nav" role="tablist">
+        <button type="button" class="modal-tab-btn active" data-tab="scenario" role="tab" aria-selected="true">
+          📖 Scenario Narrative
+        </button>
+        <button type="button" class="modal-tab-btn" data-tab="stakeholders" role="tab" aria-selected="false">
+          👥 Stakeholder Matrix
+        </button>
+        <button type="button" class="modal-tab-btn" data-tab="frameworks" role="tab" aria-selected="false">
+          ⚖️ Ethical Frameworks
+        </button>
+        <button type="button" class="modal-tab-btn" data-tab="dialogue" role="tab" aria-selected="false">
+          ✦ Socratic Match Analysis
+        </button>
+      </div>
+
+      <!-- Tab Content Area -->
+      <div class="modal-tab-content-area">
+        <!-- TAB 1: SCENARIO -->
+        <div class="modal-tab-pane active" id="tab-scenario">
+          <div class="scenario-lead-box">
+            <span class="quote-icon">“</span>
+            <p id="modal-scenario-text">
+              During a regional health emergency, a metropolitan hospital’s intensive care unit is inundated with critical respiratory failure patients. Facing a strict deficit of ECMO and mechanical ventilator units, the clinical ethics board deploys 'Aegis-Triage'—a validated predictive machine learning system designed to allocate life support.
+            </p>
+          </div>
+          <div class="dossier-sub-section">
+            <h4 class="dossier-sub-title">✦ The Ethical Dilemma</h4>
+            <p id="modal-dilemma-details">
+              The algorithm maximizes cumulative Quality-Adjusted Life Years (QALYs) by deprioritizing individuals with severe chronic comorbidities and elderly patients whose statistical survival probability is lower. However, community advocates note that historical socioeconomic disparities have resulted in higher baseline comorbidity rates among marginalized populations, meaning the algorithm systematically denies care to vulnerable demographic groups.
+            </p>
+          </div>
+          <div class="dossier-sub-section">
+            <h4 class="dossier-sub-title">✦ Guiding Deliberation Questions for Teams</h4>
+            <ul class="dossier-questions-list" id="modal-questions-list">
+              <li>Is a purely utilitarian allocation (maximizing QALYs saved) morally justifiable when it compounds historical systemic injustice?</li>
+              <li>Should a lottery system or 'first-come, first-served' model be favored over algorithmic scoring despite saving fewer total lives?</li>
+              <li>How can medical practitioners balance the duty of individual beneficence with collective public health triage?</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- TAB 2: STAKEHOLDERS -->
+        <div class="modal-tab-pane" id="tab-stakeholders">
+          <div class="stakeholders-matrix-grid" id="modal-stakeholders-grid">
+            <!-- Dynamic Stakeholder Cards -->
+          </div>
+        </div>
+
+        <!-- TAB 3: FRAMEWORKS -->
+        <div class="modal-tab-pane" id="tab-frameworks">
+          <div class="frameworks-analysis-grid" id="modal-frameworks-grid">
+            <!-- Dynamic Framework Breakdown -->
+          </div>
+        </div>
+
+        <!-- TAB 4: SOCRATIC MATCH ANALYSIS -->
+        <div class="modal-tab-pane" id="tab-dialogue">
+          <div class="socratic-match-walkthrough" id="modal-dialogue-content">
+            <!-- Model Olympiad Round Walkthrough -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="case-modal-footer">
+        <div class="modal-footer-nav">
+          <button type="button" class="modal-nav-btn prev" id="modal-prev-case-btn">← Previous Case</button>
+          <span class="modal-case-indicator" id="modal-case-indicator">1 of 8</span>
+          <button type="button" class="modal-nav-btn next" id="modal-next-case-btn">Next Case →</button>
+        </div>
+        <button type="button" class="btn-cta-gold" id="modal-close-action-btn" style="padding: 6px 18px; font-size: 0.82rem;">Done Reading</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION: FOOTER -->
+  <footer class="site-footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+            <img src="assets/omega-crest.png?v=3" alt="MPEO Crest" style="width: 28px; height: 28px;">
+            <h3 style="margin-bottom: 0;">Model Philosophy Ethics Olympiad</h3>
+          </div>
+          <p>
+            High School Student Society • Dedicated to fostering critical moral inquiry, collaborative discourse, and ethical leadership.
+          </p>
+          <div style="margin-top: 18px;">
+            <a href="https://webapps.uwcsea.edu.sg/cims/Activities/Student" target="_blank" rel="noopener noreferrer" class="btn-cta-gold" style="font-size: 0.78rem; padding: 8px 16px;">Register on CIMS ↗</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html#about">What is Ethics Olympiad?</a></li>
+            <li><a href="index.html#format">Match Anatomy</a></li>
+            <li><a href="cases.html">Past Competition Cases</a></li>
+            <li><a href="index.html#accomplishments">Accomplishments & Medals</a></li>
+            <li><a href="index.html#journey">Road to Grand Finals</a></li>
+            <li><a href="index.html#why-join">Why Join MPEO</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Affiliation & Links</h4>
+          <ul class="footer-links">
+            <li><a href="https://ethicsolympiad.org" target="_blank" rel="noopener">International Ethics Olympiad ↗</a></li>
+            <li><a href="index.html#leadership">Student Leadership Roster</a></li>
+            <li><a href="index.html#faq">Frequently Asked Questions</a></li>
+            <li><a href="index.html#logistics">Logistics & CIMS Guide</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          <div>© 2026 Model Philosophy Ethics Olympiad Society. All rights reserved.</div>
+          <div class="author-credit">
+            <span>Site Crafted by</span>
+            <span class="fiery-gold-text">✦ [student] ✦</span>
+          </div>
+        </div>
+        <div>
+          <a href="#" style="color: var(--color-gold-hover);">Back to Top ↑</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="cases.js"></script>
+</body>
+</html>

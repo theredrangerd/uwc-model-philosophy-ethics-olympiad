@@ -229,6 +229,13 @@ Everything specified in 4.1–4.5 as written: kinetic letter-fall splash, 3-laye
 - Room: **Math Block, Room 204**
 - "No prior experience needed" assurance banner retained from the original module.
 
+### 5.4b What is the Ethics Olympiad Bento Architecture (`<AboutBento>`)
+- **Visual Design**: A 3-column asymmetric yet balanced Bento Box mosaic:
+  - **Core Charter Definition Card** (2 cols, Row 1): Features the verbatim poster quote with gold keyword highlights, gold quotation glyph watermark, and official charter badge.
+  - **Upsized Lady Justice Visual Card** (1 col, Rows 1 & 2 full-height span): High-impact statue showcase with golden scales, top floating equilibrium badge, and bottom glassmorphic contextual description.
+  - **Pillars 1 & 2** (1 col each, Row 2): *Constructive, Not Combative* and *Real-World Case Dilemmas* with individual iconography and footer tags.
+  - **Pillar 3 & Socratic Matrix** (1 col + 2 cols, Row 3): *Judged by Professional Ethicists* alongside a 4-item interactive *Socratic Scoring Dimensions* evaluation matrix.
+
 ### 5.5 Anatomy of a Match Stepper (`<MatchFormat>`)
 - **Visual Design**: 4 connected editorial cards displaying the round sequence (Presentation, Response, Commentary, Judges' Q&A) with duration badges and philosopher commentary notes.
 

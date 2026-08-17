@@ -139,8 +139,9 @@
     - **Box 1: `2026 COMPETITIONS`**
       *"Two HS teams from MPEO competed in the international Senior Ethics Olympiad; one of which achieved a bronze medal finalist award. Our team is now headed to the International Grand Finals on August 29, 2026."*
     - **Box 2: `SOCIETY HIGHLIGHTS`**
-      - **No prior experience needed**: *"No matter what your experience of philosophy or ethics is, you'll still be able to participate and learn alongside others."*
+      - **Awards Prospects**: *"MPEO consistently trains delegates for podium finishes, regional finalist honours, and international berths. Step onto our tournament roster to contend for prestigious medals and add distinguished accolades to your academic profile."*
       - **2026 UWC Ethics Olympiad**: *"If you join this academic year you will immediately get competition experience and possible awards."*
+      - **No prior experience needed**: *"We warmly welcome complete beginners—whether you are entirely new to philosophy or an aspiring debater, we provide all the mentorship and frameworks you need to thrive alongside our team."*
 
 ---
 
@@ -173,14 +174,14 @@
 ### Section 4: What is the Ethics Olympiad?
 - **Section Tag**: `CIVIL DISCOURSE & PHILOSOPHY`
 - **Section Title**: `What is the Ethics Olympiad?`
-- **Core Verbatim Statement (from Official Poster)**:
-  > *"The Ethics Olympiad, an event characterised by competition and cooperation, enables students to engage in discussions on current, real-life ethical dilemmas.*
+- **Core Explanatory Statement**:
+  > *"A round of the Ethics Olympiad brings two teams together to collaboratively analyze real-world moral dilemmas, rather than competing by defending pre-assigned positions. One team opens the session by outlining its ethical framework and presenting the core values, stakeholders, and trade-offs involved in the case study. The opposing team then offers constructive feedback—pointing out blind spots, suggesting alternative ethical perspectives, or challenging specific assumptions—without seeking to score easy rhetorical points.*
   >
-  > *The activity encourages students to deliberate on moral issues together, mirroring the complex moral and political interactions of our society. Students participating in this activity will be taught in a way that prepares them for attending the competition. They will be able to understand more about philosophical theories and how ethics plays a role in the real world, while also applying them to debates to challenge each other's thinking."*
+  > *After the first team responds to these comments, both teams face direct questions from a panel of judges who evaluate the coherence and depth of their reasoning. The roles are then reversed for the analysis of a second case. Rather than rewarding aggressive refutation, the judges score participants on intellectual honesty, clarity of thought, and the ability to refine their arguments in response to constructive criticism."*
 - **Key Distinctions from Standard Debate**:
   - **Constructive, Not Combative**: You are rewarded for discovering common ground, recognizing moral blind spots, and strengthening arguments rather than shouting over opponents.
   - **Real-World Case Deliberation**: Tackle genuine bioethical, technological, and geopolitical crises crafted by international scholars.
-  - **Judged by Experts**: Scored by philosophy professors, ethicists, and legal scholars who evaluate reasoning consistency rather than theatrical rhetoric.
+  - **Judged by Professional Ethicists**: Evaluated by academic philosophers who use Socratic inquiry to guide teams directly toward sharper insights and deeper philosophical understanding.
 
 ---
 
