@@ -2438,6 +2438,19 @@ img {
   }
 }
 
+/* Reduced motion: freeze the ambient glow/bounce loops. These are the only
+   infinite-running CSS animations on the site; app.js already computes
+   isLiteMode from this same media query but nothing in this stylesheet
+   consumed it, so these kept looping regardless of the visitor's setting. */
+@media (prefers-reduced-motion: reduce) {
+  .splash-crest,
+  .splash-scroll-prompt,
+  .badge-dot,
+  .award-medal-badge.gold {
+    animation: none !important;
+  }
+}
+
 /* ==========================================================================
    PERFORMANCE TIERING: RESPONSIVE MEDIA QUERIES
    ========================================================================== */
