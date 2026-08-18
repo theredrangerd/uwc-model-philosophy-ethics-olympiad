@@ -601,10 +601,24 @@ input:focus-visible,
 }
 
 .hero-card-actions {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 12px;
-  flex-wrap: wrap;
+  width: 100%;
   margin-top: 16px;
+}
+
+.hero-card-actions .btn-cta-gold,
+.hero-card-actions .btn-cta-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding: 12px 16px;
+  box-sizing: border-box;
+  font-size: 0.82rem;
+  letter-spacing: 0.05em;
 }
 
 .hero-cims-disclaimer {
@@ -612,6 +626,7 @@ input:focus-visible,
   color: var(--color-text-muted);
   margin-top: 12px;
   font-style: italic;
+  text-align: center;
 }
 
 .hero-spotlight-right {
@@ -949,13 +964,23 @@ input:focus-visible,
 }
 
 .cims-action-row {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 12px;
-  flex-wrap: wrap;
+  width: 100%;
   margin-top: auto;
   padding-top: 14px;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.cims-action-row .btn-cta-gold,
+.cims-action-row .btn-cta-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /* Card 4: QR Bento Inner */
@@ -1527,6 +1552,70 @@ input:focus-visible,
   color: var(--color-text-secondary);
   line-height: 1.6;
   margin-bottom: 20px;
+}
+
+.award-vault-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  gap: 6px;
+  font-family: var(--font-badge);
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 8px 14px;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--color-text-primary);
+  text-decoration: none;
+  transition: var(--transition-fast);
+  margin-top: 8px;
+}
+
+.award-vault-link:hover {
+  background: rgba(212, 168, 83, 0.15);
+  border-color: var(--color-gold-primary);
+  color: var(--color-gold-hover);
+  transform: translateY(-1px);
+}
+
+.award-vault-link.gold {
+  background: rgba(212, 168, 83, 0.12);
+  border-color: rgba(212, 168, 83, 0.35);
+  color: var(--color-gold-hover);
+}
+
+.award-vault-link.gold:hover {
+  background: rgba(212, 168, 83, 0.25);
+  border-color: var(--color-gold-hover);
+  color: #FFFFFF;
+}
+
+.timeline-vault-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-badge);
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: var(--color-gold-hover);
+  text-decoration: none;
+  margin-top: 10px;
+  padding: 4px 10px;
+  background: rgba(212, 168, 83, 0.08);
+  border: 1px solid rgba(212, 168, 83, 0.2);
+  border-radius: var(--radius-full);
+  transition: var(--transition-fast);
+}
+
+.timeline-vault-link:hover {
+  background: rgba(212, 168, 83, 0.18);
+  border-color: var(--color-gold-primary);
+  color: #FFFFFF;
+  transform: translateX(2px);
 }
 
 .countdown-box {
@@ -2547,6 +2636,10 @@ input:focus-visible,
 @media (max-width: 600px) {
   .section {
     padding: 60px 0;
+  }
+
+  .hero-card-actions {
+    grid-template-columns: 1fr;
   }
 
   .logistics-card-wrapper {
