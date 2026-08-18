@@ -47,7 +47,7 @@
   <aside id="splash-screen" role="region" aria-label="Introductory splash screen">
     <img src="assets/omega-crest.png?v=3" alt="MPEO Omega Emblem" class="splash-crest">
     <div class="splash-title-container">
-      <h1 class="splash-title">Model Philosophy<br>Ethics Olympiad</h1>
+      <p class="splash-title">Model Philosophy<br>Ethics Olympiad</p>
       <p class="splash-subtitle">✦ Classical Academia • Civil Discourse • Global Prestige ✦</p>
     </div>
     <button type="button" class="splash-cta-btn" id="splash-enter-btn" aria-label="Enter MPEO Experience">
@@ -959,11 +959,11 @@
           </p>
 
           <form class="interest-form" id="interest-form">
-            <input type="text" class="interest-input" id="interest-email" placeholder="School ID (e.g. [id removed])" required>
+            <input type="text" class="interest-input" id="interest-email" aria-label="School ID or email address" placeholder="School ID (e.g. [id removed])" required>
             <button type="submit" class="interest-submit-btn" id="interest-submit-btn">Notify Me ✦</button>
           </form>
 
-          <div class="form-status-msg" id="interest-status"></div>
+          <div class="form-status-msg" id="interest-status" role="status" aria-live="polite"></div>
         </div>
       </div>
     </section>

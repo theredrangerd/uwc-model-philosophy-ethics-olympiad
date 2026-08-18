@@ -140,10 +140,7 @@ body.resources-bento-body {
 }
 
 .bento-hero-title .gold-gradient-text {
-  background: linear-gradient(135deg, #F3CE5E 0%, #D4AF37 50%, #AA8220 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #F3CE5E;
 }
 
 .bento-hero-paragraph {
@@ -611,8 +608,8 @@ body.resources-bento-body {
 
 .framework-insight-box {
   background: #11141A;
-  border-left: 2px solid #D4AF37;
-  border-radius: 0 6px 6px 0;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  border-radius: 6px;
   padding: 8px 10px;
   font-size: 0.76rem;
   color: #8A92A0;

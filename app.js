@@ -292,7 +292,6 @@ if (interestForm) {
       }
     } else {
       // Graceful local feedback when Web App URL is not yet configured
-      console.log('Interest Captured (Mock/Local):', email);
       setTimeout(() => {
         showFormStatus('Got it — added to our interest list. See you Wednesday!', 'success');
         interestSubmitBtn.disabled = false;
