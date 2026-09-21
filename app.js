@@ -6,7 +6,7 @@
  * 2. Cinematic Splash Screen Transition
  * 3. Interactive Match Stepper (4-Step Round Walkthrough)
  * 4. Scroll-Driven Timeline Progress & Node Lighting
- * 5. Grand Finals Countdown Timer (Target: August 29, 2026)
+ * 5. Next Event Countdown Timer (Target: UWC-TKEthics Olympiad, Nov 21, 2026)
  * 6. Google Apps Script Express Interest Form Handler
  * 7. FAQ Accordion & Mobile Navigation
  */
@@ -17,7 +17,7 @@
 const CONFIG = {
   // Deployed Google Apps Script Web App URL from apps-script-setup.md
   APPS_SCRIPT_URL: 'https://script.google.com/macros/s/AKfycbwZeeUwlYovp4CllKug5dhBnjgB2_piJbbJZUPQik-KUgyDUKQNffVtV3CefA2ttnZ3Jw/exec',
-  GRAND_FINALS_DATE: new Date('2026-08-29T09:00:00+08:00')
+  NEXT_EVENT_DATE: new Date('2026-11-21T09:00:00+08:00')
 };
 
 // ==========================================================================
@@ -187,7 +187,7 @@ window.addEventListener('scroll', updateTimeline, { passive: true });
 updateTimeline();
 
 // ==========================================================================
-// 5. GRAND FINALS COUNTDOWN TIMER
+// 5. NEXT EVENT COUNTDOWN TIMER
 // ==========================================================================
 const cdDays = document.getElementById('cd-days');
 const cdHours = document.getElementById('cd-hours');
@@ -196,7 +196,7 @@ const cdSecs = document.getElementById('cd-secs');
 
 function updateCountdown() {
   const now = new Date();
-  const diff = CONFIG.GRAND_FINALS_DATE - now;
+  const diff = CONFIG.NEXT_EVENT_DATE - now;
 
   if (diff <= 0) {
     if (cdDays) cdDays.textContent = '00';
