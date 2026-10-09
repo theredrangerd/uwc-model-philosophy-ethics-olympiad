@@ -6,7 +6,7 @@
  * 2. Cinematic Splash Screen Transition
  * 3. Interactive Match Stepper (4-Step Round Walkthrough)
  * 4. Scroll-Driven Timeline Progress & Node Lighting
- * 5. Next Event Countdown Timer (Target: UWC-TKEthics Olympiad, Nov 21, 2026)
+ * 5. Next Event Countdown Timer (Target: UWC Ethics Invitational, Nov 21, 2026)
  * 6. Google Apps Script Express Interest Form Handler
  * 7. FAQ Accordion & Mobile Navigation
  */

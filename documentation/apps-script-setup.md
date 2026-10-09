@@ -37,7 +37,7 @@ function doPost(e) {
   var email = '';
 
   try {
-    // Handles JSON body: { "email": "student@example.com" } or { "email": "[id removed]" }
+    // Handles JSON body: { "email": "student@example.com" } or { "email": "smith12345" }
     var data = JSON.parse(e.postData.contents);
     email = data.email ? String(data.email).trim() : '';
   } catch (err) {

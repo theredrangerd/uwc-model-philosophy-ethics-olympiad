@@ -85,8 +85,8 @@
 │   • No Prior Experience Needed             • 2027 Competition Preparation   │
 │   • Leadership & University Profile        • Welcoming Community            │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                   11. LEADERSHIP TEAM CONTACT DETAILS                       │
-│   • [student], [student], [student], [student], [student]                 │
+│                   11. MEET OUR STUDENT LEADERS                              │
+│   • Gated Google Slides embed (UWC accounts only)                           │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                   12. FREQUENTLY ASKED QUESTIONS (FAQ)                      │
 │   • Key Questions on Novices, Tournaments, Format, and Time Commitments     │
@@ -140,7 +140,7 @@
       *"Two HS teams from MPEO competed in the international Senior Ethics Olympiad; one of which achieved a bronze medal finalist award. Our team is now headed to the International Grand Finals on August 29, 2026."*
     - **Box 2: `SOCIETY HIGHLIGHTS`**
       - **Awards Prospects**: *"MPEO consistently trains delegates for podium finishes, regional finalist honours, and international berths. Step onto our tournament roster to contend for prestigious medals and add distinguished accolades to your academic profile."*
-      - **2026 UWC Ethics Olympiad**: *"If you join this academic year you will immediately get competition experience and possible awards."*
+      - **UWC Ethics Invitational 2026**: *"If you join this academic year you will immediately get competition experience and possible awards."*
       - **No prior experience needed**: *"We warmly welcome complete beginners—whether you are entirely new to philosophy or an aspiring debater, we provide all the mentorship and frameworks you need to thrive alongside our team."*
 
 ---
@@ -281,16 +281,10 @@
 
 ---
 
-### Section 11: Leadership Team Contact Details
-- **Section Title**: `Leadership Team Contact Details`
-- **Lead Text**: *Have questions or want to learn more? Reach out to any of our student leaders directly via email:*
-- **Leadership Contacts (Exact Roster from Poster)**:
-  - **[student]** (Grade 11) — `[email removed]`
-  - **[student]** (Grade 12) — `[email removed]`
-  - **[student]** (Grade 11) — `[email removed]`
-  - **[student]** (Grade 12) — `[email removed]`
-  - **[student]** (Grade 10) — `[email removed]`
-  - **[student]** (Grade 11) — `[email removed]`
+### Section 11: Meet Our Student Leaders
+- **Section Title**: `Meet Our Student Leaders`
+- **Lead Text**: *Our leadership team's slides are available to signed-in UWC accounts.*
+- **Content**: gated Google Slides embed with a themed sign-in fallback. No student names, photos or emails are published on the site.
 
 ---
 

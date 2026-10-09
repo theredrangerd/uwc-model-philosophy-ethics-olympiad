@@ -244,14 +244,8 @@ Everything specified in 4.1–4.5 as written: kinetic letter-fall splash, 3-laye
   - *Ethics of AI*, *Biomedical Ethics*, *Animal Rights*, *Personhood*, *Ethic of War*, *Rawlsian Justice*, *Aristotelian Virtue Ethics*, *Kantian Deontology*, *Utilitarianism*, *Care Ethics*.
 - **Visual Style**: Dark slate cards with engraved philosopher thumbnails and hover elevation.
 
-### 5.8 Leadership Team Grid (`<Leadership>`)
-- **Profile cards for Student Leaders with Grade Badges**:
-  - [student] (Grade 11) — `[email removed]`
-  - [student] (Grade 12) — `[email removed]`
-  - [student] (Grade 11) — `[email removed]`
-  - [student] (Grade 12) — `[email removed]`
-  - [student] (Grade 10) — `[email removed]`
-  - [student] (Grade 11) — `[email removed]`
+### 5.8 Leadership Slides (`<Leadership>`)
+- **Gated Google Slides embed** of the student leadership slides (UWC accounts only); no student names, photos or emails on the site.
 
 ### 5.9 Express Interest Mini-Form (`<ExpressInterest>`) — *Revised, replaces the old full LifeCon sign-up form*
 - **Visual Design**: A single-field, low-emphasis inline form — one email input + `Notify Me ✦` gold-outline button (not solid-fill, to visually subordinate it to the primary `Register on CIMS` CTA). Appears twice: compact, under the QR panel (§5.4a), and repeated in the footer for visitors who scroll all the way down.
